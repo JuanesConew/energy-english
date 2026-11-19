@@ -1,2 +1,2 @@
 # energy-english
-For practicing B1 level english with especific topics
+For practicing B1 level english with specific topics

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Energy English — Reader</title>
+<title>Energy English</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <style>
@@ -111,21 +111,36 @@ function mark(i){
   if (last >= 0) spans[last].classList.remove('now');
   last = i; if (i >= 0) spans[i].classList.add('now');
 }
+let timer = null, cu = null;
+const at = ci => { let lo = 0, hi = starts.length - 1; while (lo < hi) { const m = (lo + hi + 1) >> 1; if (starts[m] <= ci) lo = m; else hi = m - 1; } return lo; };
+function stopAll(){ cu = null; clearInterval(timer); if (synth) synth.cancel(); mark(-1); }
+function pickVoice(){
+  const en = synth.getVoices().filter(v => v.lang.startsWith('en'));
+  return en.find(v => v.localService && v.lang === 'en-US') || en.find(v => v.localService) || null;
+}
 $('play').onclick = () => {
   if (!synth) { alert('Your browser does not support audio.'); return; }
-  synth.cancel(); mark(-1);
+  stopAll();
   const u = new SpeechSynthesisUtterance(cur.paras.join('\n'));
   u.lang = 'en-US'; u.rate = 0.9;
+  const v = pickVoice(); if (v) u.voice = v;
+  let exact = false; cu = u;
   u.onboundary = e => {
     if (e.name && e.name !== 'word') return;
-    let lo = 0, hi = starts.length - 1;
-    while (lo < hi) { const m = (lo + hi + 1) >> 1; if (starts[m] <= e.charIndex) lo = m; else hi = m - 1; }
-    mark(lo);
+    exact = true; clearInterval(timer); mark(at(e.charIndex));
   };
-  u.onend = () => mark(-1);
+  u.onstart = () => {
+    const t0 = Date.now(), msPerChar = 68 / u.rate;
+    setTimeout(() => {
+      if (exact || cu !== u) return;
+      timer = setInterval(() => mark(at((Date.now() - t0) / msPerChar)), 120);
+    }, 1200);
+  };
+  const done = () => { if (cu === u) { clearInterval(timer); mark(-1); } };
+  u.onend = done; u.onerror = done;
   synth.speak(u);
 };
-$('stop').onclick = () => { if (synth) synth.cancel(); mark(-1); };
+$('stop').onclick = stopAll;
 
 function pick(el){
   if (!el.classList.contains('w')) return;

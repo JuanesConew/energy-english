@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Energy English — Reader</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF3F6;--ink:#12263A;--muted:#506172;--card:#fff;--sun:#F2A900;--wind:#1B7F8C;--line:#CBD6DE}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.75 "Source Serif 4",Georgia,serif}
+h1,h2,h3,button,input,.ui{font-family:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif}
+.app{display:grid;grid-template-columns:230px minmax(0,1fr) 300px;gap:24px;max-width:1180px;margin:0 auto;padding:24px 20px 64px}
+.brand{font-weight:800;font-size:1.3rem;margin:0 0 18px}
+h2{font-size:1rem;margin:0 0 10px;color:var(--muted)}
+.side{position:sticky;top:16px;align-self:start}
+.topic{display:block;width:100%;text-align:left;margin:0 0 8px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:.95rem;font-weight:600;cursor:pointer}
+.topic[aria-current=true]{border-color:var(--wind);box-shadow:inset 4px 0 0 var(--wind)}
+input{width:100%;padding:10px 12px;border:1px dashed var(--line);border-radius:8px;background:transparent;margin:14px 0 8px;font-size:.95rem}
+button{cursor:pointer}
+.go{width:100%;padding:10px;border:0;border-radius:8px;background:var(--ink);color:#fff;font-weight:700}
+.go:disabled,input:disabled{opacity:.5;cursor:not-allowed}
+.hint{font-size:.82rem;color:var(--muted);line-height:1.4;margin:6px 0 0}
+main h1{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.1;margin:0 0 16px;font-weight:800;letter-spacing:-.02em}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 20px}
+.btn{padding:10px 16px;border-radius:8px;border:2px solid var(--ink);background:var(--ink);color:#fff;font-weight:700}
+.btn.alt{background:transparent;color:var(--ink)}
+button:focus-visible,input:focus-visible,.w:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+#text p{margin:0 0 1.1em;max-width:68ch}
+.w{cursor:pointer;border-radius:3px}
+.w:hover{background:#D5E6EB}
+.now{background:var(--sun);color:#12263A}
+.sel{box-shadow:0 2px 0 var(--wind)}
+#sources{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);font-size:.95rem;color:var(--muted)}
+#sources h2{margin-bottom:6px}
+#sources a{color:var(--wind)}
+.word{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;align-self:start;position:sticky;top:16px;min-height:140px}
+.word h3{font-size:1.6rem;margin:0}
+.ipa{color:var(--wind);font-size:1.05rem;margin:2px 0 10px}
+.pos{font:700 .85rem "Bricolage Grotesque",sans-serif;color:var(--muted);margin:10px 0 0}
+.def{margin:2px 0;font-size:.98rem;line-height:1.5}
+.ex{margin:2px 0;font-size:.9rem;color:var(--muted);font-style:italic}
+.mini{margin-top:12px;padding:7px 12px;border:2px solid var(--ink);border-radius:8px;background:transparent;font-weight:700;font-size:.9rem}
+.empty{color:var(--muted);font-size:.98rem}
+@media (max-width:900px){
+  .app{grid-template-columns:1fr;gap:16px}
+  .side,.word{position:static}
+  .word{position:sticky;bottom:8px;top:auto;max-height:42vh;overflow:auto;box-shadow:0 -4px 14px rgba(18,38,58,.15)}
+}
+</style>
+</head>
+<body>
+<div class="app">
+
+<nav class="side" aria-label="Topics">
+  <p class="brand">Energy English</p>
+  <h2>Choose a topic</h2>
+  <button class="topic" data-k="solar">Solar power as a business</button>
+  <button class="topic" data-k="wind">How wind farms make money</button>
+  <input disabled placeholder="Type your own topic…" aria-label="Type your own topic">
+  <button class="go" disabled>Generate article</button>
+  <p class="hint">Your own topics will work in the next step.</p>
+</nav>
+
+<main>
+  <h1 id="title"></h1>
+  <div class="row">
+    <button class="btn" id="play" type="button">▶ Listen</button>
+    <button class="btn alt" id="stop" type="button">■ Stop</button>
+  </div>
+  <article id="text" aria-live="off"></article>
+  <p class="hint">Click any word to see its meaning. Word-by-word highlighting works best in Chrome or Edge on a computer.</p>
+  <section id="sources"><h2>Sources</h2><div id="srcbody"></div></section>
+</main>
+
+<aside class="word" id="panel" aria-live="polite">
+  <p class="empty">Click a word in the text to see its meaning and pronunciation.</p>
+</aside>
+
+</div>
+<script>
+const D = {"solar": {"title": "Why solar power is now big business", "paras": ["Twenty years ago, solar panels were expensive and mostly used for small projects, such as powering a calculator or a house in a remote area. Today, they are one of the cheapest ways to produce electricity in many countries. The cost of solar panels has fallen sharply, and this change has attracted investors, governments and large companies.", "Most solar projects follow a similar model. A developer finds land, gets the necessary permits, and builds a solar farm. Then it signs a power purchase agreement, or PPA, with a buyer. In a PPA, the buyer agrees to purchase the electricity at a fixed price for many years, often between 10 and 25 years. This gives the developer a stable income and makes it easier to get a bank loan.", "However, solar energy has a challenge: the sun does not shine at night. Because of this, the electricity grid must balance supply and demand at every moment. Batteries can store extra energy during the day and release it in the evening, when demand is high. For this reason, many new projects combine solar panels with storage.", "For businesses, renewable energy is not only about the environment. Many companies install solar panels to reduce their electricity bills and protect themselves from price increases. Others buy renewable energy to meet their sustainability goals. As a result, professionals who understand both energy and finance are increasingly in demand."], "sources": [], "note": "Practice text written for this blog. It has no external sources."}, "wind": {"title": "How wind farms make money", "paras": ["Wind energy is another fast-growing source of renewable power. Wind turbines turn the movement of the air into electricity. The best locations are usually windy places, such as coastlines, mountains and open plains, and increasingly the sea. Offshore wind farms, built in the ocean, can produce more electricity because the wind there is stronger and more constant.", "Building a wind farm is a long and expensive process. A company must measure the wind for months, or even years, to be sure that the site is suitable. Then it needs permits, financing and a connection to the grid. The turbines are enormous: some blades are almost as long as a football field. Because of the high initial cost, wind projects often depend on long-term contracts and government support, such as auctions in which companies compete to sell electricity at the lowest price.", "Once a wind farm is operating, its costs are low because the wind is free. The main expenses are maintenance and insurance. The company earns money by selling electricity to the grid, and the amount depends on the wind speed. On a calm day, the turbines produce very little. On a stormy day, they stop to protect themselves.", "For this reason, wind farm owners study weather forecasts carefully to plan their sales. Many experts also believe that wind and solar energy work well together. In many regions, the wind blows more at night and in winter, when solar output is lower. By combining both sources, an electricity utility can supply more reliable power to its customers."], "sources": [], "note": "Practice text written for this blog. It has no external sources."}};
+const $ = id => document.getElementById(id);
+const synth = window.speechSynthesis;
+let spans = [], starts = [], cur = null, last = -1, selEl = null;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function load(key){
+  if (synth) synth.cancel();
+  cur = D[key]; last = -1; selEl = null; spans = []; starts = [];
+  $('title').textContent = cur.title;
+  const art = $('text'); art.innerHTML = ''; let pos = 0;
+  cur.paras.forEach(p => {
+    const el = document.createElement('p');
+    p.split(' ').forEach((tok, i, a) => {
+      const s = document.createElement('span');
+      s.className = 'w'; s.textContent = tok; s.tabIndex = 0; s.dataset.i = spans.length;
+      spans.push(s); starts.push(pos); pos += tok.length + 1;
+      el.appendChild(s); if (i < a.length - 1) el.appendChild(document.createTextNode(' '));
+    });
+    art.appendChild(el);
+  });
+  $('srcbody').innerHTML = cur.sources.length
+    ? cur.sources.map(s => `<p><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a></p>`).join('')
+    : `<p>${esc(cur.note)}</p>`;
+  document.querySelectorAll('.topic').forEach(b => b.setAttribute('aria-current', b.dataset.k === key));
+}
+
+function mark(i){
+  if (last >= 0) spans[last].classList.remove('now');
+  last = i; if (i >= 0) spans[i].classList.add('now');
+}
+$('play').onclick = () => {
+  if (!synth) { alert('Your browser does not support audio.'); return; }
+  synth.cancel(); mark(-1);
+  const u = new SpeechSynthesisUtterance(cur.paras.join('\n'));
+  u.lang = 'en-US'; u.rate = 0.9;
+  u.onboundary = e => {
+    if (e.name && e.name !== 'word') return;
+    let lo = 0, hi = starts.length - 1;
+    while (lo < hi) { const m = (lo + hi + 1) >> 1; if (starts[m] <= e.charIndex) lo = m; else hi = m - 1; }
+    mark(lo);
+  };
+  u.onend = () => mark(-1);
+  synth.speak(u);
+};
+$('stop').onclick = () => { if (synth) synth.cancel(); mark(-1); };
+
+function pick(el){
+  if (!el.classList.contains('w')) return;
+  if (selEl) selEl.classList.remove('sel');
+  selEl = el; el.classList.add('sel');
+  lookup(el.textContent);
+}
+$('text').addEventListener('click', e => pick(e.target));
+$('text').addEventListener('keydown', e => { if (e.key === 'Enter') pick(e.target); });
+
+async function lookup(raw){
+  const w = raw.replace(/[^A-Za-z'-]/g, '').toLowerCase();
+  if (!w) return;
+  const P = $('panel');
+  P.innerHTML = '<p class="empty">Looking up “' + esc(w) + '”…</p>';
+  const tries = [...new Set([w, w.replace(/ies$/, 'y'), w.replace(/(es|s)$/, ''), w.replace(/(ing|ed)$/, '')])];
+  for (const t of tries) {
+    try {
+      const r = await fetch('https://api.dictionaryapi.dev/api/v2/entries/en/' + encodeURIComponent(t));
+      if (!r.ok) continue;
+      const d = (await r.json())[0];
+      const ph = d.phonetic || ((d.phonetics || []).find(p => p.text) || {}).text || '';
+      let h = `<h3>${esc(d.word)}</h3>` + (ph ? `<p class="ipa">${esc(ph)}</p>` : '');
+      (d.meanings || []).slice(0, 2).forEach(m => {
+        const df = m.definitions[0];
+        h += `<p class="pos">${esc(m.partOfSpeech)}</p><p class="def">${esc(df.definition)}</p>` + (df.example ? `<p class="ex">${esc(df.example)}</p>` : '');
+      });
+      h += '<button class="mini" id="say" type="button">🔊 Hear the word</button>';
+      P.innerHTML = h;
+      $('say').onclick = () => { if (!synth) return; synth.cancel(); const u = new SpeechSynthesisUtterance(d.word); u.lang = 'en-US'; synth.speak(u); };
+      return;
+    } catch (err) {}
+  }
+  P.innerHTML = '<p class="empty">No definition found for “' + esc(w) + '”. Try another word.</p>';
+}
+
+document.querySelectorAll('.topic').forEach(b => b.onclick = () => load(b.dataset.k));
+load('solar');
+</script>
+</body>
+</html>

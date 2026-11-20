@@ -3,20 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Energy English</title>
+<title>Juanes’s Topics</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#0D304E">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Juanes’s Topics">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Handlee&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#E9EEF1;--ink:#12263A;--txt:#1D3043;--muted:#506172;--card:#F6F9FA;--sun:#F2A900;--wind:#1B7F8C;--line:#C5D1D9;--ok:#2E7D4F;--bad:#B3402F}
-:root[data-theme=dark]{--bg:#0F161D;--ink:#E6EDF3;--txt:#CFD9E2;--muted:#8FA1B2;--card:#17212B;--sun:#F2B533;--wind:#59B8C4;--line:#2A3744;--ok:#5DBB82;--bad:#E27C6B}
+:root{--bg:#EAF1EB;--ink:#0D304E;--txt:#1B3550;--muted:#4F6270;--card:#F7FAF7;--sun:#DA7828;--wind:#2F7D3A;--line:#C6D6C8;--ok:#2E7D4F;--bad:#B3402F}
+:root[data-theme=dark]{--bg:#0F1A26;--ink:#E8EEF4;--txt:#CFDAE3;--muted:#8FA3B5;--card:#16222F;--sun:#F08A3C;--wind:#6FBF73;--line:#2A3A4A;--ok:#6FBF73;--bad:#E27C6B}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--txt);font:18px/1.75 "Source Serif 4",Georgia,serif;padding-bottom:150px}
 h1,h2,button,summary,.ui{font-family:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif}
 button{cursor:pointer;color:inherit}
 button:focus-visible,summary:focus-visible,.w:focus-visible,input:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
-.top{position:sticky;top:0;z-index:5;display:flex;gap:10px;align-items:center;background:var(--bg);border-bottom:1px solid var(--line);padding:calc(8px + env(safe-area-inset-top)) 14px 8px}
-.brand{font-weight:800;font-size:1rem;white-space:nowrap;color:var(--ink)}
-#topics{flex:1;min-width:0;position:relative}
+.top{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;background:var(--bg);border-bottom:1px solid var(--line);padding:calc(8px + env(safe-area-inset-top)) 14px 8px}
+.logo{border-radius:50%;flex:none}
+.brand{display:flex;align-items:center;gap:10px;flex:1;font:400 1.35rem/1.2 "Lucida Handwriting","Handlee","Segoe Script",cursive;color:var(--ink);white-space:nowrap}
+#topics{order:3;flex:1 1 100%;min-width:0;position:relative}
 summary{list-style:none;cursor:pointer;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);font-size:.92rem;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink)}
 summary::-webkit-details-marker{display:none}
 summary::after{content:" ▾"}
@@ -26,18 +34,20 @@ summary::after{content:" ▾"}
 .topic small{display:block;font-weight:500;color:var(--muted);font-size:.78rem;margin-top:2px}
 .topic:hover,.topic[aria-current=true]{background:var(--bg)}
 #theme{border:1px solid var(--line);background:var(--card);border-radius:8px;width:42px;height:40px;font-size:1.1rem}
+h1::after{content:"";display:block;width:56px;height:4px;border-radius:2px;background:var(--sun);margin-top:10px}
 main{max-width:700px;margin:0 auto;padding:20px 18px}
 h1{font-size:clamp(1.7rem,6vw,2.4rem);line-height:1.12;margin:6px 0 18px;font-weight:800;letter-spacing:-.02em;color:var(--ink)}
 h2{font-size:1.25rem;margin:0 0 10px;color:var(--ink)}
 #text p{margin:0 0 1.1em}
 .w{cursor:pointer;border-radius:3px}
-.w:hover{background:rgba(89,184,196,.2)}
+.w:hover{background:rgba(111,191,115,.22)}
 .now{background:var(--sun);color:#0F161D}
 .sel{box-shadow:0 2px 0 var(--wind)}
 .hint{font-size:.85rem;color:var(--muted);line-height:1.4}
 #sources,.box{margin-top:26px;padding-top:14px;border-top:1px solid var(--line)}
 #sources{font-size:.95rem;color:var(--muted)} #sources a{color:var(--wind)}
 details.box>summary{border:0;padding:0;background:none;font-size:1.25rem;font-weight:700}
+#quiz{margin-top:14px}
 .term{background:var(--card);border-left:5px solid var(--sun);padding:8px 12px;border-radius:0 8px 8px 0;margin:8px 0;display:grid;font-size:.95rem;line-height:1.5}
 .term span{color:var(--muted)} .es{display:none;color:var(--wind)!important;font-weight:600}
 .es-on .es{display:block}
@@ -65,8 +75,8 @@ input[type=radio]{margin-right:8px;accent-color:var(--wind)}
 </head>
 <body>
 <header class="top">
-  <span class="brand">Energy English</span>
-  <details id="topics"><summary id="cur">Topics</summary><div id="list"></div></details>
+  <span class="brand"><img class="logo" src="icon-192.png" alt="" width="38" height="38">Juanes’s Topics</span>
+  <details id="topics"><summary id="cur">Select your topic to learn today</summary><div id="list"></div></details>
   <button id="theme" type="button" aria-label="Switch light or dark mode"></button>
 </header>
 
@@ -82,13 +92,13 @@ input[type=radio]{margin-right:8px;accent-color:var(--wind)}
     <div id="vocab"></div>
   </details>
 
-  <section class="box" id="quizBox">
-    <h2>Quiz</h2>
+  <details class="box" id="quizBox">
+    <summary>Quiz</summary>
     <form id="quiz"></form>
     <button class="b" id="check" type="button">Check answers</button>
     <button class="b alt" id="reset" type="button">Try again</button>
     <div id="score" aria-live="polite"></div>
-  </section>
+  </details>
 </main>
 
 <aside class="sheet" id="panel" hidden aria-live="polite">
@@ -136,7 +146,7 @@ function buildList(){
 /* ---------- load a lesson ---------- */
 function load(k){
   stopAll(); cur = D[k]; spans = []; starts = []; selEl = null; last = -1;
-  $('cur').textContent = cur.title; $('title').textContent = cur.title; $('panel').hidden = true;
+  $('title').textContent = cur.title; $('vocabBox').open = false; $('quizBox').open = false; $('panel').hidden = true;
   const art = $('text'); art.innerHTML = ''; let pos = 0;
   cur.paras.forEach(p => {
     const el = document.createElement('p');
@@ -196,7 +206,7 @@ function pickVoice(){
 function speak(from){
   halt();
   const base = starts[from], u = new SpeechSynthesisUtterance(FULL.slice(base));
-  u.lang = 'en-US'; u.rate = 0.9;
+  u.lang = 'en-US'; u.rate = 0.83;
   const v = pickVoice(); if (v) u.voice = v;
   let exact = false; cu = u;
   u.onboundary = e => { if (e.name && e.name !== 'word') return; exact = true; clearInterval(timer); idx = at(base + e.charIndex); mark(idx); };
@@ -258,7 +268,7 @@ async function init(){
   Object.values(LESSONS).forEach(l => l.grp = 'Practice lessons');
   let arts = [];
   try {
-    const r = await fetch('data/articles.json?v=' + Date.now());
+    const r = await fetch('data/articles.json', {cache: 'no-cache'});
     if (r.ok) arts = (await r.json()).articles || [];
   } catch (e) {}
   const A = {};
@@ -268,6 +278,10 @@ async function init(){
   buildList();
   load(Object.keys(D)[0]);
 }
+['vocabBox', 'quizBox'].forEach(id => $(id).addEventListener('toggle', e => {
+  if (e.target.open) ['vocabBox', 'quizBox'].filter(x => x !== id).forEach(x => { $(x).open = false; });
+}));
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 init();
 </script>
 </body>

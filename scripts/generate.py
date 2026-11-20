@@ -8,7 +8,7 @@ from pathlib import Path
 OUT = Path("data/articles.json")
 KEEP = 60
 TODAY = date.today().isoformat()
-MODELS = [m for m in [os.getenv("GEMINI_MODEL"), "gemini-flash-latest", "gemini-flash-lite-latest"] if m]
+MODELS = [m for m in [os.getenv("GEMINI_MODEL"), "gemini-flash-lite-latest", "gemini-flash-latest"] if m]
 
 THEMES = {
     "energy": {"label": "Energy markets and renewables", "news": True, "section": "environment|business",
@@ -45,7 +45,7 @@ def http_json(url, payload=None, headers=None, retries=3):
         h["Content-Type"] = "application/json"
     for i in range(retries):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, data=data, headers=h), timeout=90) as r:
+            with urllib.request.urlopen(urllib.request.Request(url, data=data, headers=h), timeout=60) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
             if e.code in (429, 500, 503) and i < retries - 1:
@@ -66,7 +66,9 @@ def find_news(t, used):
     if t["section"]:
         p["section"] = t["section"]
     res = http_json("https://content.guardianapis.com/search?" + urllib.parse.urlencode(p))["response"]["results"]
-    good = [r for r in res if r["webUrl"] not in used and len(r.get("fields", {}).get("bodyText", "")) > 1500]
+    skip = re.compile(r"letters|/commentisfree/|/live/|quiz|crossword", re.I)
+    good = [r for r in res if r["webUrl"] not in used and len(r.get("fields", {}).get("bodyText", "")) > 1500
+            and not skip.search(r["webUrl"] + " " + r["webTitle"])]
     if not good:
         raise RuntimeError("no suitable news found")
     r = random.choice(good[:10])

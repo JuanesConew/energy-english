@@ -1,6 +1,354 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "articles": [
+  {
+   "id": "2026-11-21-tech",
+   "date": "2026-11-21",
+   "theme": "tech",
+   "group": "Technology trends",
+   "kind": "news",
+   "title": "Nvidia Reports Strong Revenue Despite Leadership Changes",
+   "paras": [
+    "Nvidia recently announced that its quarterly revenue reached $115.84bn, which is double the amount from the same period last year. This financial report beat expectations from Wall Street analysts. The strong results were shared by Colette Kress, the chief financial officer who was recently named interim chief executive officer. An interim leader is someone who takes charge temporarily while a permanent replacement is found.",
+    "The financial update followed the sudden departure of Jensen Huang, who co-founded the technology firm in 1993 and led its massive growth during the artificial intelligence boom. Huang left his position after admitting to personal relationships that violated company standards, including one with a suspected foreign spy and two with staff members. Following these events, the value of the company's shares dropped significantly.",
+    "Despite calls from prominent figures and politicians to bring Huang back, the chairman of the board stated that the company does not plan to reinstate him. Huang apologized for his actions and mentioned he would accept the job again if asked, but the board confirmed he left voluntarily and they accepted his resignation. Meanwhile, the firm continues normal business operations and deals with regulatory inquiries.",
+    "This summary article is based on a news report published by The Guardian."
+   ],
+   "vocab": [
+    {
+     "w": "revenue",
+     "d": "the total amount of money a company brings in from its goods and services",
+     "es": "ingresos"
+    },
+    {
+     "w": "analyst",
+     "d": "a person who studies financial data and market trends to make predictions",
+     "es": "analista"
+    },
+    {
+     "w": "interim",
+     "d": "temporary, lasting only for a short time until a permanent person is chosen",
+     "es": "interino / provisional"
+    },
+    {
+     "w": "departure",
+     "d": "the act of leaving a place or a job",
+     "es": "partida / salida"
+    },
+    {
+     "w": "share",
+     "d": "a unit of ownership in a company",
+     "es": "acción"
+    },
+    {
+     "w": "reinstate",
+     "d": "to put someone back into a former position or job",
+     "es": "restituir / reintegrar"
+    },
+    {
+     "w": "voluntary",
+     "d": "done of one's own free will, not forced by others",
+     "es": "voluntario"
+    },
+    {
+     "w": "inquiry",
+     "d": "an official investigation to find out the facts about something",
+     "es": "investigación"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What happened to Nvidia's quarterly revenue compared to last year?",
+     "o": [
+      "It decreased by half",
+      "It doubled",
+      "It stayed exactly the same"
+     ],
+     "a": 1,
+     "why": "The text states that the revenue doubled from the same time period a year ago."
+    },
+    {
+     "q": "Who delivered the financial results as the new interim leader?",
+     "o": [
+      "Jensen Huang",
+      "Harvey Jones",
+      "Colette Kress"
+     ],
+     "a": 2,
+     "why": "Colette Kress, the chief financial officer, was named interim CEO and delivered the results."
+    },
+    {
+     "q": "Why did Jensen Huang leave his position as CEO?",
+     "o": [
+      "He retired due to old age",
+      "He admitted to inappropriate personal relationships",
+      "He wanted to start a new video game company"
+     ],
+     "a": 1,
+     "why": "He left after allegations and admissions of several extramarital affairs."
+    },
+    {
+     "q": "What is the board's current plan regarding Jensen Huang?",
+     "o": [
+      "They do not intend to reinstate him",
+      "They plan to rehire him next week",
+      "They are waiting for Donald Trump to decide"
+     ],
+     "a": 0,
+     "why": "The chairman of the board stated that the company does not intend to reinstate Jensen Huang."
+    },
+    {
+     "q": "Which publisher is the source of the original news article?",
+     "o": [
+      "The New York Times",
+      "The Guardian",
+      "BBC News"
+     ],
+     "a": 1,
+     "why": "The final paragraph states that the article is based on a news article by The Guardian."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
+     "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
+     "publisher": "The Guardian",
+     "date": "2026-11-17"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-logistics",
+   "date": "2026-11-21",
+   "theme": "logistics",
+   "group": "Logistics trends",
+   "kind": "news",
+   "title": "British Retail Sales Jump After Emergency Prep Warning",
+   "paras": [
+    "Retail sales in Great Britain increased significantly last month. This unexpected growth happened because the government advised citizens to prepare for potential emergencies. People began buying extra goods to survive unexpected events like severe weather or cyber attacks. This official advice is known as the Be Ready campaign.",
+    "Supermarkets experienced a major boost in grocery purchases. Residents rushed to buy items that last a long time, such as canned goods and long-life milk. Experts call people who store emergency products preppers. Other retail areas also grew, including clothing shops and stores that sell sports equipment and games, while fuel sales dropped.",
+    "Market analysts noted that this spending increase happened even though household finances face pressure from inflation, which means rising prices for everyday goods. Experts warn that food sales might slow down soon because people only need to fill their emergency storage once. However, shop owners remain hopeful ahead of the winter holiday shopping season.",
+    "This summary article is based on a news report originally published by The Guardian."
+   ],
+   "vocab": [
+    {
+     "w": "retail",
+     "d": "the sale of goods to the public in small quantities for use or consumption",
+     "es": "venta al por menor"
+    },
+    {
+     "w": "surge",
+     "d": "a sudden large increase in something",
+     "es": "repunte o aumento repentino"
+    },
+    {
+     "w": "stockpile",
+     "d": "to accumulate a large stock of goods or materials",
+     "es": "acumular reservas"
+    },
+    {
+     "w": "tinned",
+     "d": "preserved in a sealed can or tin",
+     "es": "enlatado"
+    },
+    {
+     "w": "consumer",
+     "d": "a person who purchases goods and services for personal use",
+     "es": "consumidor"
+    },
+    {
+     "w": "inflation",
+     "d": "a general increase in prices and fall in the purchasing value of money",
+     "es": "inflación"
+    },
+    {
+     "w": "essential",
+     "d": "absolutely necessary; extremely important",
+     "es": "artículo de primera necesidad"
+    },
+    {
+     "w": "forecast",
+     "d": "a prediction or estimate of future events",
+     "es": "pronóstico"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Why did British retail sales increase last month?",
+     "o": [
+      "The government told people to prepare for emergencies.",
+      "Prices dropped significantly across all supermarkets.",
+      "A major holiday shopping season started early."
+     ],
+     "a": 0,
+     "why": "The text explains that sales rose because the government issued a warning to stock up for potential disasters."
+    },
+    {
+     "q": "What specific food items did shoppers buy more of?",
+     "o": [
+      "Fresh seafood and local fruits",
+      "Tinned food and long-life milk",
+      "Frozen meals and bakery items"
+     ],
+     "a": 1,
+     "why": "The article mentions that the public rushed to buy products including tinned food and long-life milk."
+    },
+    {
+     "q": "What happened to motor fuel sales last month?",
+     "o": [
+      "They increased rapidly.",
+      "They stayed completely flat.",
+      "They fell at the steepest rate since April."
+     ],
+     "a": 2,
+     "why": "The source text states that sales volumes of motor fuel fell by 2.2%, the steepest rate since April."
+    },
+    {
+     "q": "What do experts suggest might happen to food sales soon?",
+     "o": [
+      "They might slow down because cupboards are already full.",
+      "They will likely double every single week.",
+      "They will stop completely by next month."
+     ],
+     "a": 0,
+     "why": "An economist quoted in the article stated that cupboards only need to be stocked once for this purpose."
+    },
+    {
+     "q": "Which publisher originally released the news article used for this text?",
+     "o": [
+      "BBC News",
+      "The Guardian",
+      "Reuters"
+     ],
+     "a": 1,
+     "why": "The final paragraph states that the article is based on a news report by The Guardian."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Household rush to stockpile emergency supplies sends British retail sales soaring",
+     "url": "https://www.theguardian.com/world/2026/nov/20/rush-stockpile-emergency-supplies-sends-british-retail-sales-soaring",
+     "publisher": "The Guardian",
+     "date": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-21-soft",
+   "date": "2026-11-21",
+   "theme": "soft",
+   "group": "Interpersonal skills",
+   "kind": "paper",
+   "title": "MBA Students and Workplace Readiness Skills",
+   "paras": [
+    "Many business students wonder if they are truly prepared to enter the professional world after graduation. A recent study looks at how final-year master students evaluate their own abilities. The research specifically examines how practical talents shape a person's belief in their job readiness.",
+    "The study gathered information from two hundred seventy-five advanced business students in India. Researchers asked participants to judge their own capabilities and academic training. The results show that students feel very confident about their teamwork, communication, and flexibility in professional environments.",
+    "However, the study also points out some important areas that need improvement. Many students feel they lack enough real-world practice, especially through formal internships. Statistical tests confirm a clear connection between having strong job skills and feeling confident about entering the industry.",
+    "The authors suggest that schools need to update their teaching methods to match what employers currently demand. This article is based on a research paper abstract published by Workplace Readiness Among MBA Students."
+   ],
+   "vocab": [
+    {
+     "w": "readiness",
+     "d": "the state of being prepared for something",
+     "es": "preparación"
+    },
+    {
+     "w": "employability",
+     "d": "having the skills that make you suitable for a job",
+     "es": "empleabilidad"
+    },
+    {
+     "w": "assessment",
+     "d": "an evaluation or judgment of something",
+     "es": "evaluación"
+    },
+    {
+     "w": "adaptability",
+     "d": "the ability to adjust to new conditions",
+     "es": "adaptabilidad"
+    },
+    {
+     "w": "experiential",
+     "d": "gained through practical experience rather than theory",
+     "es": "experiencial"
+    },
+    {
+     "w": "curriculum",
+     "d": "the subjects comprising a course of study in a school",
+     "es": "plan de estudios"
+    },
+    {
+     "w": "demand",
+     "d": "an insistent and urgent request or need",
+     "es": "demanda"
+    },
+    {
+     "w": "outcome",
+     "d": "the way a thing turns out or a consequence",
+     "es": "resultado"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the main topic of the article?",
+     "o": [
+      "How MBA students assess their workplace readiness",
+      "How to write a professional resume",
+      "The history of business universities in India"
+     ],
+     "a": 0,
+     "why": "The text focuses on how business students evaluate their own job readiness based on employability skills."
+    },
+    {
+     "q": "How many students participated in the study?",
+     "o": [
+      "150 students",
+      "275 students",
+      "500 students"
+     ],
+     "a": 1,
+     "why": "The text states that information was gathered from two hundred seventy-five advanced business students."
+    },
+    {
+     "q": "In which area do students feel they need more practice?",
+     "o": [
+      "Teamwork",
+      "Communication",
+      "Internships"
+     ],
+     "a": 2,
+     "why": "The article mentions that students feel they lack real-world practice, particularly through formal internships."
+    },
+    {
+     "q": "What did statistical tests confirm about job skills and confidence?",
+     "o": [
+      "There is a clear connection between them",
+      "There is no relationship at all",
+      "Skills reduce student confidence"
+     ],
+     "a": 0,
+     "why": "The text explains that statistical tests confirm a clear connection between having strong job skills and feeling confident."
+    },
+    {
+     "q": "What do the authors suggest schools should do?",
+     "o": [
+      "Close more programs",
+      "Update teaching methods to match employer demands",
+      "Focus only on theory"
+     ],
+     "a": 1,
+     "why": "The article states that schools need to update their teaching methods to match what employers currently demand."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Workplace Readiness Among MBA Students: The Role of Employability Skills in Shaping Self-Assessment",
+     "url": "https://doi.org/10.9790/487x-2708064868",
+     "publisher": "IOSR Journal of Business and Management",
+     "date": "2025-08-01"
+    }
+   ]
+  },
   {
    "id": "2026-11-20-soft",
    "date": "2026-11-20",

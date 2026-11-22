@@ -2,6 +2,708 @@
  "updated": "2026-11-22",
  "articles": [
   {
+   "id": "2026-11-22-soft",
+   "date": "2026-11-22",
+   "theme": "soft",
+   "group": "Interpersonal skills",
+   "kind": "paper",
+   "title": "Building Strong Workplace Communication Skills in Vocational Students",
+   "paras": [
+    "Modern information technology requires vocational students to learn more than just technical tasks. They also need strong interpersonal skills, which mean abilities used to communicate and work well with other people. These personal skills help students collaborate effectively and prepare them for future jobs in technology fields.",
+    "A special community training program took place at a vocational school to improve these abilities. The program used interactive presentations, group discussions, practical simulations, and case-based learning to teach important topics. Students learned about psychological safety, teamwork, conflict management, and digital communication.",
+    "During the sessions, participants showed high levels of engagement and awareness. They learned how to recognize inclusive practices, use empathy mapping techniques, and understand proper netiquette for online messages. The training also helped students think carefully about their own behavior in team projects and online spaces.",
+    "This article is based on a research paper abstract published about Interpersonal Skills to Build Inclusive Collaboration at Telesandi Communication Vocational School Bekasi."
+   ],
+   "vocab": [
+    {
+     "w": "interpersonal",
+     "d": "relating to relationships between people",
+     "es": "interpersonal"
+    },
+    {
+     "w": "collaborate",
+     "d": "to work together with others",
+     "es": "colaborar"
+    },
+    {
+     "w": "vocational",
+     "d": "relating to job skills and practical training",
+     "es": "vocacional"
+    },
+    {
+     "w": "inclusivity",
+     "d": "including all types of people fairly",
+     "es": "inclusividad"
+    },
+    {
+     "w": "empathy",
+     "d": "the ability to understand other people's feelings",
+     "es": "empatía"
+    },
+    {
+     "w": "simulations",
+     "d": "practice activities that imitate real situations",
+     "es": "simulaciones"
+    },
+    {
+     "w": "netiquette",
+     "d": "rules for polite behavior online",
+     "es": "etiqueta digital"
+    },
+    {
+     "w": "engagement",
+     "d": "active participation and interest",
+     "es": "participación"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What do vocational students need besides technical tasks?",
+     "o": [
+      "Strong interpersonal skills",
+      "Advanced coding degrees",
+      "Financial management knowledge"
+     ],
+     "a": 0,
+     "why": "The text states that students need interpersonal skills to collaborate and communicate."
+    },
+    {
+     "q": "How was the training program implemented?",
+     "o": [
+      "Through online video lectures only",
+      "Using interactive presentations and simulations",
+      "By reading printed textbooks independently"
+     ],
+     "a": 1,
+     "why": "The text mentions interactive presentations, group discussions, simulations, and case-based learning."
+    },
+    {
+     "q": "What specific online behavior rules did students learn about?",
+     "o": [
+      "Netiquette",
+      "Typing speed",
+      "Graphic design"
+     ],
+     "a": 0,
+     "why": "Participants learned about the importance of netiquette in digital communication."
+    },
+    {
+     "q": "What was one outcome of the student training?",
+     "o": [
+      "Students felt bored during sessions",
+      "Students showed heightened awareness",
+      "Students refused to work in groups"
+     ],
+     "a": 1,
+     "why": "The outcomes indicated students were actively engaged and demonstrated heightened awareness."
+    },
+    {
+     "q": "What type of source is this article based on?",
+     "o": [
+      "A historical book",
+      "A research paper abstract",
+      "A newspaper interview"
+     ],
+     "a": 1,
+     "why": "The final paragraph explicitly states the article is based on a research paper abstract."
+    }
+   ],
+   "gloss": {
+    "modern": "moderno",
+    "information": "información",
+    "technology": "tecnología",
+    "requires": "requiere",
+    "vocational": "vocacional",
+    "students": "estudiantes",
+    "learn": "aprender",
+    "more": "más",
+    "than": "que",
+    "just": "solo",
+    "technical": "técnico",
+    "tasks": "tareas",
+    "they": "ellos",
+    "also": "también",
+    "need": "necesitan",
+    "strong": "fuerte",
+    "interpersonal": "interpersonal",
+    "skills": "habilidades",
+    "which": "las cuales",
+    "mean": "significan",
+    "abilities": "habilidades",
+    "used": "usó",
+    "communicate": "comunicarse",
+    "work": "trabajar",
+    "well": "bien",
+    "with": "con",
+    "other": "otras",
+    "people": "personas",
+    "these": "estas",
+    "personal": "personal",
+    "help": "ayudan",
+    "collaborate": "colaborar",
+    "effectively": "eficazmente",
+    "prepare": "preparar",
+    "them": "los",
+    "for": "para",
+    "future": "futuro",
+    "jobs": "trabajos",
+    "fields": "campos",
+    "special": "especial",
+    "community": "comunidad",
+    "training": "capacitación",
+    "program": "programa",
+    "took": "tomó",
+    "place": "lugar",
+    "school": "escuela",
+    "improve": "mejorar",
+    "interactive": "interactivo",
+    "presentations": "presentaciones",
+    "group": "grupo",
+    "discussions": "discusiones",
+    "practical": "práctico",
+    "simulations": "simulaciones",
+    "case-based": "basado en casos",
+    "learning": "aprendizaje",
+    "teach": "enseñar",
+    "important": "importante",
+    "topics": "temas",
+    "learned": "aprendieron",
+    "about": "sobre",
+    "psychological": "psicológico",
+    "safety": "seguridad",
+    "teamwork": "trabajo en equipo",
+    "conflict": "conflicto",
+    "management": "gestión",
+    "digital": "digital",
+    "communication": "comunicación",
+    "during": "durante",
+    "sessions": "sesiones",
+    "participants": "participantes",
+    "showed": "mostraron",
+    "high": "alto",
+    "levels": "niveles",
+    "engagement": "participación",
+    "awareness": "conciencia",
+    "how": "cómo",
+    "recognize": "reconocer",
+    "inclusive": "inclusiva",
+    "practices": "prácticas",
+    "use": "usar",
+    "empathy": "empatía",
+    "mapping": "mapeo",
+    "techniques": "técnicas",
+    "understand": "entender",
+    "proper": "apropiado",
+    "netiquette": "etiqueta digital",
+    "online": "en línea",
+    "messages": "mensajes",
+    "helped": "ayudó",
+    "think": "pensar",
+    "carefully": "cuidadosamente",
+    "their": "su",
+    "own": "propio",
+    "behavior": "comportamiento",
+    "team": "equipo",
+    "projects": "proyectos",
+    "spaces": "espacios",
+    "article": "artículo",
+    "based": "basado",
+    "research": "investigación",
+    "paper": "documento",
+    "abstract": "resumen",
+    "published": "publicado",
+    "build": "construir",
+    "collaboration": "colaboración",
+    "telesandi": "telesandi",
+    "bekasi": "bekasi"
+   },
+   "sources": [
+    {
+     "title": "Interpersonal Skills to Build Inclusive Collaboration at Telesandi Communication Vocational School Bekasi",
+     "url": "https://doi.org/10.25157/ag.v8i2.25507",
+     "publisher": "Abdimas Galuh",
+     "date": "2026-09-30"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-energy",
+   "date": "2026-11-22",
+   "theme": "energy",
+   "group": "Energy markets and renewables",
+   "kind": "paper",
+   "title": "Predicting Financial Risk in Green Markets",
+   "paras": [
+    "Modern sustainable financial markets experience complex risk transmission, making it difficult to predict how market shocks travel between assets. Sustainable assets include green bonds, carbon markets, and renewable energy stocks. Because these systems are increasingly complicated, experts need better tools to understand financial stability and manage potential economic losses.",
+    "A recent scientific study introduces a new method to forecast these market changes. This method combines a mathematical model called Time-Varying Parameter Vector Autoregression with a deep learning network known as Long Short-Term Memory. Together, these two tools analyze how risk moves between different sustainable markets over time and predict future financial conditions.",
+    "The research findings show that renewable energy stocks are the main transmitters of financial volatility, sending large shock effects to green bonds and other sustainable assets. Furthermore, the combined hybrid framework performs much better than traditional economic models and standard machine learning techniques, reducing prediction errors significantly and helping investors protect their investment portfolios.",
+    "In summary, this article is based on a research paper abstract published in the field of financial mathematics and green finance. The study emphasizes that carbon pricing and standardized green bond certification help reduce volatility transmission in sustainable markets."
+   ],
+   "vocab": [
+    {
+     "w": "transmission",
+     "d": "the act of passing something from one place to another",
+     "es": "transmisión"
+    },
+    {
+     "w": "assets",
+     "d": "valuable things owned by a person or company",
+     "es": "activos"
+    },
+    {
+     "w": "framework",
+     "d": "a basic structure underlying a system",
+     "es": "marco"
+    },
+    {
+     "w": "volatility",
+     "d": "liability to change rapidly and unpredictably",
+     "es": "volatilidad"
+    },
+    {
+     "w": "forecast",
+     "d": "to predict or estimate a future event",
+     "es": "pronosticar"
+    },
+    {
+     "w": "investors",
+     "d": "people who put money into financial schemes",
+     "es": "inversores"
+    },
+    {
+     "w": "certification",
+     "d": "an official document proving a status",
+     "es": "certificación"
+    },
+    {
+     "w": "mitigating",
+     "d": "making something less severe or painful",
+     "es": "mitigando"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What do sustainable assets include according to the text?",
+     "o": [
+      "Only traditional oil stocks",
+      "Green bonds and renewable energy stocks",
+      "Real estate and gold"
+     ],
+     "a": 1,
+     "why": "The text mentions sustainable assets include green bonds, carbon markets, and renewable energy stocks."
+    },
+    {
+     "q": "Which assets are the main transmitters of financial volatility?",
+     "o": [
+      "Renewable energy stocks",
+      "Government bonds",
+      "Carbon credits"
+     ],
+     "a": 0,
+     "why": "The research shows that renewable energy stocks are the dominant transmitters of volatility."
+    },
+    {
+     "q": "How does the new hybrid framework compare to traditional models?",
+     "o": [
+      "It performs worse",
+      "It performs the same",
+      "It performs much better"
+     ],
+     "a": 2,
+     "why": "The hybrid framework significantly outperforms traditional economic models."
+    },
+    {
+     "q": "What helps reduce volatility transmission in sustainable markets?",
+     "o": [
+      "Higher taxes",
+      "Carbon pricing and standardized green bond certification",
+      "Decreased energy production"
+     ],
+     "a": 1,
+     "why": "The findings highlight the importance of carbon pricing mechanisms and green bond certification."
+    },
+    {
+     "q": "What is the basis of this article?",
+     "o": [
+      "A research paper abstract in green finance",
+      "A newspaper editorial on energy prices",
+      "A textbook on basic economics"
+     ],
+     "a": 0,
+     "why": "The last paragraph states the article is based on this research paper abstract."
+    }
+   ],
+   "gloss": {
+    "modern": "moderno",
+    "sustainable": "sostenible",
+    "financial": "financiero",
+    "markets": "mercados",
+    "experience": "experimentan",
+    "complex": "complejo",
+    "risk": "riesgo",
+    "transmission": "transmisión",
+    "making": "haciendo",
+    "difficult": "difícil",
+    "predict": "predecir",
+    "how": "cómo",
+    "market": "mercado",
+    "shocks": "shocks",
+    "travel": "viajan",
+    "between": "entre",
+    "assets": "activos",
+    "include": "incluyen",
+    "green": "verde",
+    "bonds": "bonos",
+    "carbon": "carbono",
+    "renewable": "renovable",
+    "energy": "energía",
+    "stocks": "acciones",
+    "because": "porque",
+    "these": "estos",
+    "systems": "sistemas",
+    "increasingly": "cada vez más",
+    "complicated": "complicados",
+    "experts": "expertos",
+    "need": "necesitan",
+    "better": "mejores",
+    "tools": "herramientas",
+    "understand": "entender",
+    "stability": "estabilidad",
+    "manage": "gestionar",
+    "potential": "potencial",
+    "economic": "económico",
+    "losses": "pérdidas",
+    "recent": "reciente",
+    "scientific": "científico",
+    "study": "estudio",
+    "introduces": "introduce",
+    "new": "nuevo",
+    "method": "método",
+    "forecast": "pronosticar",
+    "changes": "cambios",
+    "combines": "combina",
+    "mathematical": "matemático",
+    "model": "modelo",
+    "called": "llamado",
+    "time-varying": "variable en el tiempo",
+    "parameter": "parámetro",
+    "vector": "vector",
+    "autoregression": "autorregresión",
+    "deep": "profundo",
+    "learning": "aprendizaje",
+    "network": "red",
+    "known": "conocido",
+    "long": "largo",
+    "short-term": "corto plazo",
+    "memory": "memoria",
+    "together": "juntos",
+    "two": "dos",
+    "analyze": "analizan",
+    "moves": "mueve",
+    "over": "sobre",
+    "time": "tiempo",
+    "future": "futuro",
+    "conditions": "condiciones",
+    "findings": "hallazgos",
+    "show": "muestran",
+    "that": "que",
+    "main": "principales",
+    "transmitters": "transmisores",
+    "volatility": "volatilidad",
+    "sending": "enviando",
+    "large": "grandes",
+    "effects": "efectos",
+    "furthermore": "además",
+    "combined": "combinado",
+    "hybrid": "híbrido",
+    "performs": "funciona",
+    "much": "mucho",
+    "traditional": "tradicional",
+    "models": "modelos",
+    "standard": "estándar",
+    "techniques": "técnicas",
+    "reducing": "reduciendo",
+    "prediction": "predicción",
+    "errors": "errores",
+    "significantly": "significativamente",
+    "helping": "ayudando",
+    "investors": "inversores",
+    "protect": "proteger",
+    "investment": "inversión",
+    "portfolios": "carteras",
+    "summary": "resumen",
+    "article": "artículo",
+    "based": "basado",
+    "research": "investigación",
+    "paper": "documento",
+    "abstract": "resumen",
+    "published": "publicado",
+    "field": "campo",
+    "finance": "finanzas",
+    "emphasizes": "enfatiza",
+    "pricing": "fijación de precios",
+    "standardized": "estandarizado",
+    "certification": "certificación",
+    "help": "ayudan",
+    "reduce": "reducir"
+   },
+   "sources": [
+    {
+     "title": "A Hybrid Mathematical and Deep Learning Framework for Forecasting Volatility Spillovers in Green Finance and Renewable Energy Markets",
+     "url": "https://doi.org/10.3390/math14142497",
+     "publisher": "Mathematics",
+     "date": "2026-07-10"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-tech",
+   "date": "2026-11-22",
+   "theme": "tech",
+   "group": "Technology trends",
+   "kind": "paper",
+   "title": "New Trends in Modern Industrial Operational Technology",
+   "paras": [
+    "Industrial systems are changing rapidly because traditional operational technology is joining together with information technology. This review article studies the main technology trends that are reshaping industrial environments today. The authors look at published studies, industry documents, and official standards to understand how these changes affect industrial architecture, daily operations, and safety.",
+    "The research identifies eight connected themes that drive this transformation. These themes include edge computing, artificial intelligence, digital twins, advanced cybersecurity, and data operations. Other key areas are fast wireless connections, low-code software platforms, and virtual programmable logic controllers. Together, these tools form an integrated system that helps workers make fast decisions and keeps operations strong and smart.",
+    "However, the study also points out several important challenges that companies must face. These include security vulnerabilities due to larger digital attack surfaces, poor data quality, a shortage of skilled workers, and problems connecting different vendor products. Overcoming these obstacles requires better industry standards, improved governance processes, and stronger teamwork between humans and machines.",
+    "Finally, this article is based on the research paper abstract titled The Convergence of Intelligence and Infrastructure: A Review of Emerging Technology Trends Reshaping Modern Operational Technology (OT) Ecosystems, published by its respective journal and research platforms."
+   ],
+   "vocab": [
+    {
+     "w": "operational",
+     "d": "related to how a business or system works",
+     "es": "operacional"
+    },
+    {
+     "w": "technology",
+     "d": "advanced scientific knowledge used in industry",
+     "es": "tecnología"
+    },
+    {
+     "w": "environment",
+     "d": "the surroundings or conditions where something operates",
+     "es": "entorno"
+    },
+    {
+     "w": "architecture",
+     "d": "the structure and design of a system",
+     "es": "arquitectura"
+    },
+    {
+     "w": "transformation",
+     "d": "a complete change in appearance or character",
+     "es": "transformación"
+    },
+    {
+     "w": "cybersecurity",
+     "d": "protection of computer systems against theft or damage",
+     "es": "ciberseguridad"
+    },
+    {
+     "w": "vulnerabilities",
+     "d": "weaknesses that can be attacked or harmed",
+     "es": "vulnerabilidades"
+    },
+    {
+     "w": "collaboration",
+     "d": "working together with someone to produce something",
+     "es": "colaboración"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What two systems are joining together in modern industries?",
+     "o": [
+      "Operational technology and information technology",
+      "Agriculture and transportation systems",
+      "Education and healthcare networks"
+     ],
+     "a": 0,
+     "why": "The text states that traditional operational technology is joining together with information technology."
+    },
+    {
+     "q": "How many connected themes does the research identify?",
+     "o": [
+      "Five themes",
+      "Eight themes",
+      "Ten themes"
+     ],
+     "a": 1,
+     "why": "The review identifies eight connected themes that drive this industrial transformation."
+    },
+    {
+     "q": "Which of the following is mentioned as a major challenge?",
+     "o": [
+      "Too many skilled workers",
+      "Security vulnerabilities due to larger attack surfaces",
+      "Excessive data quality"
+     ],
+     "a": 1,
+     "why": "The article points out security vulnerabilities from larger digital attack surfaces as a key challenge."
+    },
+    {
+     "q": "What do these integrated tools help workers do?",
+     "o": [
+      "Make fast decisions and keep operations strong",
+      "Close down factories permanently",
+      "Avoid using computers entirely"
+     ],
+     "a": 0,
+     "why": "The text explains that the integrated system helps workers make fast decisions and keeps operations strong."
+    },
+    {
+     "q": "What is needed to overcome current industry obstacles?",
+     "o": [
+      "Fewer rules and less teamwork",
+      "Better standards, governance, and human-machine collaboration",
+      "Only cheaper equipment"
+     ],
+     "a": 1,
+     "why": "Overcoming obstacles requires better industry standards, improved governance, and teamwork."
+    }
+   ],
+   "gloss": {
+    "industrial": "industrial",
+    "systems": "sistemas",
+    "are": "están",
+    "changing": "cambiando",
+    "rapidly": "rápidamente",
+    "because": "porque",
+    "traditional": "tradicional",
+    "operational": "operacional",
+    "technology": "tecnología",
+    "is": "está",
+    "joining": "uniéndose",
+    "together": "juntos",
+    "with": "con",
+    "information": "información",
+    "this": "este",
+    "review": "revisión",
+    "article": "artículo",
+    "studies": "estudios",
+    "main": "principales",
+    "trends": "tendencias",
+    "that": "que",
+    "reshaping": "remodelando",
+    "environments": "entornos",
+    "today": "hoy",
+    "authors": "autores",
+    "look": "observan",
+    "published": "publicado",
+    "documents": "documentos",
+    "official": "oficiales",
+    "standards": "estándares",
+    "understand": "entender",
+    "how": "cómo",
+    "changes": "cambios",
+    "affect": "afectan",
+    "architecture": "arquitectura",
+    "daily": "diarias",
+    "operations": "operaciones",
+    "safety": "seguridad",
+    "research": "investigación",
+    "identifies": "identifica",
+    "eight": "ocho",
+    "connected": "conectados",
+    "themes": "temas",
+    "drive": "impulsan",
+    "transformation": "transformación",
+    "include": "incluyen",
+    "edge": "periférica",
+    "computing": "computación",
+    "artificial": "artificial",
+    "intelligence": "inteligencia",
+    "digital": "digitales",
+    "twins": "gemelos",
+    "advanced": "avanzada",
+    "cybersecurity": "ciberseguridad",
+    "data": "datos",
+    "other": "otras",
+    "key": "clave",
+    "areas": "áreas",
+    "fast": "rápidas",
+    "wireless": "inalámbricas",
+    "connections": "conexiones",
+    "low-code": "de bajo código",
+    "software": "de software",
+    "platforms": "plataformas",
+    "virtual": "virtuales",
+    "programmable": "programables",
+    "logic": "lógica",
+    "controllers": "controladores",
+    "tools": "herramientas",
+    "form": "forman",
+    "integrated": "integrado",
+    "system": "sistema",
+    "helps": "ayuda",
+    "workers": "trabajadores",
+    "make": "tomar",
+    "decisions": "decisiones",
+    "keeps": "mantiene",
+    "strong": "fuertes",
+    "smart": "inteligentes",
+    "however": "sin embargo",
+    "study": "estudio",
+    "also": "también",
+    "points": "señala",
+    "out": "fuera",
+    "several": "varios",
+    "important": "importantes",
+    "challenges": "desafíos",
+    "companies": "empresas",
+    "must": "deben",
+    "face": "enfrentar",
+    "these": "estos",
+    "security": "seguridad",
+    "vulnerabilities": "vulnerabilidades",
+    "due": "debido",
+    "larger": "más grandes",
+    "attack": "ataque",
+    "surfaces": "superficies",
+    "poor": "deficiente",
+    "quality": "calidad",
+    "shortage": "escasez",
+    "skilled": "calificados",
+    "problems": "problemas",
+    "connecting": "conectando",
+    "different": "diferentes",
+    "vendor": "de proveedores",
+    "products": "productos",
+    "overcoming": "superar",
+    "obstacles": "obstáculos",
+    "requires": "requiere",
+    "better": "mejores",
+    "industry": "industriales",
+    "improved": "mejorados",
+    "governance": "gobierno",
+    "processes": "procesos",
+    "stronger": "más fuerte",
+    "teamwork": "trabajo en equipo",
+    "between": "entre",
+    "humans": "humanos",
+    "machines": "máquinas",
+    "finally": "finalmente",
+    "based": "basado",
+    "paper": "documento",
+    "abstract": "resumen",
+    "titled": "titulado",
+    "the convergence of intelligence and infrastructure: a review of emerging technology trends reshaping modern operational technology (ot) ecosystems": "La convergencia de inteligencia y infraestructura",
+    "by": "por",
+    "its": "su",
+    "respective": "respectiva",
+    "journal": "revista"
+   },
+   "sources": [
+    {
+     "title": "The Convergence of Intelligence and Infrastructure: A Review of Emerging Technology Trends Reshaping Modern Operational Technology (OT) Ecosystems",
+     "url": "https://doi.org/10.5281/zenodo.20353281",
+     "publisher": "Zenodo (CERN European Organization for Nuclear Research)",
+     "date": "2026-05-25"
+    }
+   ]
+  },
+  {
    "id": "2026-11-22-finance",
    "date": "2026-11-22",
    "theme": "finance",

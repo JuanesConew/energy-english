@@ -2,12 +2,12 @@
 """Generates 3 reading-practice articles per day for Energy English.
 Sources: The Guardian (news) and OpenAlex (academic papers). Summaries: Gemini."""
 import json, os, random, re, sys, time, urllib.error, urllib.parse, urllib.request
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 OUT = Path("data/articles.json")
 KEEP = 60
-TODAY = date.today().isoformat()
+TODAY = datetime.now(timezone(timedelta(hours=-5))).date().isoformat()  # Colombia date
 MODELS = [m for m in [os.getenv("GEMINI_MODEL"), "gemini-flash-lite-latest", "gemini-flash-latest"] if m]
 
 THEMES = {
@@ -32,8 +32,10 @@ Rules:
 Return JSON only, with exactly this shape:
 {{"title": "headline, max 10 words", "paragraphs": ["...", "...", "...", "..."],
  "vocab": [{{"w": "word", "d": "simple English definition", "es": "traduccion al espanol"}}],
- "quiz": [{{"q": "question", "o": ["option A", "option B", "option C"], "a": 0, "why": "short explanation"}}]}}
+ "quiz": [{{"q": "question", "o": ["option A", "option B", "option C"], "a": 0, "why": "short explanation"}}],
+ "gloss": {{"word": "traduccion"}}}}
 vocab: 8 useful words from your article. quiz: 5 questions about your article, 3 options each, vary the correct index.
+gloss: the Spanish translation of each word's meaning IN THIS TEXT (1-3 words) for every content word of your article (nouns, verbs, adjectives, adverbs; skip words like a, the, of, and, is, to, in). Use lowercase keys, written exactly as the word appears in your article.
 SOURCE ({kind}): {title}
 {text}"""
 
@@ -111,7 +113,7 @@ def gemini(prompt):
         try:
             r = http_json(f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent",
                           payload={"contents": [{"parts": [{"text": prompt}]}],
-                                   "generationConfig": {"responseMimeType": "application/json", "temperature": 0.6}},
+                                   "generationConfig": {"responseMimeType": "application/json", "temperature": 0.6, "maxOutputTokens": 8192}},
                           headers={"x-goog-api-key": key})
             txt = "".join(p.get("text", "") for p in r["candidates"][0]["content"]["parts"])
             return json.loads(re.sub(r"^```(?:json)?|```$", "", txt.strip(), flags=re.M).strip())
@@ -133,6 +135,8 @@ def valid(a):
 def main():
     db = json.loads(OUT.read_text("utf-8")) if OUT.exists() else {"articles": []}
     old = db.get("articles", [])
+    if os.getenv("FORCE"):  # manual run with the box checked: replace today's articles
+        old = [a for a in old if a["date"] != TODAY]
     if sum(a["date"] == TODAY for a in old) >= 3:
         print("Already generated today."); return
     used = {s["url"] for a in old for s in a["sources"]}
@@ -154,8 +158,10 @@ def main():
                 if not a:
                     raise RuntimeError("Gemini output was not valid")
                 used.add(src["source"]["url"])
+                gl = a.get("gloss") if isinstance(a.get("gloss"), dict) else {}
+                gloss = {str(k).lower().strip(): str(v).strip()[:60] for k, v in gl.items() if isinstance(v, str) and v.strip()}
                 new.append({"id": f"{TODAY}-{k}", "date": TODAY, "theme": k, "group": t["label"], "kind": kind,
-                            "title": a["title"], "paras": a["paragraphs"], "vocab": a["vocab"], "quiz": a["quiz"],
+                            "title": a["title"], "paras": a["paragraphs"], "vocab": a["vocab"], "quiz": a["quiz"], "gloss": gloss,
                             "sources": [src["source"]]})
                 print(f"OK {k} ({kind}): {a['title']}")
                 break

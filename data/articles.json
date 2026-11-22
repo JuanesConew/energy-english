@@ -1,6 +1,476 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "articles": [
+  {
+   "id": "2026-11-22-finance",
+   "date": "2026-11-22",
+   "theme": "finance",
+   "group": "Corporate finance",
+   "kind": "paper",
+   "title": "Reflections on a Summer Corporate Finance Internship",
+   "paras": [
+    "A recent business paper explores a student summer internship in corporate finance at a major firm. The author examines how undergraduate experiences prepared them for a professional role in enterprise-wide reporting. Specifically, the text highlights three key abilities that helped the student succeed during the corporate program.",
+    "The first vital skill is teamwork, which the author practiced through athletics and liberal arts studies. By working closely with peers rather than alone, the intern group delivered a polished presentation that impressed company executives. Another crucial ability is time management. Organizing schedules backward from deadlines, a habit learned from writing college papers, allowed the student to handle unexpected tasks and large projects efficiently.",
+    "The final and most impactful lesson involved leadership. Through informal conversations, the writer discovered that effective leaders are authentic and genuinely care about their staff. Observing different management styles led to a major realization: having a supportive boss is just as important as the actual work for staying motivated and preventing burnout.",
+    "This short educational article is based on the research paper abstract titled State Street Corporate Finance, published by Connecticut College."
+   ],
+   "vocab": [
+    {
+     "w": "internship",
+     "d": "a temporary job for gaining work experience",
+     "es": "prácticas profesionales"
+    },
+    {
+     "w": "enterprise",
+     "d": "a large business or company",
+     "es": "empresa"
+    },
+    {
+     "w": "collaboration",
+     "d": "working together with others",
+     "es": "colaboración"
+    },
+    {
+     "w": "executives",
+     "d": "high-level managers in a company",
+     "es": "directivos"
+    },
+    {
+     "w": "schedule",
+     "d": "a plan of things to do and when to do them",
+     "es": "cronograma"
+    },
+    {
+     "w": "deadline",
+     "d": "the time or date by which something must be finished",
+     "es": "fecha límite"
+    },
+    {
+     "w": "authentic",
+     "d": "real, genuine, and true to oneself",
+     "es": "auténtico"
+    },
+    {
+     "w": "burnout",
+     "d": "extreme tiredness from working too hard",
+     "es": "agotamiento"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Where did the author complete their summer internship?",
+     "o": [
+      "At a college in Boston",
+      "On a corporate finance reporting team",
+      "At a small local business"
+     ],
+     "a": 1,
+     "why": "The text states the author interned on State Street's FP&A Enterprise Wide Reporting team."
+    },
+    {
+     "q": "How did the intern group create a successful presentation?",
+     "o": [
+      "By working together collaboratively",
+      "By working completely alone",
+      "By copying other groups"
+     ],
+     "a": 0,
+     "why": "The author notes that building real collaboration helped them earn praise."
+    },
+    {
+     "q": "What college habit helped the author manage their time?",
+     "o": [
+      "Planning backwards from deadlines",
+      "Studying right before exams",
+      "Asking professors for extensions"
+     ],
+     "a": 0,
+     "why": "The text mentions planning backwards from deadlines, a habit built from shifting to writing papers."
+    },
+    {
+     "q": "What did the author learn about good leaders?",
+     "o": [
+      "They force staff to stay in the office",
+      "They are genuine and care about their teams",
+      "They ignore slow stretches of work"
+     ],
+     "a": 1,
+     "why": "The author learned that good leaders are genuine and care about their teams."
+    },
+    {
+     "q": "Which publisher is associated with this research paper abstract?",
+     "o": [
+      "State Street Bank",
+      "Connecticut College",
+      "Boston Business Journal"
+     ],
+     "a": 1,
+     "why": "The final paragraph states the paper was published by Connecticut College."
+    }
+   ],
+   "gloss": {
+    "recent": "reciente",
+    "business": "de negocios",
+    "paper": "artículo",
+    "explores": "explora",
+    "student": "estudiante",
+    "summer": "de verano",
+    "internship": "prácticas",
+    "corporate": "corporativas",
+    "finance": "finance",
+    "major": "importante",
+    "firm": "empresa",
+    "author": "autor",
+    "examines": "examina",
+    "how": "cómo",
+    "undergraduate": "universitarias",
+    "experiences": "experiencias",
+    "prepared": "prepararon",
+    "them": "a él",
+    "professional": "profesional",
+    "role": "puesto",
+    "enterprise-wide": "a nivel de toda la empresa",
+    "reporting": "informes",
+    "specifically": "específicamente",
+    "text": "texto",
+    "highlights": "destaca",
+    "three": "tres",
+    "key": "clave",
+    "abilities": "habilidades",
+    "helped": "ayudaron",
+    "succeed": "tener éxito",
+    "during": "durante",
+    "program": "programa",
+    "first": "primera",
+    "vital": "vital",
+    "skill": "habilidad",
+    "teamwork": "trabajo en equipo",
+    "which": "la cual",
+    "practiced": "practicó",
+    "through": "a través de",
+    "athletics": "atletismo",
+    "liberal": "liberales",
+    "arts": "artes",
+    "studies": "estudios",
+    "working": "trabajando",
+    "closely": "estrechamente",
+    "peers": "compañeros",
+    "rather": "en lugar",
+    "alone": "solos",
+    "intern": "de pasantes",
+    "group": "grupo",
+    "delivered": "entregó",
+    "polished": "pulida",
+    "presentation": "presentación",
+    "impressed": "impresionó",
+    "company": "de la compañía",
+    "executives": "directivos",
+    "another": "otra",
+    "crucial": "crucial",
+    "ability": "capacidad",
+    "time": "del tiempo",
+    "management": "de gestión",
+    "organizing": "organizar",
+    "schedules": "horarios",
+    "backward": "hacia atrás",
+    "from": "desde",
+    "deadlines": "plazos",
+    "habit": "hábito",
+    "learned": "aprendido",
+    "writing": "redactar",
+    "college": "universitarios",
+    "papers": "trabajos",
+    "allowed": "permitió",
+    "handle": "manejar",
+    "unexpected": "inesperadas",
+    "tasks": "tareas",
+    "large": "grandes",
+    "projects": "proyectos",
+    "efficiently": "eficazmente",
+    "final": "final",
+    "most": "más",
+    "impactful": "impactante",
+    "lesson": "lección",
+    "involved": "involucró",
+    "leadership": "liderazgo",
+    "informal": "informales",
+    "conversations": "conversaciones",
+    "discovered": "descubrió",
+    "effective": "efectivos",
+    "leaders": "líderes",
+    "authentic": "auténticos",
+    "genuinely": "sinceramente",
+    "care": "se preocupan",
+    "about": "por",
+    "staff": "personal",
+    "observing": "observar",
+    "different": "diferentes",
+    "styles": "estilos",
+    "led": "condujo",
+    "realization": "realización",
+    "having": "tener",
+    "supportive": "apoyador",
+    "boss": "jefe",
+    "just": "igual",
+    "important": "importante",
+    "actual": "real",
+    "staying": "mantenerse",
+    "motivated": "motivado",
+    "preventing": "prevenir",
+    "burnout": "agotamiento",
+    "short": "corto",
+    "educational": "educativo",
+    "article": "artículo",
+    "based": "basado",
+    "research": "de investigación",
+    "titled": "titulado",
+    "state": "state",
+    "street": "street",
+    "published": "publicado",
+    "connecticut": "connecticut",
+    "university": "universidad"
+   },
+   "sources": [
+    {
+     "title": "State Street Corporate Finance",
+     "url": "https://digitalcommons.conncoll.edu/cgi/viewcontent.cgi?article=4330&context=internreflect",
+     "publisher": "Digital Commons @ Connecticut College (Connecticut College)",
+     "date": "2026-01-01"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-22-soft",
+   "date": "2026-11-22",
+   "theme": "soft",
+   "group": "Interpersonal skills",
+   "kind": "paper",
+   "title": "Soft Skills and Workplace Innovation",
+   "paras": [
+    "Modern companies need to find new ways to adapt and improve. Workplace innovation means creating fresh ideas and better methods to succeed in the market. This article looks at how personal abilities help companies achieve this goal. Researchers wanted to understand which human talents are the most useful for driving modern business success.",
+    "The study focuses on six important abilities. These include working in teams, communicating clearly, staying strong during hard times, thinking deeply, leading others, and solving difficult issues. To test these qualities, experts analyzed data from one hundred twenty-five working professionals using a specialized statistical method. This technique helps scientists understand complex relationships between different workplace factors.",
+    "The findings show that guiding others is the most powerful tool for creating new ideas. Finding smart solutions to daily challenges comes in second place. Interestingly, the other four personal traits do not show a strong connection to workplace creativity. Therefore, companies that build strong leadership and practical troubleshooting abilities will adapt much better to modern business demands.",
+    "This short article is based on a research paper abstract about workplace competencies, published in the study covering the role of soft skills in workplace innovation."
+   ],
+   "vocab": [
+    {
+     "w": "innovation",
+     "d": "the creation of new ideas or methods",
+     "es": "innovación"
+    },
+    {
+     "w": "competencies",
+     "d": "skills or abilities needed to do something well",
+     "es": "competencias"
+    },
+    {
+     "w": "resilience",
+     "d": "the ability to recover quickly from difficulties",
+     "es": "resiliencia"
+    },
+    {
+     "w": "statistical",
+     "d": "relating to the use of mathematics to analyze data",
+     "es": "estadístico"
+    },
+    {
+     "w": "findings",
+     "d": "the results or conclusions of a study",
+     "es": "hallazgos"
+    },
+    {
+     "w": "troubleshooting",
+     "d": "finding and fixing problems",
+     "es": "resolución de problemas"
+    },
+    {
+     "w": "demands",
+     "d": "requirements or pressures from a situation",
+     "es": "exigencias"
+    },
+    {
+     "w": "abstract",
+     "d": "a short summary of a research paper",
+     "es": "resumen"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How many working professionals participated in the study?",
+     "o": [
+      "100",
+      "125",
+      "150"
+     ],
+     "a": 1,
+     "why": "The text mentions data from one hundred twenty-five working professionals."
+    },
+    {
+     "q": "Which soft skill has the most significant influence on innovation?",
+     "o": [
+      "Leadership",
+      "Teamwork",
+      "Communication"
+     ],
+     "a": 0,
+     "why": "The findings show that guiding others (leadership) is the most powerful tool."
+    },
+    {
+     "q": "What comes in second place for driving workplace creativity?",
+     "o": [
+      "Critical thinking",
+      "Resilience",
+      "Problem-solving"
+     ],
+     "a": 2,
+     "why": "Finding smart solutions to daily challenges comes in second place."
+    },
+    {
+     "q": "How many total personal abilities were analyzed in the study?",
+     "o": [
+      "Four",
+      "Six",
+      "Eight"
+     ],
+     "a": 1,
+     "why": "The study focuses on six important abilities."
+    },
+    {
+     "q": "What is the main goal for companies according to the text?",
+     "o": [
+      "To adapt and improve",
+      "To hire more managers",
+      "To reduce employee numbers"
+     ],
+     "a": 0,
+     "why": "Modern companies need to find new ways to adapt and improve."
+    }
+   ],
+   "gloss": {
+    "modern": "modernas",
+    "companies": "empresas",
+    "need": "necesitan",
+    "find": "encontrar",
+    "new": "nuevas",
+    "ways": "formas",
+    "adapt": "adaptarse",
+    "improve": "mejorar",
+    "workplace": "laboral",
+    "innovation": "innovación",
+    "means": "significa",
+    "creating": "crear",
+    "fresh": "frescas",
+    "ideas": "ideas",
+    "better": "mejores",
+    "methods": "métodos",
+    "succeed": "tener éxito",
+    "market": "mercado",
+    "article": "artículo",
+    "looks": "analiza",
+    "how": "cómo",
+    "personal": "personales",
+    "abilities": "habilidades",
+    "help": "ayudan",
+    "achieve": "lograr",
+    "goal": "meta",
+    "researchers": "investigadores",
+    "wanted": "querían",
+    "understand": "entender",
+    "which": "cuáles",
+    "human": "humanas",
+    "talents": "talentos",
+    "most": "más",
+    "useful": "útiles",
+    "driving": "impulsar",
+    "business": "empresarial",
+    "success": "éxito",
+    "study": "estudio",
+    "focuses": "se centra",
+    "six": "seis",
+    "important": "importantes",
+    "include": "incluyen",
+    "working": "trabajar",
+    "teams": "equipos",
+    "communicating": "comunicarse",
+    "clearly": "claramente",
+    "staying": "mantenerse",
+    "strong": "fuertes",
+    "during": "durante",
+    "hard": "difíciles",
+    "times": "tiempos",
+    "thinking": "pensar",
+    "deeply": "profundamente",
+    "leading": "liderar",
+    "others": "demás",
+    "solving": "resolver",
+    "difficult": "difíciles",
+    "issues": "problemas",
+    "test": "probar",
+    "qualities": "cualidades",
+    "experts": "expertos",
+    "analyzed": "analizaron",
+    "data": "datos",
+    "from": "de",
+    "one": "uno",
+    "hundred": "ciento",
+    "twenty-five": "veinticinco",
+    "professionals": "profesionales",
+    "using": "usando",
+    "specialized": "especializado",
+    "statistical": "estadístico",
+    "method": "método",
+    "technique": "técnica",
+    "scientists": "científicos",
+    "complex": "complejas",
+    "relationships": "relaciones",
+    "between": "entre",
+    "different": "diferentes",
+    "factors": "factores",
+    "findings": "hallazgos",
+    "show": "muestran",
+    "guiding": "guiar",
+    "powerful": "poderosa",
+    "tool": "herramienta",
+    "finding": "encontrar",
+    "smart": "inteligentes",
+    "solutions": "soluciones",
+    "daily": "diarios",
+    "challenges": "desafíos",
+    "comes": "viene",
+    "second": "segundo",
+    "place": "lugar",
+    "interestingly": "curiosamente",
+    "four": "cuatro",
+    "traits": "rasgos",
+    "do": "hacen",
+    "not": "no",
+    "connection": "conexión",
+    "creativity": "creatividad",
+    "therefore": "por lo tanto",
+    "build": "construir",
+    "practical": "prácticas",
+    "troubleshooting": "resolución de problemas",
+    "much": "mucho",
+    "demands": "exigencias",
+    "short": "corto",
+    "based": "basado",
+    "research": "investigación",
+    "paper": "documento",
+    "abstract": "resumen",
+    "competencies": "competencias",
+    "published": "publicado",
+    "covering": "cubriendo",
+    "role": "papel"
+   },
+   "sources": [
+    {
+     "title": "The role of soft skills in workplace innovation: Leadership and problem-solving as key drivers",
+     "url": "https://doi.org/10.1016/j.jik.2025.100901",
+     "publisher": "Journal of Innovation & Knowledge",
+     "date": "2025-12-04"
+    }
+   ]
+  },
   {
    "id": "2026-11-21-tech",
    "date": "2026-11-21",

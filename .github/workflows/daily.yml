@@ -2,11 +2,25 @@ name: Daily articles
 
 on:
   schedule:
-    - cron: "0 11 * * *"   # 11:00 UTC = 6:00 a.m. in Colombia
-  workflow_dispatch:        # lets you run it by hand from the Actions tab
+    # GitHub often delays scheduled runs, so we try several times each morning.
+    # If today's articles already exist, the script stops in a few seconds.
+    - cron: "17 8 * * *"    # 3:17 a.m. in Colombia
+    - cron: "43 9 * * *"    # 4:43 a.m.
+    - cron: "37 10 * * *"   # 5:37 a.m.
+    - cron: "21 12 * * *"   # 7:21 a.m.
+  workflow_dispatch:         # run by hand from the Actions tab
+    inputs:
+      force:
+        description: "Regenerate today's articles"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
+
+concurrency:
+  group: daily-articles
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -22,9 +36,10 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
+          FORCE: ${{ inputs.force && '1' || '' }}
       - name: Save results
         run: |
           git config user.name "github-actions"
           git config user.email "actions@users.noreply.github.com"
           git add data/articles.json
-          git diff --staged --quiet || (git commit -m "Daily articles" && git push)
+          git diff --staged --quiet || (git commit -m "Daily articles" && git pull --rebase && git push)

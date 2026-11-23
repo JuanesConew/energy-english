@@ -1,6 +1,495 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "articles": [
+  {
+   "id": "2026-11-23-energy",
+   "date": "2026-11-23",
+   "theme": "energy",
+   "group": "Energy markets and renewables",
+   "kind": "news",
+   "title": "Living in Highly Electrified Countries Around the World",
+   "paras": [
+    "A global climate summit is currently taking place in Turkey, where world leaders discuss increasing clean electricity use. The goal is to reach 35% of total energy use globally by 2035, while the current average is 23%. Some nations are already advancing quickly in this transition, showing different aspects of daily life powered mostly by electricity.",
+    "In Norway, a resident named Unni Berge experiences a highly electrified lifestyle in Oslo. Most cars and public buses are electric, and homes use renewable hydropower and district heating. Although electricity is affordable and convenient, citizens now discuss challenges like rising energy demands from new datacentres and fluctuating prices connected to European gas markets.",
+    "Meanwhile, in Kigali, Rwanda, a taxi driver named Claver Habagusenga uses an electric motorbike and an induction cooker instead of traditional charcoal stoves. The local government supports this shift by reducing taxes on electric vehicles and banning new petrol motorcycles. Drivers swap batteries at stations, enjoying quieter rides and avoiding frequent engine maintenance.",
+    "This summary of daily life in nations with high electricity use is based on a news article published by the Guardian."
+   ],
+   "vocab": [
+    {
+     "w": "electrification",
+     "d": "the process of making something run on electricity",
+     "es": "electrificación"
+    },
+    {
+     "w": "summit",
+     "d": "an important meeting of leaders from different countries",
+     "es": "cumbre"
+    },
+    {
+     "w": "hydropower",
+     "d": "electricity produced by water power",
+     "es": "energía hidroeléctrica"
+    },
+    {
+     "w": "deficit",
+     "d": "a situation where there is not enough of something",
+     "es": "déficit"
+    },
+    {
+     "w": "renewable",
+     "d": "energy sources that do not run out",
+     "es": "renovable"
+    },
+    {
+     "w": "incentives",
+     "d": "things that encourage people to do something",
+     "es": "incentivos"
+    },
+    {
+     "w": "maintenance",
+     "d": "the work of keeping something in good condition",
+     "es": "mantenimiento"
+    },
+    {
+     "w": "inflation",
+     "d": "a general increase in prices over time",
+     "es": "inflación"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the new electricity target discussed at the UN summit?",
+     "o": [
+      "23% by 2035",
+      "35% by 2035",
+      "100% by 2035"
+     ],
+     "a": 1,
+     "why": "The text states the co-hosts want to increase electricity use to 35% of all energy used by 2035."
+    },
+    {
+     "q": "How does Unni Berge mostly travel to work in Oslo?",
+     "o": [
+      "By electric bus",
+      "By petrol car",
+      "By bicycle"
+     ],
+     "a": 0,
+     "why": "She mentions going to work by bus and that almost all buses in Oslo are fully electric."
+    },
+    {
+     "q": "What challenges are Norwegians starting to worry about?",
+     "o": [
+      "A lack of roads",
+      "Rising energy demands from datacentres",
+      "A complete ban on cars"
+     ],
+     "a": 1,
+     "why": "The text notes that rising numbers of datacentres are making consumers wonder about energy usage."
+    },
+    {
+     "q": "How does Claver Habagusenga cook his breakfast in Kigali?",
+     "o": [
+      "Using a charcoal stove",
+      "Using a gas burner",
+      "Using an induction cooker"
+     ],
+     "a": 2,
+     "why": "He states that he learned to prepare his breakfast using an induction cooker."
+    },
+    {
+     "q": "Which publisher originally printed the article?",
+     "o": [
+      "The Guardian",
+      "The New York Times",
+      "BBC News"
+     ],
+     "a": 0,
+     "why": "The final paragraph specifies that the text is based on an article published by the Guardian."
+    }
+   ],
+   "gloss": {
+    "a": "un",
+    "global": "global",
+    "climate": "climática",
+    "summit": "cumbre",
+    "is": "está",
+    "currently": "actualmente",
+    "taking": "teniendo",
+    "place": "lugar",
+    "in": "en",
+    "turkey": "Turquía",
+    "where": "donde",
+    "world": "mundiales",
+    "leaders": "líderes",
+    "discuss": "discuten",
+    "increasing": "aumentar",
+    "clean": "limpia",
+    "electricity": "electricidad",
+    "use": "usan",
+    "the": "el",
+    "goal": "objetivo",
+    "to": "a",
+    "reach": "alcanzar",
+    "35%": "35%",
+    "of": "de",
+    "total": "total",
+    "energy": "energía",
+    "globally": "a nivel mundial",
+    "by": "para",
+    "2035": "2035",
+    "while": "mientras que",
+    "current": "actual",
+    "average": "promedio",
+    "at": "en",
+    "23%": "23%",
+    "some": "algunas",
+    "nations": "naciones",
+    "are": "están",
+    "already": "ya",
+    "advancing": "avanzando",
+    "quickly": "rápidamente",
+    "this": "esta",
+    "transition": "transición",
+    "showing": "mostrando",
+    "different": "diferentes",
+    "aspects": "aspectos",
+    "daily": "diaria",
+    "life": "vida",
+    "powered": "alimentada",
+    "mostly": "principalmente",
+    "norway": "Noruega",
+    "resident": "residente",
+    "named": "llamada",
+    "unni": "Unni",
+    "berge": "Berge",
+    "experiences": "experimenta",
+    "highly": "altamente",
+    "electrified": "electrificada",
+    "lifestyle": "estilo de vida",
+    "oslo": "Oslo",
+    "most": "la mayoría de",
+    "cars": "coches",
+    "and": "y",
+    "public": "públicos",
+    "buses": "autobuses",
+    "homes": "hogares",
+    "renewable": "renovable",
+    "hydropower": "hidroelectricidad",
+    "district": "distrital",
+    "heating": "calefacción",
+    "although": "aunque",
+    "affordable": "asequible",
+    "convenient": "conveniente",
+    "citizens": "ciudadanos",
+    "now": "ahora",
+    "challenges": "desafíos",
+    "like": "como",
+    "rising": "crecientes",
+    "demands": "demandas",
+    "from": "de",
+    "new": "nuevos",
+    "datacentres": "centros de datos",
+    "fluctuating": "fluctuantes",
+    "prices": "precios",
+    "connected": "conectados",
+    "european": "europeos",
+    "gas": "gas",
+    "markets": "mercados",
+    "meanwhile": "mientras tanto",
+    "kigali": "Kigali",
+    "rwanda": "Ruanda",
+    "taxi": "taxi",
+    "driver": "conductor",
+    "claver": "Claver",
+    "habagusenga": "Habagusenga",
+    "electric": "eléctrica",
+    "motorbike": "moto",
+    "an": "un",
+    "induction": "inducción",
+    "cooker": "cocina",
+    "instead": "en lugar de",
+    "traditional": "tradicionales",
+    "charcoal": "carbón",
+    "stoves": "estufas",
+    "local": "local",
+    "government": "gobierno",
+    "supports": "apoya",
+    "shift": "cambio",
+    "reducing": "reduciendo",
+    "taxes": "impuestos",
+    "vehicles": "vehículos",
+    "banning": "prohibiendo",
+    "petrol": "gasolina",
+    "motorcycles": "motocicletas",
+    "drivers": "conductores",
+    "swap": "intercambiar",
+    "batteries": "baterías",
+    "stations": "estaciones",
+    "enjoying": "disfrutando",
+    "quieter": "más silenciosos",
+    "rides": "viajes",
+    "avoiding": "evitando",
+    "frequent": "frecuente",
+    "engine": "motor",
+    "maintenance": "mantenimiento",
+    "summary": "resumen",
+    "countries": "países",
+    "with": "con",
+    "high": "alto",
+    "based": "basado",
+    "news": "noticia",
+    "article": "artículo",
+    "published": "publicado",
+    "guardian": "Guardian"
+   },
+   "sources": [
+    {
+     "title": "‘I spend less, that’s all that matters’: life in the world’s most electrified countries",
+     "url": "https://www.theguardian.com/environment/2026/nov/13/i-spend-less-thats-all-that-matters-life-in-the-worlds-most-electrified-countries",
+     "publisher": "The Guardian",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-23-logistics",
+   "date": "2026-11-23",
+   "theme": "logistics",
+   "group": "Logistics trends",
+   "kind": "paper",
+   "title": "Recent Trends in Logistics and Supply Chain Research",
+   "paras": [
+    "A recent scientific study examines tens of thousands of research papers about logistics and supply chain management. This research uses bibliographic data, which means it analyzes published documents to find important patterns, from the years 2020 to 2024. The goal is to understand how this academic field grew and changed during a recent four-year period.",
+    "The findings show a major increase in published articles. Researchers focused heavily on modern topics like digital transformation, sustainable practices, and risk management. These subjects became very important because of global events, especially the COVID-19 pandemic. Furthermore, nations like China, Iran, and India produced the highest number of studies, backed by strong financial support from their governments.",
+    "The report also highlights key academic leaders. Dmitry Ivanov stands out as the most influential writer based on citation metrics, which measure how often other scientists use his work. Additionally, more than half of the studies were published as open access, meaning the public can read them freely without paying money.",
+    "This short article is based on a research paper abstract published in the academic field. The original study provides a complete overview of global publication trends and key institutions in logistics and supply chain management."
+   ],
+   "vocab": [
+    {
+     "w": "bibliographic",
+     "d": "related to the study of lists of books and articles",
+     "es": "bibliográfico"
+    },
+    {
+     "w": "patterns",
+     "d": "regular and repeated ways in which something happens",
+     "es": "patrones"
+    },
+    {
+     "w": "sustainable",
+     "d": "causing little or no damage to the environment",
+     "es": "sostenible"
+    },
+    {
+     "w": "metrics",
+     "d": "standards for measuring something",
+     "es": "métricas"
+    },
+    {
+     "w": "citation",
+     "d": "a reference to a published work",
+     "es": "cita"
+    },
+    {
+     "w": "open access",
+     "d": "free online availability of scientific research",
+     "es": "acceso abierto"
+    },
+    {
+     "w": "overview",
+     "d": "a general summary of a subject",
+     "es": "resumen general"
+    },
+    {
+     "w": "financial",
+     "d": "relating to money",
+     "es": "financiero"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What years did the study examine?",
+     "o": [
+      "2015 to 2019",
+      "2020 to 2024",
+      "2020 to 2025"
+     ],
+     "a": 1,
+     "why": "The text states the research covers the years 2020 to 2024."
+    },
+    {
+     "q": "Which countries were the top contributors?",
+     "o": [
+      "China, Iran, and India",
+      "The USA, UK, and Germany",
+      "France, Spain, and Italy"
+     ],
+     "a": 0,
+     "why": "The study mentions China, Iran, and India as the top contributing countries."
+    },
+    {
+     "q": "Who was identified as the most influential author?",
+     "o": [
+      "Dmitry Ivanov",
+      "An unknown researcher",
+      "The journal editor"
+     ],
+     "a": 0,
+     "why": "Dmitry Ivanov is named as the most influential writer based on citation metrics."
+    },
+    {
+     "q": "What major global event influenced the research topics?",
+     "o": [
+      "The 2008 financial crisis",
+      "The COVID-19 pandemic",
+      "Climate change summits"
+     ],
+     "a": 1,
+     "why": "Risk management and supply chain resilience grew in response to global challenges like the COVID-19 pandemic."
+    },
+    {
+     "q": "What does open access mean in this text?",
+     "o": [
+      "Anyone can read the studies for free",
+      "Only professors can view the articles",
+      "Papers are locked behind a paywall"
+     ],
+     "a": 0,
+     "why": "Open access means the public can read them freely without paying money."
+    }
+   ],
+   "gloss": {
+    "recent": "reciente",
+    "scientific": "científico",
+    "study": "estudio",
+    "examines": "examina",
+    "tens": "decenas",
+    "thousands": "miles",
+    "research": "investigación",
+    "papers": "artículos",
+    "about": "sobre",
+    "logistics": "logística",
+    "supply": "suministro",
+    "chain": "cadena",
+    "management": "gestión",
+    "uses": "utiliza",
+    "bibliographic": "bibliográfico",
+    "data": "datos",
+    "means": "significa",
+    "analyzes": "analiza",
+    "published": "publicados",
+    "documents": "documentos",
+    "find": "encontrar",
+    "important": "importantes",
+    "patterns": "patrones",
+    "years": "años",
+    "goal": "meta",
+    "understand": "comprender",
+    "how": "cómo",
+    "academic": "académico",
+    "field": "campo",
+    "grew": "creció",
+    "changed": "cambió",
+    "during": "durante",
+    "four": "cuatro",
+    "period": "período",
+    "findings": "hallazgos",
+    "show": "muestran",
+    "major": "mayor",
+    "increase": "aumento",
+    "articles": "artículos",
+    "researchers": "investigadores",
+    "focused": "se enfocaron",
+    "heavily": "fuertemente",
+    "modern": "modernos",
+    "topics": "temas",
+    "like": "como",
+    "digital": "digital",
+    "transformation": "transformación",
+    "sustainable": "sostenible",
+    "practices": "prácticas",
+    "risk": "riesgo",
+    "subjects": "temas",
+    "became": "se volvieron",
+    "very": "muy",
+    "because": "debido",
+    "global": "globales",
+    "events": "eventos",
+    "especially": "especialmente",
+    "covid": "covid",
+    "pandemic": "pandemia",
+    "furthermore": "además",
+    "nations": "naciones",
+    "china": "china",
+    "iran": "irán",
+    "india": "india",
+    "produced": "produjeron",
+    "highest": "más alto",
+    "number": "número",
+    "studies": "estudios",
+    "backed": "respaldados",
+    "strong": "fuerte",
+    "financial": "financiero",
+    "support": "apoyo",
+    "from": "de",
+    "their": "sus",
+    "governments": "gobiernos",
+    "report": "informe",
+    "also": "también",
+    "highlights": "destaca",
+    "key": "clave",
+    "leaders": "líderes",
+    "dmitry": "dmitry",
+    "ivanov": "ivanov",
+    "stands": "destaca",
+    "out": "fuera",
+    "most": "más",
+    "influential": "influyente",
+    "writer": "escritor",
+    "based": "basado",
+    "citation": "cita",
+    "metrics": "métricas",
+    "measure": "miden",
+    "often": "frecuentemente",
+    "other": "otros",
+    "scientists": "científicos",
+    "use": "usan",
+    "work": "trabajo",
+    "additionally": "adicionalmente",
+    "than": "que",
+    "half": "mitad",
+    "open": "abierto",
+    "access": "acceso",
+    "meaning": "significando",
+    "public": "público",
+    "can": "puede",
+    "read": "leer",
+    "them": "ellos",
+    "freely": "libremente",
+    "without": "sin",
+    "paying": "pagar",
+    "money": "dinero",
+    "short": "corto",
+    "article": "artículo",
+    "paper": "documento",
+    "abstract": "resumen",
+    "original": "original",
+    "provides": "proporciona",
+    "complete": "completo",
+    "overview": "resumen general",
+    "trends": "tendencias",
+    "institutions": "instituciones"
+   },
+   "sources": [
+    {
+     "title": "Bibliometric analysis of logistics and supply chain research (2020–2024)",
+     "url": "https://doi.org/10.21622/ibl.2025.05.1.1308",
+     "publisher": "International Business Logistics",
+     "date": "2025-06-24"
+    }
+   ]
+  },
   {
    "id": "2026-11-22-soft",
    "date": "2026-11-22",

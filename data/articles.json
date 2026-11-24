@@ -1,6 +1,232 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "articles": [
+  {
+   "id": "2026-11-24-logistics",
+   "date": "2026-11-24",
+   "theme": "logistics",
+   "group": "Logistics trends",
+   "kind": "news",
+   "title": "Poundland Suppliers Face Major Losses Amid Collapse Fears",
+   "paras": [
+    "Suppliers of the retail chain Poundland worry about losing millions of pounds if the company fails. The business filed a notice to appoint administrators, meaning professionals take control to handle debts, creating a difficult situation for workers and suppliers. Government ministers are currently trying to intervene and find a rescue deal to protect jobs.",
+    "The US restructuring specialist Gordon Brothers, which owns the store, prefers to break up the company and sell individual locations to other retailers. This strategy helps the owner repay a large shareholder loan, but it leaves suppliers with unpaid debts and unsellable merchandise. Vendors state this timing is very convenient because warehouses are full of goods for the busy season.",
+    "Individual suppliers explain that this situation threatens their businesses. Universal Toiletries faces financial risks on delivered and undelivered products, while John Leisure struggles to relocate custom-made items. Highcrest Retail Brands expects significant losses on delivered items. These problems could damage the entire supply chain.",
+    "This article is based on a news report published by the Guardian."
+   ],
+   "vocab": [
+    {
+     "w": "retailer",
+     "d": "a business that sells goods directly to the public",
+     "es": "comerciante minorista"
+    },
+    {
+     "w": "administrators",
+     "d": "professionals who manage a company in financial trouble",
+     "es": "administradores concursales"
+    },
+    {
+     "w": "intervene",
+     "d": "become involved in a situation to help solve it",
+     "es": "intervenir"
+    },
+    {
+     "w": "restructuring",
+     "d": "organizing a company differently to save money",
+     "es": "reestructuración"
+    },
+    {
+     "w": "merchandise",
+     "d": "goods bought and sold",
+     "es": "mercancía"
+    },
+    {
+     "w": "vendor",
+     "d": "a person or company offering goods for sale",
+     "es": "proveedor"
+    },
+    {
+     "w": "inventory",
+     "d": "a complete list of items such as goods in stock",
+     "es": "inventario"
+    },
+    {
+     "w": "supply",
+     "d": "the amount of goods available",
+     "es": "suministro"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the main concern of Poundland's suppliers?",
+     "o": [
+      "They might lose millions of pounds if the chain collapses.",
+      "They want to buy the company themselves.",
+      "They need to hire more staff immediately."
+     ],
+     "a": 0,
+     "why": "The text states suppliers face millions in losses if the chain collapses."
+    },
+    {
+     "q": "Who owns Poundland?",
+     "o": [
+      "The British government",
+      "Gordon Brothers",
+      "Martin Property Group"
+     ],
+     "a": 1,
+     "why": "The text identifies Gordon Brothers as the US owner."
+    },
+    {
+     "q": "Why does the owner prefer breaking up the company?",
+     "o": [
+      "To save all supplier jobs",
+      "To pay off a shareholder loan",
+      "To expand into the US market"
+     ],
+     "a": 1,
+     "why": "Breaking up the company would pay off more of a £30m shareholder loan."
+    },
+    {
+     "q": "What problem does John Leisure face with its products?",
+     "o": [
+      "They are damaged by water.",
+      "They were made specifically for Poundland and are hard to sell elsewhere.",
+      "They are too expensive to transport."
+     ],
+     "a": 1,
+     "why": "Many items were made specifically for Poundland, making them difficult to rehome."
+    },
+    {
+     "q": "How many jobs could be affected when including the supply chain?",
+     "o": [
+      "Up to 12,000 jobs",
+      "Up to 30,000 jobs",
+      "Up to 60,000 jobs"
+     ],
+     "a": 1,
+     "why": "The text estimates up to 30,000 jobs could be affected."
+    },
+    {
+     "q": "Which grammatical structure is used in the phrase \"Suppliers of the retail chain Poundland worry about losing millions of pounds...\"?",
+     "o": [
+      "Passive voice",
+      "Simple present tense for facts and habits",
+      "Third conditional",
+      "Future continuous tense"
+     ],
+     "a": 1,
+     "why": "The verb \"worry\" is in the simple present tense, used here to describe general facts or ongoing states.",
+     "t": "grammar"
+    },
+    {
+     "q": "In the sentence \"The US restructuring specialist Gordon Brothers... prefers to break up the company...\", what grammatical role does \"to break up\" play?",
+     "o": [
+      "A relative clause",
+      "An infinitive phrase acting as an object",
+      "A passive subject",
+      "A modal verb phrase"
+     ],
+     "a": 1,
+     "why": "\"To break up\" is an infinitive functioning as the direct object of the verb \"prefers\".",
+     "t": "grammar"
+    }
+   ],
+   "gloss": {
+    "suppliers": "proveedores",
+    "retail": "minorista",
+    "chain": "cadena",
+    "worry": "se preocupan",
+    "losing": "perder",
+    "millions": "millones",
+    "pounds": "libras",
+    "company": "empresa",
+    "fails": "fracasa",
+    "filed": "presentó",
+    "notice": "aviso",
+    "appoint": "designar",
+    "administrators": "administradores",
+    "professionals": "profesionales",
+    "control": "control",
+    "handle": "manejar",
+    "debts": "deudas",
+    "creating": "creando",
+    "difficult": "difícil",
+    "situation": "situación",
+    "workers": "trabajadores",
+    "government": "gobierno",
+    "ministers": "ministros",
+    "currently": "actualmente",
+    "trying": "intentando",
+    "intervene": "intervenir",
+    "find": "encontrar",
+    "rescue": "rescate",
+    "deal": "acuerdo",
+    "protect": "proteger",
+    "jobs": "empleos",
+    "restructuring": "reestructuración",
+    "specialist": "especialista",
+    "owns": "posee",
+    "store": "tienda",
+    "prefers": "prefiere",
+    "break": "dividir",
+    "individual": "individuales",
+    "locations": "ubicaciones",
+    "retailers": "comerciantes",
+    "strategy": "estrategia",
+    "owner": "propietario",
+    "repay": "repagar",
+    "large": "grande",
+    "shareholder": "accionista",
+    "loan": "préstamo",
+    "leaves": "deja",
+    "unpaid": "impagadas",
+    "unsellable": "invenpbibles",
+    "merchandise": "mercancía",
+    "vendors": "vendedores",
+    "state": "afirman",
+    "timing": "momento",
+    "convenient": "conveniente",
+    "warehouses": "almacenes",
+    "full": "llenos",
+    "goods": "bienes",
+    "busy": "ocupada",
+    "season": "temporada",
+    "explain": "explican",
+    "threatens": "amenaza",
+    "businesses": "negocios",
+    "financial": "financieros",
+    "risks": "riesgos",
+    "delivered": "entregados",
+    "undelivered": "no entregados",
+    "products": "productos",
+    "struggles": "lucha",
+    "relocate": "reubicar",
+    "custom-made": "hechos a medida",
+    "items": "artículos",
+    "expects": "espera",
+    "significant": "significativas",
+    "problems": "problemas",
+    "damage": "dañar",
+    "entire": "entera",
+    "supply": "cadena de suministro",
+    "article": "artículo",
+    "based": "basado",
+    "news": "noticias",
+    "report": "reporte",
+    "published": "publicado",
+    "guardian": "Guardian"
+   },
+   "sources": [
+    {
+     "title": "Don’t let Poundland owner maximise its return at our expense, suppliers say",
+     "url": "https://www.theguardian.com/business/2026/nov/04/poundland-suppliers-facing-losses-gordon-brothers",
+     "publisher": "The Guardian",
+     "date": "2026-11-04"
+    }
+   ],
+   "audio": "audio/2026-11-24-logistics.mp3"
+  },
   {
    "id": "2026-11-23-finance",
    "date": "2026-11-23",

@@ -2,6 +2,511 @@
  "updated": "2026-11-24",
  "articles": [
   {
+   "id": "2026-11-24-logistics",
+   "date": "2026-11-24",
+   "theme": "logistics",
+   "group": "Logistics trends",
+   "kind": "paper",
+   "title": "Digital Transformation in Modern Supply Chain Logistics",
+   "paras": [
+    "Global economic changes are transforming how companies manage their supply chain logistics. Supply chains refer to the network of organizations and activities involved in moving products from suppliers to customers. This paper explores the specific features of modern digital technology integration within these business operations.",
+    "Researchers evaluated information from global digital development indices, such as the Network Readiness Index, to compare automation levels across different economic sectors. They also studied the primary obstacles that organizations face when adopting these technologies in a constantly changing business environment.",
+    "Several major barriers slow down technology adoption in this field. These challenges include a shortage of trained computer personnel, unclear financial returns on investments, risks to digital security, and physical infrastructure limitations. To overcome these issues, the authors suggest practical solutions like building employee digital skills, investing in new technologies, improving cyber security, and using flexible management strategies.",
+    "This article is based on a research paper abstract published in the journal of the Digitalisation of logistics business processes in supply chain management against the background of global trends."
+   ],
+   "vocab": [
+    {
+     "w": "network",
+     "d": "a connected system of things or people",
+     "es": "red"
+    },
+    {
+     "w": "integration",
+     "d": "combining things to work together",
+     "es": "integracion"
+    },
+    {
+     "w": "obstacles",
+     "d": "things that block progress",
+     "es": "obstaculos"
+    },
+    {
+     "w": "shortage",
+     "d": "not having enough of something",
+     "es": "escasez"
+    },
+    {
+     "w": "financial",
+     "d": "relating to money",
+     "es": "financiero"
+    },
+    {
+     "w": "limitations",
+     "d": "restrictions or boundaries",
+     "es": "limitaciones"
+    },
+    {
+     "w": "flexible",
+     "d": "able to change easily",
+     "es": "flexible"
+    },
+    {
+     "w": "strategies",
+     "d": "plans designed to achieve a goal",
+     "es": "estrategias"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the main topic of the article?",
+     "o": [
+      "Digital transformation in supply chain logistics",
+      "Traditional manufacturing methods",
+      "Retail marketing strategies"
+     ],
+     "a": 0,
+     "why": "The text focuses on the digitalisation of logistics business processes in supply chains."
+    },
+    {
+     "q": "Which index was used to compare digital development?",
+     "o": [
+      "The Global Competitiveness Index",
+      "The Network Readiness Index",
+      "The Digital Economy Index"
+     ],
+     "a": 1,
+     "why": "The article specifically mentions the Network Readiness Index."
+    },
+    {
+     "q": "What is mentioned as a barrier to digitalisation?",
+     "o": [
+      "Too many trained IT workers",
+      "A shortage of trained computer personnel",
+      "Excessive government funding"
+     ],
+     "a": 1,
+     "why": "The text states that a lack of qualified IT personnel is one of the main barriers."
+    },
+    {
+     "q": "What do supply chains involve?",
+     "o": [
+      "Moving products from suppliers to customers",
+      "Only managing local retail stores",
+      "Printing paper documents"
+     ],
+     "a": 0,
+     "why": "Paragraph one defines supply chains as networks involved in moving products from suppliers to customers."
+    },
+    {
+     "q": "What is a suggested solution to overcome obstacles?",
+     "o": [
+      "Stopping all technology investments",
+      "Building employee digital skills",
+      "Reducing cyber security measures"
+     ],
+     "a": 1,
+     "why": "The authors suggest practical solutions like building employee digital skills."
+    },
+    {
+     "q": "In the phrase \"companies manage their supply chain logistics\", what grammatical role does \"manage\" play?",
+     "o": [
+      "Past participle",
+      "Base verb in present simple tense",
+      "Gerund",
+      "Infinitive"
+     ],
+     "a": 1,
+     "why": "Manage functions as the main verb in the present simple tense for the subject companies.",
+     "t": "grammar"
+    },
+    {
+     "q": "In the phrase \"To overcome these issues\", what is the grammatical function of \"To overcome\"?",
+     "o": [
+      "An infinitive expressing purpose",
+      "A relative clause",
+      "A passive voice verb",
+      "A comparative adjective"
+     ],
+     "a": 0,
+     "why": "The to-infinitive phrase is used at the beginning of the sentence to express the purpose of the action.",
+     "t": "grammar"
+    }
+   ],
+   "gloss": {
+    "global": "global",
+    "economic": "economico",
+    "changes": "cambios",
+    "transforming": "transformando",
+    "how": "como",
+    "companies": "empresas",
+    "manage": "gestionan",
+    "their": "su",
+    "supply": "de suministro",
+    "chain": "cadena",
+    "logistics": "logistica",
+    "chains": "cadenas",
+    "refer": "se refieren",
+    "network": "red",
+    "organizations": "organizaciones",
+    "activities": "actividades",
+    "involved": "involucradas",
+    "moving": "mover",
+    "products": "productos",
+    "suppliers": "proveedores",
+    "customers": "clientes",
+    "paper": "articulo",
+    "explores": "explora",
+    "specific": "especificas",
+    "features": "caracteristicas",
+    "modern": "modernas",
+    "digital": "digital",
+    "technology": "tecnologia",
+    "integration": "integracion",
+    "within": "dentro",
+    "business": "comerciales",
+    "operations": "operaciones",
+    "researchers": "investigadores",
+    "evaluated": "evaluaron",
+    "information": "informacion",
+    "development": "desarrollo",
+    "indices": "indices",
+    "such": "como",
+    "network readiness index": "indice de preparacion de red",
+    "compare": "comparar",
+    "automation": "automatizacion",
+    "levels": "niveles",
+    "across": "en",
+    "different": "diferentes",
+    "sectors": "sectores",
+    "they": "ellos",
+    "also": "tambien",
+    "studied": "estudiaron",
+    "primary": "principales",
+    "obstacles": "obstaculos",
+    "face": "enfrentan",
+    "when": "cuando",
+    "adopting": "adoptando",
+    "these": "estas",
+    "technologies": "tecnologias",
+    "constantly": "constantemente",
+    "changing": "cambiante",
+    "environment": "entorno",
+    "several": "varios",
+    "major": "principales",
+    "barriers": "barreras",
+    "slow": "frenan",
+    "down": "abajo",
+    "adoption": "adopcion",
+    "field": "campo",
+    "challenges": "desafios",
+    "include": "incluyen",
+    "shortage": "escasez",
+    "trained": "capacitado",
+    "computer": "informatico",
+    "personnel": "personal",
+    "unclear": "poco claros",
+    "financial": "financieros",
+    "returns": "retornos",
+    "investments": "inversiones",
+    "risks": "riesgos",
+    "security": "seguridad",
+    "physical": "fisica",
+    "limitations": "limitaciones",
+    "overcome": "superar",
+    "issues": "problemas",
+    "authors": "autores",
+    "suggest": "sugieren",
+    "practical": "practicas",
+    "solutions": "soluciones",
+    "building": "construir",
+    "employee": "de los empleados",
+    "skills": "habilidades",
+    "investing": "invertir",
+    "new": "nuevas",
+    "improving": "mejorar",
+    "cyber": "cibernetica",
+    "using": "utilizar",
+    "flexible": "flexibles",
+    "management": "gestion",
+    "strategies": "estrategias",
+    "article": "articulo",
+    "based": "basado",
+    "abstract": "resumen",
+    "published": "publicado",
+    "journal": "revista",
+    "digitalisation": "digitalizacion",
+    "processes": "procesos",
+    "background": "fondo",
+    "trends": "tendencias"
+   },
+   "sources": [
+    {
+     "title": "Digitalisation of logistics business processes in supply chain management against the background of global trends",
+     "url": "https://doi.org/10.46783/smart-scm/2025-33-6",
+     "publisher": "Electronic Scientific Journal Intellectualization of Logistics and Supply Chain Management #1 2020",
+     "date": "2025-10-01"
+    }
+   ],
+   "audio": "audio/2026-11-24-logistics.mp3"
+  },
+  {
+   "id": "2026-11-24-energy",
+   "date": "2026-11-24",
+   "theme": "energy",
+   "group": "Energy markets and renewables",
+   "kind": "news",
+   "title": "UK Announces Record Offshore Wind Investment",
+   "paras": [
+    "A major financial commitment of twelve billion pounds has been praised as a strong sign of trust in the nation. This money comes from a German energy business and an American investment firm. The funds will support new wind turbine projects located off the coast of Norfolk. These massive spinning machines generate electricity using natural wind power.",
+    "Officials explain that this plan helps secure local energy supplies and lowers dependence on global markets. Local towns and villages near the coast will experience economic growth through new employment opportunities. Additionally, a state fund is contributing an extra one billion pounds. Building work is scheduled to start early next year, with electricity production expected by the end of the decade.",
+    "Despite this renewable energy push, authorities recently blocked a massive solar power proposal near a historic palace due to environmental concerns. Critics have also questioned recent approvals for fossil fuel extraction in the North Sea. However, leaders emphasize that clean power initiatives will reduce household bills and create thousands of jobs across the supply chain.",
+    "This summary of recent energy developments and political reactions is based on a news report published by The Guardian."
+   ],
+   "vocab": [
+    {
+     "w": "commitment",
+     "d": "a promise or firm agreement to do something",
+     "es": "compromiso"
+    },
+    {
+     "w": "trust",
+     "d": "firm belief in the reliability or truth of someone or something",
+     "es": "confianza"
+    },
+    {
+     "w": "fund",
+     "d": "a sum of money saved or made available for a particular purpose",
+     "es": "fondo"
+    },
+    {
+     "w": "turbine",
+     "d": "a machine that produces power by turning a wheel with blades",
+     "es": "turbina"
+    },
+    {
+     "w": "electricity",
+     "d": "a form of energy resulting from the existence of charged particles",
+     "es": "electricidad"
+    },
+    {
+     "w": "dependence",
+     "d": "the state of relying on or being controlled by someone or something else",
+     "es": "dependencia"
+    },
+    {
+     "w": "employment",
+     "d": "the state of having paid work",
+     "es": "empleo"
+    },
+    {
+     "w": "fossil",
+     "d": "fuel formed from the remains of dead plants and animals",
+     "es": "fósil"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How much money was announced for the new offshore wind investment?",
+     "o": [
+      "£1bn",
+      "£12bn",
+      "£800m"
+     ],
+     "a": 1,
+     "why": "The text states that the government announced a twelve billion pound investment."
+    },
+    {
+     "q": "Where will the Vanguard windfarms be built?",
+     "o": [
+      "Off the Norfolk coast",
+      "Near Blenheim Palace",
+      "In the North Sea"
+     ],
+     "a": 0,
+     "why": "The article mentions the Vanguard West and Vanguard East windfarms off the Norfolk coast."
+    },
+    {
+     "q": "What is the main goal of using local wind power instead of global markets?",
+     "o": [
+      "To increase taxes",
+      "To be under British control and avoid global events",
+      "To export energy to Germany"
+     ],
+     "a": 1,
+     "why": "The text notes the power is under British control, not at the mercy of events elsewhere."
+    },
+    {
+     "q": "Why was the Botley West solar project rejected?",
+     "o": [
+      "It cost too much money",
+      "It would cause harm to the green belt and Blenheim Estate",
+      "It did not create enough jobs"
+     ],
+     "a": 1,
+     "why": "The energy secretary noted it would cause substantial harm to the green belt and the estate."
+    },
+    {
+     "q": "Which organization published the original news article?",
+     "o": [
+      "The Guardian",
+      "BBC News",
+      "Reuters"
+     ],
+     "a": 0,
+     "why": "The final paragraph explicitly states the article is based on a report by The Guardian."
+    },
+    {
+     "q": "In the sentence 'This money comes from a German energy business and an American investment firm,' what is the grammatical function of the verb 'comes'?",
+     "o": [
+      "Present simple tense indicating a general fact",
+      "Present continuous tense for an ongoing action",
+      "Past simple tense for a completed action",
+      "Future tense for an upcoming event"
+     ],
+     "a": 0,
+     "why": "t: grammar. 'comes' is in the present simple tense, which is used here to state a current factual relationship.",
+     "t": "grammar"
+    },
+    {
+     "q": "In the phrase 'power produced by turning a wheel', which grammar structure is 'produced'?",
+     "o": [
+      "A modal verb phrase",
+      "A past participle in a reduced relative clause",
+      "An infinitive verb",
+      "A gerund acting as a subject"
+     ],
+     "a": 1,
+     "why": "t: grammar. 'produced' functions as a past participle in a reduced relative clause meaning 'that is produced'.",
+     "t": "grammar"
+    }
+   ],
+   "gloss": {
+    "major": "importante",
+    "financial": "financiero",
+    "commitment": "compromiso",
+    "twelve": "doce",
+    "billion": "mil millones",
+    "pounds": "libras",
+    "praised": "elogiado",
+    "strong": "fuerte",
+    "sign": "signo",
+    "trust": "confianza",
+    "nation": "nación",
+    "money": "dinero",
+    "comes": "procede",
+    "german": "alemán",
+    "energy": "energía",
+    "business": "empresa",
+    "american": "estadounidense",
+    "investment": "inversión",
+    "firm": "firma",
+    "funds": "fondos",
+    "support": "apoyar",
+    "new": "nuevos",
+    "wind": "eólico",
+    "turbine": "turbina",
+    "projects": "proyectos",
+    "located": "ubicados",
+    "coast": "costa",
+    "norfolk": "Norfolk",
+    "massive": "masivos",
+    "spinning": "giratorios",
+    "machines": "máquinas",
+    "generate": "generan",
+    "electricity": "electricidad",
+    "natural": "natural",
+    "power": "energía",
+    "officials": "funcionarios",
+    "explain": "explican",
+    "plan": "plan",
+    "helps": "ayuda",
+    "secure": "asegurar",
+    "local": "local",
+    "supplies": "suministros",
+    "lowers": "reduce",
+    "dependence": "dependencia",
+    "global": "global",
+    "markets": "mercados",
+    "towns": "ciudades",
+    "villages": "pueblos",
+    "near": "cerca",
+    "experience": "experimentarán",
+    "economic": "económico",
+    "growth": "crecimiento",
+    "employment": "empleo",
+    "opportunities": "oportunidades",
+    "additionally": "además",
+    "state": "estatal",
+    "fund": "fondo",
+    "contributing": "contribuyendo",
+    "extra": "adicional",
+    "building": "construcción",
+    "work": "trabajo",
+    "scheduled": "programado",
+    "start": "empezar",
+    "early": "pronto",
+    "next": "próximo",
+    "year": "año",
+    "production": "producción",
+    "expected": "esperada",
+    "end": "final",
+    "decade": "década",
+    "despite": "a pesar de",
+    "renewable": "renovable",
+    "push": "impulso",
+    "authorities": "autoridades",
+    "recently": "recientemente",
+    "blocked": "bloquearon",
+    "solar": "solar",
+    "proposal": "propuesta",
+    "historic": "histórico",
+    "palace": "palacio",
+    "due": "debido",
+    "environmental": "ambiental",
+    "concerns": "preocupaciones",
+    "critics": "críticos",
+    "questioned": "cuestionado",
+    "approvals": "aprobaciones",
+    "fossil": "fósil",
+    "fuel": "combustible",
+    "extraction": "extracción",
+    "north": "norte",
+    "sea": "mar",
+    "however": "sin embargo",
+    "leaders": "líderes",
+    "emphasize": "enfatizan",
+    "clean": "limpio",
+    "initiatives": "iniciativas",
+    "reduce": "reducirán",
+    "household": "domésticos",
+    "bills": "facturas",
+    "create": "crearán",
+    "thousands": "miles",
+    "jobs": "empleos",
+    "across": "a través de",
+    "chain": "cadena",
+    "summary": "resumen",
+    "recent": "recientes",
+    "developments": "desarrollos",
+    "political": "políticos",
+    "reactions": "reacciones",
+    "based": "basado",
+    "news": "noticias",
+    "report": "reporte",
+    "published": "publicado",
+    "guardian": "The Guardian"
+   },
+   "sources": [
+    {
+     "title": "Burnham lauds £12bn offshore wind investment as he prepares for climate summit",
+     "url": "https://www.theguardian.com/environment/2026/nov/11/burnham-offshore-wind-investment-norfolk-climate-summit-cop31-jackdaw-gasfield",
+     "publisher": "The Guardian",
+     "date": "2026-11-11"
+    }
+   ],
+   "audio": "audio/2026-11-24-energy.mp3"
+  },
+  {
    "id": "2026-11-24-finance",
    "date": "2026-11-24",
    "theme": "finance",

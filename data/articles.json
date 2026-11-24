@@ -2,679 +2,726 @@
  "updated": "2026-11-23",
  "articles": [
   {
-   "id": "2026-11-23-energy",
-   "date": "2026-11-23",
-   "theme": "energy",
-   "group": "Energy markets and renewables",
-   "kind": "news",
-   "title": "UK Old Renewables Face Calls For New Contracts",
-   "paras": [
-    "Older renewable energy projects in Great Britain built between 2003 and 2014 could receive nearly nine billion pounds next year. A recent study shows that high market prices and government support systems are creating massive payments for wind and solar farms. These legacy projects receive extra money on top of what they earn by selling electricity directly to the market. Experts explain that these older systems differ from newer ones because their total earnings rise when gas prices go up.",
-    "Independent researchers argue that this older support system is unsustainable and needs urgent reform. Because these projects were created decades ago to help start the green industry, they now generate profits much higher than investors originally expected. Analysts suggest that the government should replace these outdated agreements with fixed-price contracts to disconnect electricity bills from global gas market changes.",
-    "The government has already considered moving some costs to general taxation and might introduce higher taxes on excess profits if companies refuse to change their contracts. Meanwhile, industry representatives point out that green energy has saved consumers significant money over the years by reducing reliance on imported gas. They emphasize that building more local renewable power remains the best defense against future price increases.",
-    "This article is based on a news report published by the Guardian."
-   ],
-   "vocab": [
-    {
-     "w": "subsidy",
-     "d": "money given by the government to help an industry keep prices low",
-     "es": "subsidio"
-    },
-    {
-     "w": "windfall",
-     "d": "an unexpected large amount of money",
-     "es": "ganancia inesperada"
-    },
-    {
-     "w": "legacy",
-     "d": "something left from the past",
-     "es": "legado"
-    },
-    {
-     "w": "wholesale",
-     "d": "selling goods or energy in large quantities to businesses rather than final consumers",
-     "es": "al por mayor"
-    },
-    {
-     "w": "reform",
-     "d": "to improve a system by making changes",
-     "es": "reformar"
-    },
-    {
-     "w": "contract",
-     "d": "a legal agreement between people or businesses",
-     "es": "contrato"
-    },
-    {
-     "w": "consumer",
-     "d": "a person who buys goods or services for personal use",
-     "es": "consumidor"
-    },
-    {
-     "w": "tax",
-     "d": "money paid to the government",
-     "es": "impuesto"
-    }
-   ],
-   "quiz": [
-    {
-     "q": "When were the older renewable projects discussed in the text built?",
-     "o": [
-      "Between 2003 and 2014",
-      "Between 2015 and 2020",
-      "Before the year 2000"
-     ],
-     "a": 0,
-     "why": "The text states that renewable energy projects were built between 2003 and 2014."
-    },
-    {
-     "q": "Why do older renewable projects receive higher payments?",
-     "o": [
-      "Because they use advanced technology",
-      "Because higher gas market prices increase their subsidy costs",
-      "Because the government decreased taxes"
-     ],
-     "a": 1,
-     "why": "The older support scheme links higher gas market prices to higher subsidy costs."
-    },
-    {
-     "q": "What do independent researchers suggest the government should do?",
-     "o": [
-      "Close all old wind and solar farms",
-      "Replace outdated agreements with fixed-price contracts",
-      "Increase energy taxes for households immediately"
-     ],
-     "a": 1,
-     "why": "Analysts suggest replacing outdated agreements with fixed-price contracts to lower system costs."
-    },
-    {
-     "q": "According to industry representatives, what have wind energy projects done since 2010?",
-     "o": [
-      "Increased foreign gas imports",
-      "Saved consumers money by reducing expensive imports",
-      "Doubled electricity taxes for businesses"
-     ],
-     "a": 1,
-     "why": "Industry groups noted that wind power has saved consumers money by reducing the need for expensive imports."
-    },
-    {
-     "q": "Which publication originally published the news article?",
-     "o": [
-      "The Guardian",
-      "The Times",
-      "BBC News"
-     ],
-     "a": 0,
-     "why": "The final paragraph mentions that the article is based on a report by the Guardian."
-    }
-   ],
-   "gloss": {
-    "older": "más antiguos",
-    "renewable": "renovable",
-    "energy": "energía",
-    "projects": "proyectos",
-    "great": "gran",
-    "britain": "bretaña",
-    "built": "construidos",
-    "between": "entre",
-    "could": "podrían",
-    "receive": "recibir",
-    "nearly": "casi",
-    "nine": "nueve",
-    "billion": "mil millones",
-    "pounds": "libras",
-    "next": "próximo",
-    "year": "año",
-    "recent": "reciente",
-    "study": "estudio",
-    "shows": "muestra",
-    "that": "que",
-    "high": "altos",
-    "market": "mercado",
-    "prices": "precios",
-    "and": "y",
-    "government": "gobierno",
-    "support": "apoyo",
-    "systems": "sistemas",
-    "are": "están",
-    "creating": "creando",
-    "massive": "masivos",
-    "payments": "pagos",
-    "wind": "eólica",
-    "solar": "solar",
-    "farms": "granjas",
-    "these": "estos",
-    "legacy": "legado",
-    "get": "obtienen",
-    "extra": "extra",
-    "money": "dinero",
-    "on": "sobre",
-    "top": "cima",
-    "what": "lo que",
-    "they": "ellos",
-    "earn": "ganan",
-    "by": "por",
-    "selling": "vendiendo",
-    "electricity": "electricidad",
-    "directly": "directamente",
-    "experts": "expertos",
-    "explain": "explican",
-    "differ": "difieren",
-    "from": "de",
-    "newer": "más nuevos",
-    "ones": "unos",
-    "because": "porque",
-    "total": "total",
-    "earnings": "ganancias",
-    "rise": "suben",
-    "when": "cuando",
-    "gas": "gas",
-    "go": "suben",
-    "up": "arriba",
-    "independent": "independientes",
-    "researchers": "investigadores",
-    "argue": "argumentan",
-    "this": "este",
-    "is": "es",
-    "unsustainable": "insostenible",
-    "needs": "necesita",
-    "urgent": "urgente",
-    "reform": "reforma",
-    "created": "creados",
-    "decades": "décadas",
-    "ago": "atrás",
-    "help": "ayudar",
-    "start": "iniciar",
-    "green": "verde",
-    "industry": "industria",
-    "now": "ahora",
-    "generate": "generan",
-    "profits": "ganancias",
-    "much": "mucho",
-    "higher": "más altos",
-    "than": "que",
-    "investors": "inversores",
-    "originally": "originalmente",
-    "expected": "esperaban",
-    "analysts": "analistas",
-    "suggest": "sugieren",
-    "should": "debería",
-    "replace": "reemplazar",
-    "outdated": "obsoletos",
-    "agreements": "acuerdos",
-    "with": "con",
-    "fixed-price": "precio fijo",
-    "contracts": "contratos",
-    "disconnect": "desconectar",
-    "bills": "facturas",
-    "global": "global",
-    "changes": "cambios",
-    "has": "ha",
-    "already": "ya",
-    "considered": "considerado",
-    "moving": "mover",
-    "some": "algunos",
-    "costs": "costos",
-    "general": "general",
-    "taxation": "tributación",
-    "might": "podría",
-    "introduce": "introducir",
-    "taxes": "impuestos",
-    "excess": "exceso",
-    "if": "si",
-    "companies": "empresas",
-    "refuse": "rechazan",
-    "change": "cambiar",
-    "meanwhile": "mientras tanto",
-    "representatives": "representantes",
-    "point": "señalan",
-    "out": "fuera",
-    "saved": "ahorrado",
-    "significant": "significativo",
-    "reducing": "reduciendo",
-    "reliance": "dependencia",
-    "imported": "importado",
-    "emphasize": "enfatizan",
-    "building": "construir",
-    "more": "más",
-    "local": "local",
-    "power": "energía",
-    "remains": "permanece",
-    "best": "mejor",
-    "defense": "defensa",
-    "against": "contra",
-    "future": "futuro",
-    "increase": "aumento",
-    "article": "artículo",
-    "based": "basado",
-    "news": "noticias",
-    "report": "informe",
-    "published": "publicado"
-   },
-   "sources": [
-    {
-     "title": "Great Britain’s oldest renewables projects could rake in nearly £9bn next year",
-     "url": "https://www.theguardian.com/business/2026/nov/16/great-britain-renewable-energy-subsidies-wind-solar",
-     "publisher": "The Guardian",
-     "date": "2026-11-16"
-    }
-   ]
-  },
-  {
    "id": "2026-11-23-finance",
    "date": "2026-11-23",
    "theme": "finance",
    "group": "Corporate finance",
    "kind": "news",
-   "title": "Bank of England Chief Economist Predicts More Interest Rate Rises",
+   "title": "Artificial Intelligence Boom May Cause Higher Global Interest Rates",
    "paras": [
-    "The chief economist of the Bank of England stated that borrowing costs will likely increase again soon. This means interest rates, which are the prices people pay to borrow money, may go up next month and in early 2027. The goal of these changes is to reduce inflation, which refers to the general increase in prices over time.",
-    "Higher interest rates will affect millions of property owners. Many people with home loans, known as mortgages, will need to refinance their borrowing next year. Officials believe that the economy has grown stronger recently, allowing workers to ask for better pay.",
-    "However, energy costs remain high due to conflicts involving Iran, and inflation could reach five percent by next spring. Financial markets believe that borrowing costs could approach five percent by 2027, making loans much more expensive for both families and businesses.",
-    "This practice article is based on a news report published by the Financial Times."
+    "The head of the International Monetary Fund, Kristalina Georgieva, stated that the huge demand for artificial intelligence technology is increasing consumer prices globally. This rising need for computer hardware, combined with energy problems caused by conflict in the Middle East, is creating inflation, which means that the general cost of living and services goes up over time. Because of these pressures, powerful central banks around the world will likely need to make monetary policy stricter by raising interest rates, meaning the cost to borrow money becomes higher.",
+    "During a summit in Shenzhen, Georgieva explained that technology expansion is also helping boost economic growth faster than expected in several nations, even though there are challenges from war. Major financial institutions have already increased borrowing costs this year because expensive oil prices brought back global inflation. Although oil prices have dropped recently due to more crude supply, artificial intelligence continues to be a permanent driver of international trade and productivity.",
+    "However, experts and financial authorities have shared concerns about potential risks in the technology sector. Some institutions warned that rising debt among technology firms shares similarities with past market bubbles, such as the dotcom crash and the 2008 financial crisis, which could threaten financial stability. Despite these warnings, the market remains very strong, highlighted by a massive stock market launch from the company that creates the Claude chatbot.",
+    "This reading practice article is based on a news report published by The Guardian."
    ],
    "vocab": [
     {
-     "w": "economist",
-     "d": "an expert in economics",
-     "es": "economista"
-    },
-    {
-     "w": "borrowing",
-     "d": "taking and using money that must be returned",
-     "es": "préstamo"
-    },
-    {
      "w": "inflation",
-     "d": "a general increase in prices and fall in the purchasing value of money",
+     "d": "a general increase in prices over time",
      "es": "inflación"
     },
     {
-     "w": "mortgages",
-     "d": "legal agreements where a bank lends money to buy a house",
-     "es": "hipotecas"
+     "w": "interest rates",
+     "d": "the percentage charged for borrowing money",
+     "es": "tipos de interés"
     },
     {
-     "w": "refinance",
-     "d": "replace an old loan with a new one under different terms",
-     "es": "refinanciar"
+     "w": "monetary policy",
+     "d": "actions taken by a central bank to influence the economy",
+     "es": "política monetaria"
     },
     {
-     "w": "economy",
-     "d": "the state of a country or region in terms of the production and consumption of goods and services",
-     "es": "economía"
+     "w": "hardware",
+     "d": "the physical components of a computer or technology system",
+     "es": "hardware"
     },
     {
-     "w": "conflict",
-     "d": "a serious disagreement or argument, often a war",
-     "es": "conflicto"
+     "w": "growth",
+     "d": "an increase in the amount of goods and services produced",
+     "es": "crecimiento"
     },
     {
-     "w": "markets",
-     "d": "areas of trade where things are bought and sold",
-     "es": "mercados"
+     "w": "debt",
+     "d": "money that is owed to someone else",
+     "es": "deuda"
+    },
+    {
+     "w": "stability",
+     "d": "the state of being steady and not easily upset",
+     "es": "estabilidad"
+    },
+    {
+     "w": "market",
+     "d": "a system where things are bought and sold",
+     "es": "mercado"
     }
    ],
    "quiz": [
     {
-     "q": "What is the main goal of raising interest rates according to the text?",
+     "q": "What is increasing consumer prices around the world?",
      "o": [
-      "To reduce inflation",
-      "To increase property taxes",
-      "To stop people from buying houses"
+      "Demand for AI technology and energy shocks",
+      "Lower taxes and cheap oil",
+      "Decreased global trade"
      ],
      "a": 0,
-     "why": "The text states that rate rises are meant to combat rising inflation."
+     "why": "The text states that demand for AI hardware and energy shocks from war are pushing up prices."
     },
     {
-     "q": "Who is Huw Pill?",
+     "q": "What do central banks need to do in response to these pressures?",
      "o": [
-      "The prime minister of the UK",
-      "The chief economist of the Bank of England",
-      "A financial analyst at the Financial Times"
+      "Lower taxes",
+      "Tighten monetary policy by raising rates",
+      "Stop all lending"
      ],
      "a": 1,
-     "why": "The source and article identify Huw Pill as the chief economist of the Bank of England."
+     "why": "Georgieva said this calls for a tightening of monetary policy."
     },
     {
-     "q": "What is expected to happen to energy costs due to conflicts?",
+     "q": "What did Georgieva say about AI compared to temporary energy shocks?",
      "o": [
-      "They will decrease significantly",
-      "They will stay exactly the same",
-      "They will remain high"
+      "AI will disappear soon",
+      "AI is forever",
+      "AI is too expensive"
      ],
-     "a": 2,
-     "why": "The text mentions high oil and gas prices driven by the conflict."
+     "a": 1,
+     "why": "She noted that while energy shocks dissipate, AI is for ever."
     },
     {
-     "q": "When could borrowing costs approach five percent?",
+     "q": "What historical events did the central bank compare AI company debt to?",
      "o": [
-      "By 2027",
-      "Next week",
-      "In ten years"
+      "World War II and the Great Depression",
+      "The dotcom bubble and the 2008 financial crisis",
+      "The industrial revolution"
      ],
-     "a": 0,
-     "why": "Financial markets expect interest rates to rise to almost 5% in 2027."
+     "a": 1,
+     "why": "The central bank mentioned historic parallels with the dotcom bubble and the 2008 financial crisis."
     },
     {
      "q": "Which publisher is this article based on?",
      "o": [
-      "The Financial Times",
-      "The BBC",
-      "The Guardian"
+      "The Guardian",
+      "BBC News",
+      "Financial Times"
      ],
      "a": 0,
-     "why": "The final paragraph states the article is based on a news report published by the Financial Times."
+     "why": "The last paragraph states the article is based on news from The Guardian."
     }
    ],
    "gloss": {
-    "chief": "principal",
-    "economist": "economista",
-    "bank": "banco",
-    "england": "inglaterra",
-    "stated": "afirmó",
-    "borrowing": "préstamo",
-    "costs": "costos",
-    "likely": "probablemente",
-    "increase": "aumentar",
-    "again": "nuevamente",
-    "soon": "pronto",
-    "means": "significa",
-    "interest": "interés",
-    "rates": "tasas",
-    "people": "personas",
-    "pay": "pagar",
-    "money": "dinero",
-    "may": "pueden",
-    "go": "subir",
-    "up": "arriba",
-    "next": "próximo",
-    "month": "mes",
-    "early": "temprano",
-    "2027": "2027",
-    "goal": "objetivo",
-    "these": "estos",
-    "changes": "cambios",
-    "reduce": "reducir",
-    "inflation": "inflación",
-    "refers": "refiere",
-    "general": "general",
-    "prices": "precios",
-    "over": "sobre",
-    "time": "tiempo",
+    "artificial": "artificial",
+    "intelligence": "inteligencia",
+    "boom": "auge",
+    "may": "puede",
+    "cause": "causar",
     "higher": "más altos",
-    "affect": "afectar",
-    "millions": "millones",
-    "property": "propiedad",
-    "owners": "propietarios",
-    "many": "muchos",
-    "home": "casa",
-    "loans": "préstamos",
-    "known": "conocidos",
-    "mortgages": "hipotecas",
+    "global": "globales",
+    "interest": "interés",
+    "rates": "tipos",
+    "head": "directora",
+    "international": "internacional",
+    "monetary": "monetaria",
+    "fund": "fondo",
+    "kristalina": "kristalina",
+    "georgieva": "georgieva",
+    "stated": "afirmó",
+    "huge": "enorme",
+    "demand": "demanda",
+    "technology": "tecnología",
+    "increasing": "aumentando",
+    "consumer": "consumidor",
+    "prices": "precios",
+    "globally": "globalmente",
+    "rising": "creciente",
     "need": "necesitar",
-    "refinance": "refinanciar",
+    "computer": "informática",
+    "hardware": "hardware",
+    "combined": "combinada",
+    "energy": "energética",
+    "problems": "problemas",
+    "caused": "causados",
+    "conflict": "conflicto",
+    "middle": "medio",
+    "east": "oriente",
+    "creating": "creando",
+    "inflation": "inflación",
+    "means": "significa",
+    "general": "general",
+    "cost": "coste",
+    "living": "vida",
+    "services": "servicios",
+    "goes": "sube",
+    "over": "con el",
+    "time": "tiempo",
+    "because": "debido",
+    "these": "estas",
+    "pressures": "presiones",
+    "powerful": "potentes",
+    "central": "centrales",
+    "banks": "bancos",
+    "around": "alrededor",
+    "world": "mundo",
+    "will": "van a",
+    "likely": "probablemente",
+    "make": "hacer",
+    "policy": "política",
+    "stricter": "más restrictiva",
+    "raising": "subiendo",
+    "meaning": "significando",
+    "borrow": "pedir prestado",
+    "money": "dinero",
+    "becomes": "se vuelve",
+    "during": "durante",
+    "summit": "cumbre",
+    "shenzhen": "shenzhen",
+    "explained": "explicó",
+    "expansion": "expansión",
+    "also": "también",
+    "helping": "ayudando",
+    "boost": "impulsar",
+    "economic": "económico",
+    "growth": "crecimiento",
+    "faster": "más rápido",
+    "expected": "previsto",
+    "several": "varias",
+    "nations": "naciones",
+    "even": "incluso",
+    "though": "aunque",
+    "there": "hay",
+    "challenges": "desafíos",
+    "war": "guerra",
+    "major": "principales",
+    "financial": "financieras",
+    "institutions": "instituciones",
+    "already": "ya",
+    "increased": "aumentado",
+    "borrowing": "préstamo",
+    "costs": "costes",
+    "this": "este",
     "year": "año",
-    "officials": "funcionarios",
-    "believe": "creen",
-    "economy": "economía",
-    "grown": "crecido",
-    "stronger": "más fuerte",
+    "expensive": "caros",
+    "oil": "petróleo",
+    "brought": "trajo",
+    "back": "de vuelta",
+    "although": "aunque",
+    "dropped": "caído",
     "recently": "recientemente",
-    "allowing": "permitiendo",
-    "workers": "trabajadores",
-    "ask": "pedir",
-    "better": "mejor",
-    "however": "sin embargo",
-    "energy": "energía",
-    "remain": "permanecer",
     "due": "debido",
-    "conflicts": "conflictos",
-    "involving": "que involucran",
-    "iran": "irán",
-    "could": "podría",
-    "reach": "alcanzar",
-    "five": "cinco",
-    "percent": "por ciento",
-    "spring": "primavera",
-    "financial": "financieros",
-    "markets": "mercados",
-    "approach": "acercarse",
-    "making": "haciendo",
-    "much": "muy",
-    "expensive": "caro",
-    "both": "ambos",
-    "families": "familias",
-    "businesses": "empresas",
+    "more": "más",
+    "crude": "crudo",
+    "supply": "oferta",
+    "continues": "continúa",
+    "permanent": "permanente",
+    "driver": "motor",
+    "trade": "comercio",
+    "productivity": "productividad",
+    "experts": "expertos",
+    "authorities": "autoridades",
+    "shared": "compartido",
+    "concerns": "preocupaciones",
+    "potential": "potenciales",
+    "risks": "riesgos",
+    "sector": "sector",
+    "warned": "advertido",
+    "debt": "deuda",
+    "among": "entre",
+    "firms": "empresas",
+    "shares": "comparte",
+    "similarities": "similitudes",
+    "past": "pasadas",
+    "market": "mercado",
+    "bubbles": "burbujas",
+    "such": "como",
+    "dotcom": "punto com",
+    "crash": "crache",
+    "2008": "2008",
+    "crisis": "crisis",
+    "threaten": "amenazar",
+    "stability": "estabilidad",
+    "despite": "a pesar de",
+    "warnings": "advertencias",
+    "remains": "permanece",
+    "very": "muy",
+    "strong": "fuerte",
+    "highlighted": "destacado",
+    "massive": "masiva",
+    "stock": "acciones",
+    "launch": "lanzamiento",
+    "company": "empresa",
+    "creates": "crea",
+    "claude": "claude",
+    "chatbot": "chatbot",
+    "reading": "lectura",
     "practice": "práctica",
     "article": "artículo",
     "based": "basado",
     "news": "noticias",
-    "report": "informe",
+    "report": "reportaje",
     "published": "publicado",
-    "financial times": "financial times"
+    "by": "por",
+    "guardian": "the guardian"
    },
    "sources": [
     {
-     "title": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
-     "url": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist",
+     "title": "AI demand will push up interest rates around the world, IMF head warns",
+     "url": "https://www.theguardian.com/world/2026/nov/19/imf-head-warns-ai-demand-push-up-interest-rates-apec",
      "publisher": "The Guardian",
-     "date": "2026-11-14"
+     "date": "2026-11-19"
     }
-   ]
+   ],
+   "audio": "audio/2026-11-23-finance.mp3"
   },
   {
-   "id": "2026-11-23-soft",
+   "id": "2026-11-23-logistics",
    "date": "2026-11-23",
-   "theme": "soft",
-   "group": "Interpersonal skills",
-   "kind": "paper",
-   "title": "How Sports Build Social Skills in Teenagers",
+   "theme": "logistics",
+   "group": "Logistics trends",
+   "kind": "news",
+   "title": "Weight-Loss Drugs Threaten Global Insulin Supply",
    "paras": [
-    "Teenage years are a critical time for building important social skills and teamwork. These abilities help young people form good peer relationships, stay engaged in school, and maintain long-term mental wellbeing. Many people believe that organized sports provide a natural environment to develop these key competencies.",
-    "A recent study investigated the connection between organized athletic activities and the social skills of adolescents aged twelve to eighteen. The research compared teenagers who played team sports, those who played individual sports, and those who did not participate in any organized sports at all.",
-    "The results showed that teenagers who played sports scored much higher in social skills, leadership, and conflict management than non-participants. Specifically, team-sport athletes achieved the highest scores, followed by individual-sport athletes. Furthermore, playing sports more frequently, staying in sports longer, and having supportive coaches and peers helped improve these social abilities.",
-    "This article is based on a research paper abstract about the role of sports in building social skills and teamwork among youth, published by the authors of the study."
+    "A recent report warns that the massive popularity of new weight-loss medications could harm the production of older treatments. Pharmaceutical companies are shifting their focus toward profitable obesity drugs, which might create shortages of essential diabetes medicines like insulin. Experts note that many patients already struggle to find basic supplies, particularly in poorer nations.",
+    "These popular medications, known as GLP-1 drugs, were originally created to help manage blood sugar levels. However, companies can earn much higher profits from weight-loss injections compared to standard diabetes care. This financial incentive creates a danger that major drug manufacturers might reduce or completely stop their production of traditional insulin.",
+    "While some companies are building new production sites or launching weekly treatments, others plan to remove older products from the market. Furthermore, high prices and limited availability keep these new weight-loss therapies out of reach for millions of people living in developing regions across the world.",
+    "This summary article is based on a news report published by The Guardian, which discusses findings from the Access to Medicine Foundation regarding global pharmaceutical trends and patient access to essential treatments."
    ],
    "vocab": [
     {
-     "w": "competencies",
-     "d": "skills or abilities needed to do something well",
-     "es": "competencias"
+     "w": "shortages",
+     "d": "a situation when there is not enough of something",
+     "es": "escasez"
     },
     {
-     "w": "wellbeing",
-     "d": "the state of feeling healthy and happy",
-     "es": "bienestar"
+     "w": "essential",
+     "d": "completely necessary",
+     "es": "esencial"
     },
     {
-     "w": "adolescents",
-     "d": "young people who are growing up into adults",
-     "es": "adolescentes"
+     "w": "profits",
+     "d": "money gained from doing business after costs",
+     "es": "beneficios"
     },
     {
-     "w": "investigated",
-     "d": "studied or examined a topic carefully",
-     "es": "investigó"
+     "w": "incentive",
+     "d": "something that encourages you to do something",
+     "es": "incentivo"
     },
     {
-     "w": "participants",
-     "d": "people who take part in an activity",
-     "es": "participantes"
+     "w": "manufacturer",
+     "d": "a company that produces goods on a large scale",
+     "es": "fabricante"
     },
     {
-     "w": "leadership",
-     "d": "the ability to guide or lead a group",
-     "es": "liderazgo"
+     "w": "therapies",
+     "d": "treatments for illnesses or injuries",
+     "es": "terapias"
     },
     {
-     "w": "frequently",
-     "d": "happening often",
-     "es": "frecuentemente"
+     "w": "developing",
+     "d": "growing and becoming more advanced economically",
+     "es": "en desarrollo"
     },
     {
-     "w": "supportive",
-     "d": "providing encouragement and emotional help",
-     "es": "de apoyo"
+     "w": "findings",
+     "d": "information discovered from a study or report",
+     "es": "hallazgos"
     }
    ],
    "quiz": [
     {
-     "q": "What age group did the study focus on?",
+     "q": "What is the main concern of the report?",
      "o": [
-      "Children aged 5 to 11",
-      "Teenagers aged 12 to 18",
-      "Young adults aged 19 to 25"
+      "Insulin might become too cheap",
+      "Weight-loss drugs might threaten insulin supply",
+      "Too many people are using insulin pens"
      ],
      "a": 1,
-     "why": "The text states the study examined adolescents aged twelve to eighteen."
+     "why": "The text states that focusing on weight-loss drugs puts insulin supply at risk."
     },
     {
-     "q": "Which group had the highest social skills scores?",
+     "q": "Why do companies prefer making weight-loss drugs?",
      "o": [
-      "Team-sport athletes",
-      "Individual-sport athletes",
-      "Non-participants"
-     ],
-     "a": 0,
-     "why": "The text explains that team-sport youth demonstrated the highest outcomes."
-    },
-    {
-     "q": "What factor did NOT help improve social abilities according to the text?",
-     "o": [
-      "Playing sports more frequently",
-      "Having supportive coaches and peers",
-      "Expensive sports equipment"
-     ],
-     "a": 2,
-     "why": "Expensive equipment is not mentioned in the text as a predictor of social skills."
-    },
-    {
-     "q": "How do social skills help teenagers?",
-     "o": [
-      "They form good peer relationships and stay engaged in school.",
-      "They guarantee a professional athletic career.",
-      "They replace the need for academic education."
-     ],
-     "a": 0,
-     "why": "The text notes these abilities help young people form peer relationships and stay engaged in school."
-    },
-    {
-     "q": "What is this article based on?",
-     "o": [
-      "A novel about teenage athletes",
-      "A research paper abstract about sports and youth social skills",
-      "A government sport policy document"
+      "They require less testing",
+      "They offer higher profit margins",
+      "Governments demand them"
      ],
      "a": 1,
-     "why": "The final paragraph explicitly states the article is based on this research paper abstract."
+     "why": "Companies enjoy greater profit margins on weight-loss injections and pills."
+    },
+    {
+     "q": "Who originally developed GLP-1 medications?",
+     "o": [
+      "To manage type 2 diabetes",
+      "To cure common colds",
+      "To replace all vitamins"
+     ],
+     "a": 0,
+     "why": "The text explains they were initially developed to manage type 2 diabetes."
+    },
+    {
+     "q": "Where do most adults with diabetes live?",
+     "o": [
+      "In wealthy countries",
+      "In low- and middle-income countries",
+      "Only in the United States"
+     ],
+     "a": 1,
+     "why": "Eighty-one percent live in low- and middle-income countries."
+    },
+    {
+     "q": "Which publisher is the article based on?",
+     "o": [
+      "The Guardian",
+      "BBC News",
+      "Reuters"
+     ],
+     "a": 0,
+     "why": "The final paragraph mentions the publisher is The Guardian."
     }
    ],
    "gloss": {
-    "teenage": "adolescente",
-    "years": "años",
-    "critical": "crítico",
-    "time": "tiempo",
-    "building": "construir",
-    "important": "importantes",
-    "social": "sociales",
-    "skills": "habilidades",
-    "teamwork": "trabajo en equipo",
-    "abilities": "habilidades",
-    "help": "ayudan",
-    "young": "jóvenes",
-    "people": "personas",
-    "form": "formar",
-    "good": "buenas",
-    "peer": "pares",
-    "relationships": "relaciones",
-    "stay": "mantenerse",
-    "engaged": "comprometidos",
-    "school": "escuela",
-    "maintain": "mantener",
-    "long-term": "largo plazo",
-    "mental": "mental",
-    "wellbeing": "bienestar",
-    "many": "muchas",
-    "believe": "creen",
-    "that": "que",
-    "organized": "organizados",
-    "sports": "deportes",
-    "provide": "proporcionan",
-    "natural": "natural",
-    "environment": "entorno",
-    "develop": "desarrollar",
-    "key": "clave",
-    "competencies": "competencias",
     "recent": "reciente",
-    "study": "estudio",
-    "investigated": "investigó",
-    "connection": "conexión",
-    "between": "entre",
-    "athletic": "atléticas",
-    "activities": "actividades",
-    "adolescents": "adolescentes",
-    "aged": "de edad",
-    "twelve": "doce",
-    "eighteen": "dieciocho",
-    "research": "investigación",
-    "compared": "comparó",
-    "teenagers": "adolescentes",
-    "played": "practicaban",
-    "team": "equipo",
-    "those": "aquellos",
-    "individual": "individuales",
-    "did": "hacían",
-    "not": "no",
-    "participate": "participaban",
-    "any": "ningún",
-    "all": "todo",
-    "results": "resultados",
-    "showed": "mostraron",
-    "scored": "obtuvieron",
+    "report": "informe",
+    "warns": "advierte",
+    "massive": "masiva",
+    "popularity": "popularidad",
+    "new": "nuevos",
+    "weight-loss": "pérdida de peso",
+    "medications": "medicamentos",
+    "harm": "perjudicar",
+    "production": "producción",
+    "older": "antiguos",
+    "treatments": "tratamientos",
+    "pharmaceutical": "farmacéuticas",
+    "companies": "empresas",
+    "shifting": "cambiando",
+    "focus": "enfoque",
+    "toward": "hacia",
+    "profitable": "rentables",
+    "obesity": "obesidad",
+    "drugs": "fármacos",
+    "might": "podría",
+    "create": "crear",
+    "shortages": "escasez",
+    "essential": "esenciales",
+    "diabetes": "diabetes",
+    "medicines": "medicamentos",
+    "like": "como",
+    "insulin": "insulina",
+    "experts": "expertos",
+    "note": "señalan",
+    "many": "muchos",
+    "patients": "pacientes",
+    "already": "ya",
+    "struggle": "luchan",
+    "find": "encontrar",
+    "basic": "básicos",
+    "supplies": "suministros",
+    "particularly": "particularmente",
+    "pooner": "más pobres",
+    "nations": "naciones",
+    "popular": "populares",
+    "known": "conocidos",
+    "glp-1": "glp-1",
+    "originally": "originalmente",
+    "created": "creados",
+    "help": "ayudar",
+    "manage": "controlar",
+    "blood": "sangre",
+    "sugar": "azúcar",
+    "levels": "niveles",
+    "however": "sin embargo",
+    "earn": "ganar",
     "much": "mucho",
-    "higher": "más altos",
-    "leadership": "liderazgo",
-    "conflict": "conflicto",
-    "management": "gestión",
-    "than": "que",
-    "non-participants": "no participantes",
-    "specifically": "específicamente",
-    "athletes": "atletas",
-    "achieved": "alcanzaron",
-    "scores": "puntuaciones",
-    "followed": "seguidos",
+    "higher": "mayores",
+    "profits": "beneficios",
+    "injections": "inyecciones",
+    "compared": "comparado",
+    "standard": "estándar",
+    "care": "atención",
+    "financial": "financiero",
+    "incentive": "incentivo",
+    "danger": "peligro",
+    "major": "principales",
+    "manufacturer": "fabricante",
+    "reduce": "reducir",
+    "completely": "completamente",
+    "stop": "detener",
+    "traditional": "tradicional",
+    "while": "mientras",
+    "building": "construyendo",
+    "sites": "sitios",
+    "launching": "lanzando",
+    "weekly": "semanales",
+    "others": "otros",
+    "plan": "planean",
+    "remove": "retirar",
+    "products": "productos",
+    "market": "mercado",
     "furthermore": "además",
-    "playing": "practicar",
-    "more": "más",
-    "frequently": "frecuentemente",
-    "staying": "mantenerse",
-    "longer": "más tiempo",
-    "having": "tener",
-    "supportive": "de apoyo",
-    "coaches": "entrenadores",
-    "peers": "compañeros",
-    "helped": "ayudaron",
-    "improve": "mejorar",
-    "these": "estas",
-    "article": "artículo",
+    "prices": "precios",
+    "limited": "limitada",
+    "availability": "disponibilidad",
+    "keep": "mantienen",
+    "therapies": "terapias",
+    "out": "fuera",
+    "reach": "alcance",
+    "millions": "millones",
+    "people": "personas",
+    "living": "que viven",
+    "developing": "en desarrollo",
+    "regions": "regiones",
+    "across": "a través",
+    "world": "mundo",
+    "summary": "resumen",
     "based": "basado",
-    "paper": "documento",
-    "abstract": "resumen",
-    "role": "papel",
-    "among": "entre",
-    "youth": "juventud",
+    "news": "noticias",
     "published": "publicado",
-    "authors": "autores"
+    "guardian": "guardian",
+    "discusses": "analiza",
+    "findings": "hallazgos",
+    "access": "acceso",
+    "medicine": "medicina",
+    "foundation": "fundación",
+    "regarding": "respecto a",
+    "global": "global",
+    "trends": "tendencias"
    },
    "sources": [
     {
-     "title": "The role of sports in building social skills and teamwork among youth",
-     "url": "https://doi.org/10.22271/journalofsport.2025.v10.i2e.3114",
-     "publisher": "International Journal of Physiology Nutrition and Physical Education",
-     "date": "2025-07-01"
+     "title": "Pharma firms’ focus on weight-loss drugs could put insulin supply at risk, experts warn",
+     "url": "https://www.theguardian.com/business/2026/nov/10/pharma-firms-weight-loss-drugs-insulin-glp-1-ozempic-mounjaro",
+     "publisher": "The Guardian",
+     "date": "2026-11-10"
     }
-   ]
+   ],
+   "audio": "audio/2026-11-23-logistics.mp3"
+  },
+  {
+   "id": "2026-11-23-energy",
+   "date": "2026-11-23",
+   "theme": "energy",
+   "group": "Energy markets and renewables",
+   "kind": "news",
+   "title": "Life in Countries With High Electricity Use",
+   "paras": [
+    "World leaders at a climate summit want more nations to use electricity for a larger part of their energy needs. While the global average is relatively low today, certain places are already far ahead in this transition. These nations rely heavily on clean power to run daily life, transport, and heating systems.",
+    "In Norway, almost all new cars sold are electric, and hydropower provides most of the energy. Citizens use electric public transport, heating networks, and personal vehicles. However, authorities warn that increasing demand from new technology and data centers could create energy shortages and higher prices for consumers in the future.",
+    "Meanwhile, Rwanda is actively promoting electric mobility by offering financial incentives and removing taxes on electric vehicles. Authorities have also stopped registering new motorcycles that run on fossil fuels in the capital city. Workers like taxi drivers now use electric bikes, which reduce harmful smoke at home and require less maintenance than traditional petrol engines.",
+    "This text provides a summary of daily life in heavily electrified nations based on a news article published by the Guardian."
+   ],
+   "vocab": [
+    {
+     "w": "transition",
+     "d": "the process of changing from one state to another",
+     "es": "transición"
+    },
+    {
+     "w": "rely",
+     "d": "to depend on someone or something for help or power",
+     "es": "depender"
+    },
+    {
+     "w": "shortages",
+     "d": "situations when there is not enough of something",
+     "es": "escasez"
+    },
+    {
+     "w": "incentives",
+     "d": "things that encourage people to do something",
+     "es": "incentivos"
+    },
+    {
+     "w": "fossil fuels",
+     "d": "natural fuels such as coal or oil",
+     "es": "combustibles fósiles"
+    },
+    {
+     "w": "maintenance",
+     "d": "the work needed to keep something in good condition",
+     "es": "mantenimiento"
+    },
+    {
+     "w": "summit",
+     "d": "an important meeting of world leaders",
+     "es": "cumbre"
+    },
+    {
+     "w": "consumers",
+     "d": "people who buy goods and services",
+     "es": "consumidores"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the main goal of world leaders at the climate summit mentioned in the text?",
+     "o": [
+      "To stop using electricity completely",
+      "To increase electricity use to 35% of all energy by 2035",
+      "To ban all cars in major cities"
+     ],
+     "a": 1,
+     "why": "The text states that leaders want to increase electricity use to 35% of all energy used by 2035."
+    },
+    {
+     "q": "What is the primary source of electricity in Norway?",
+     "o": [
+      "Hydropower",
+      "Coal power",
+      "Nuclear power"
+     ],
+     "a": 0,
+     "why": "The text explains that hydropower produces 90% of all electricity in Norway."
+    },
+    {
+     "q": "What potential problem do Norwegian authorities warn about?",
+     "o": [
+      "A lack of drivers",
+      "A power deficit and higher energy prices",
+      "Too much snow in the summer"
+     ],
+     "a": 1,
+     "why": "Authorities warn that rising energy demands could cause a power deficit and higher prices."
+    },
+    {
+     "q": "How is Rwanda encouraging electric mobility?",
+     "o": [
+      "By making petrol free for everyone",
+      "By removing taxes on electric vehicles and offering incentives",
+      "By closing all roads to cars"
+     ],
+     "a": 1,
+     "why": "The government removed taxes on e-bikes and vehicles and offered incentives for charging stations."
+    },
+    {
+     "q": "Which publisher originally printed the article this text is based on?",
+     "o": [
+      "The Guardian",
+      "The New York Times",
+      "BBC News"
+     ],
+     "a": 0,
+     "why": "The final paragraph states the article is based on a news report by the Guardian."
+    }
+   ],
+   "gloss": {
+    "world": "mundial",
+    "leaders": "líderes",
+    "climate": "climática",
+    "summit": "cumbre",
+    "want": "quieren",
+    "more": "más",
+    "nations": "naciones",
+    "use": "uso",
+    "electricity": "electricidad",
+    "larger": "mayor",
+    "part": "parte",
+    "energy": "energía",
+    "needs": "necesidades",
+    "while": "mientras que",
+    "global": "global",
+    "average": "promedio",
+    "relatively": "relativamente",
+    "low": "bajo",
+    "today": "hoy",
+    "certain": "ciertos",
+    "places": "lugares",
+    "already": "ya",
+    "far": "muy",
+    "ahead": "adelante",
+    "transition": "transición",
+    "these": "estas",
+    "rely": "dependen",
+    "heavily": "altamente",
+    "clean": "limpia",
+    "power": "energía",
+    "run": "gestionar",
+    "daily": "diaria",
+    "life": "vida",
+    "transport": "transporte",
+    "heating": "calefacción",
+    "systems": "sistemas",
+    "norway": "Noruega",
+    "almost": "casi",
+    "new": "nuevos",
+    "cars": "autos",
+    "sold": "vendidos",
+    "electric": "eléctricos",
+    "hydropower": "energía hidroeléctrica",
+    "provides": "proporciona",
+    "most": "la mayor parte",
+    "citizens": "ciudadanos",
+    "public": "público",
+    "networks": "redes",
+    "personal": "personales",
+    "vehicles": "vehículos",
+    "however": "sin embargo",
+    "authorities": "autoridades",
+    "warn": "advierten",
+    "increasing": "creciente",
+    "demand": "demanda",
+    "technology": "tecnología",
+    "data": "de datos",
+    "centers": "centros",
+    "could": "podría",
+    "create": "crear",
+    "shortages": "escasez",
+    "higher": "más altos",
+    "prices": "precios",
+    "consumers": "consumidores",
+    "future": "futuro",
+    "meanwhile": "mientras tanto",
+    "rwanda": "Ruanda",
+    "actively": "activamente",
+    "promoting": "promoviendo",
+    "mobility": "movilidad",
+    "offering": "ofreciendo",
+    "financial": "financieros",
+    "incentives": "incentivos",
+    "removing": "eliminando",
+    "taxes": "impuestos",
+    "stopped": "detenido",
+    "registering": "registrar",
+    "motorcycles": "motocicletas",
+    "burn": "quemar",
+    "fossil": "fósiles",
+    "fuels": "combustibles",
+    "capital": "capital",
+    "city": "ciudad",
+    "workers": "trabajadores",
+    "like": "como",
+    "taxi": "taxi",
+    "drivers": "conductores",
+    "now": "ahora",
+    "bikes": "bicicletas",
+    "reduce": "reducen",
+    "harmful": "dañino",
+    "smoke": "humo",
+    "home": "casa",
+    "require": "requieren",
+    "less": "menos",
+    "maintenance": "mantenimiento",
+    "than": "que",
+    "traditional": "tradicionales",
+    "petrol": "gasolina",
+    "engines": "motores",
+    "text": "texto",
+    "summary": "resumen",
+    "electrified": "electrificadas",
+    "based": "basado",
+    "news": "noticias",
+    "article": "artículo",
+    "published": "publicado",
+    "guardian": "Guardian"
+   },
+   "sources": [
+    {
+     "title": "‘I spend less, that’s all that matters’: life in the world’s most electrified countries",
+     "url": "https://www.theguardian.com/environment/2026/nov/13/i-spend-less-thats-all-that-matters-life-in-the-worlds-most-electrified-countries",
+     "publisher": "The Guardian",
+     "date": "2026-11-13"
+    }
+   ],
+   "audio": "audio/2026-11-23-energy.mp3"
   },
   {
    "id": "2026-11-22-soft",
@@ -899,7 +946,8 @@
      "publisher": "Abdimas Galuh",
      "date": "2026-09-30"
     }
-   ]
+   ],
+   "audio": "audio/2026-11-22-soft.mp3"
   },
   {
    "id": "2026-11-22-energy",
@@ -1129,7 +1177,8 @@
      "publisher": "Mathematics",
      "date": "2026-07-10"
     }
-   ]
+   ],
+   "audio": "audio/2026-11-22-energy.mp3"
   },
   {
    "id": "2026-11-22-tech",
@@ -1376,7 +1425,8 @@
      "publisher": "Zenodo (CERN European Organization for Nuclear Research)",
      "date": "2026-05-25"
     }
-   ]
+   ],
+   "audio": "audio/2026-11-22-tech.mp3"
   },
   {
    "id": "2026-11-22-finance",
@@ -1614,7 +1664,8 @@
      "publisher": "Digital Commons @ Connecticut College (Connecticut College)",
      "date": "2026-01-01"
     }
-   ]
+   ],
+   "audio": "audio/2026-11-22-finance.mp3"
   },
   {
    "id": "2026-11-22-soft",
@@ -1846,7 +1897,8 @@
      "publisher": "Journal of Innovation & Knowledge",
      "date": "2025-12-04"
     }
-   ]
+   ],
+   "audio": "audio/2026-11-22-soft.mp3"
   },
   {
    "id": "2026-11-21-tech",
@@ -2109,7 +2161,8 @@
      "publisher": "SCCTS Journal of Embedded Systems Design and Applications",
      "date": "2026-10-05"
     }
-   ]
+   ],
+   "audio": "audio/2026-11-21-tech.mp3"
   },
   {
    "id": "2026-11-21-logistics",
@@ -2332,7 +2385,8 @@
      "publisher": "The Guardian",
      "date": "2026-11-19"
     }
-   ]
+   ],
+   "audio": "audio/2026-11-21-logistics.mp3"
   },
   {
    "id": "2026-11-21-energy",
@@ -2537,7 +2591,8 @@
      "publisher": "The Guardian",
      "date": "2026-11-11"
     }
-   ]
+   ],
+   "audio": "audio/2026-11-21-energy.mp3"
   },
   {
    "id": "2026-11-20-soft",
@@ -2653,7 +2708,8 @@
      "publisher": "International Journal of Innovations in Science Engineering and Management.",
      "date": "2026-03-12"
     }
-   ]
+   ],
+   "audio": "audio/2026-11-20-soft.mp3"
   },
   {
    "id": "2026-11-20-energy",
@@ -2769,7 +2825,8 @@
      "publisher": "Fìnansi Ukraïni",
      "date": "2026-03-31"
     }
-   ]
+   ],
+   "audio": "audio/2026-11-20-energy.mp3"
   },
   {
    "id": "2026-11-20-finance",
@@ -2885,7 +2942,8 @@
      "publisher": "The Guardian",
      "date": "2026-11-03"
     }
-   ]
+   ],
+   "audio": "audio/2026-11-20-finance.mp3"
   }
  ]
 }

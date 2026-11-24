@@ -6,7 +6,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 OUT = Path("data/articles.json")
-KEEP = 60
+KEEP_DAYS = 14   # articles older than two weeks are deleted
 TODAY = datetime.now(timezone(timedelta(hours=-5))).date().isoformat()  # Colombia date
 MODELS = [m for m in [os.getenv("GEMINI_MODEL"), "gemini-flash-lite-latest", "gemini-flash-latest"] if m]
 
@@ -34,7 +34,7 @@ Return JSON only, with exactly this shape:
  "vocab": [{{"w": "word", "d": "simple English definition", "es": "traduccion al espanol"}}],
  "quiz": [{{"q": "question", "o": ["option A", "option B", "option C"], "a": 0, "why": "short explanation"}}],
  "gloss": {{"word": "traduccion"}}}}
-vocab: 8 useful words from your article. quiz: 5 questions about your article, 3 options each, vary the correct index.
+vocab: 8 useful words from your article. quiz: 7 questions. Questions 1-5 check comprehension of your article (3 options each). Questions 6-7 are harder, TOEFL-style GRAMMAR questions about a specific structure used in your article (for example passive voice, relative or reduced clauses, conditionals, modal verbs, comparatives, gerunds and infinitives, linking phrases): quote the sentence or phrase from your article and ask about its grammar, with 4 options each, and add "t": "grammar" to these two questions. Vary the correct index. For every question, "why" briefly explains the answer (for grammar questions, the rule).
 gloss: the Spanish translation of each word's meaning IN THIS TEXT (1-3 words) for every content word of your article (nouns, verbs, adjectives, adverbs; skip words like a, the, of, and, is, to, in). Use lowercase keys, written exactly as the word appears in your article.
 SOURCE ({kind}): {title}
 {text}"""
@@ -126,8 +126,8 @@ def gemini(prompt):
 def valid(a):
     try:
         return (isinstance(a["title"], str) and 3 <= len(a["paragraphs"]) <= 6 and len(a["vocab"]) >= 5
-                and len(a["quiz"]) >= 4
-                and all(len(q["o"]) == 3 and isinstance(q["a"], int) and q["a"] in (0, 1, 2) for q in a["quiz"]))
+                and len(a["quiz"]) >= 5
+                and all(len(q["o"]) in (3, 4) and isinstance(q["a"], int) and 0 <= q["a"] < len(q["o"]) for q in a["quiz"]))
     except Exception:
         return False
 
@@ -158,6 +158,9 @@ def main():
                 if not a:
                     raise RuntimeError("Gemini output was not valid")
                 used.add(src["source"]["url"])
+                if len(a["quiz"]) >= 7 and not any(q.get("t") == "grammar" for q in a["quiz"]):
+                    for q in a["quiz"][-2:]:
+                        q["t"] = "grammar"
                 gl = a.get("gloss") if isinstance(a.get("gloss"), dict) else {}
                 gloss = {str(k).lower().strip(): str(v).strip()[:60] for k, v in gl.items() if isinstance(v, str) and v.strip()}
                 new.append({"id": f"{TODAY}-{k}", "date": TODAY, "theme": k, "group": t["label"], "kind": kind,
@@ -169,8 +172,10 @@ def main():
                 print(f"FAILED {k} ({kind}): {e}")
     if not new:
         sys.exit("No articles were generated.")
+    cutoff = (datetime.strptime(TODAY, "%Y-%m-%d").date() - timedelta(days=KEEP_DAYS - 1)).isoformat()
+    kept = [a for a in new + old if a["date"] >= cutoff]
     OUT.parent.mkdir(exist_ok=True)
-    OUT.write_text(json.dumps({"updated": TODAY, "articles": (new + old)[:KEEP]}, ensure_ascii=False, indent=1), "utf-8")
+    OUT.write_text(json.dumps({"updated": TODAY, "articles": kept}, ensure_ascii=False, indent=1), "utf-8")
 
 
 if __name__ == "__main__":

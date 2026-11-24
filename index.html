@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>The Juanes’s Topics</title>
+<title>Juanes’s Topics</title>
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="theme-color" content="#0D304E">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="The Juanes’s Topics">
+<meta name="apple-mobile-web-app-title" content="Juanes’s Topics">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Handlee&display=swap" rel="stylesheet">
 <style>
@@ -183,7 +183,7 @@ function load(k){
   $('quiz').innerHTML = cur.quiz.map((it, i) => `<fieldset><legend>${i + 1}. ${esc(it.q)}</legend>` +
     it.o.map((t, j) => `<label><input type="radio" name="q${i}" value="${j}">${esc(t)}</label>`).join('') + `<p class="fb" id="fb${i}"></p></fieldset>`).join('');
   document.querySelectorAll('.dd .topic').forEach(b => b.setAttribute('aria-current', D[b.dataset.k] === cur));
-  window.scrollTo(0, 0);
+  window.scrollTo(0, 0); prepAudio();
 }
 $('toggleEs').onclick = () => { const on = $('vocab').classList.toggle('es-on'); $('toggleEs').textContent = on ? 'Ocultar español' : 'Mostrar español'; };
 
@@ -200,6 +200,34 @@ $('check').onclick = () => {
 };
 $('reset').onclick = () => { $('quiz').reset(); document.querySelectorAll('.fb').forEach(e => { e.textContent = ''; e.className = 'fb'; }); $('score').textContent = ''; };
 
+/* ---------- pre-recorded audio with exact word timings ---------- */
+const AU = new Audio(); AU.preload = 'auto';
+let useAudio = false, timing = [], raf = 0, tok = 0;
+function tick(){
+  const ms = AU.currentTime * 1000;
+  if (timing.length && timing[0][0] <= ms) {
+    let lo = 0, hi = timing.length - 1;
+    while (lo < hi) { const m = (lo + hi + 1) >> 1; if (timing[m][0] <= ms) lo = m; else hi = m - 1; }
+    idx = at(timing[lo][1]); mark(idx);
+  }
+  raf = requestAnimationFrame(tick);
+}
+AU.onplay = () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(tick); };
+AU.onpause = () => cancelAnimationFrame(raf);
+AU.onended = () => { cancelAnimationFrame(raf); st = 'idle'; idx = 0; mark(-1); btn(); };
+AU.onerror = () => { useAudio = false; };
+async function prepAudio(){
+  const my = ++tok; useAudio = false; timing = [];
+  if (!cur.audio) return;
+  try {
+    const r = await fetch(cur.audio.replace(/\.mp3$/, '.json'));
+    if (!r.ok) return;
+    const t = await r.json();
+    if (my !== tok) return;
+    timing = t; AU.src = cur.audio; useAudio = true;
+  } catch (e) {}
+}
+
 /* ---------- audio: play / pause / resume / stop ---------- */
 const at = ci => { let lo = 0, hi = starts.length - 1; while (lo < hi) { const m = (lo + hi + 1) >> 1; if (starts[m] <= ci) lo = m; else hi = m - 1; } return lo; };
 function mark(i){
@@ -210,8 +238,8 @@ function mark(i){
   if (r.bottom > innerHeight - 170 || r.top < 90) s.scrollIntoView({block: 'center', behavior: 'smooth'});
 }
 function btn(){ $('pp').textContent = st === 'playing' ? '⏸ Pause' : st === 'paused' ? '▶ Resume' : '▶ Listen'; }
-function halt(){ cu = null; clearInterval(timer); if (synth) synth.cancel(); }
-function stopAll(){ halt(); st = 'idle'; idx = 0; mark(-1); btn(); }
+function halt(){ cu = null; clearInterval(timer); if (synth) synth.cancel(); AU.pause(); }
+function stopAll(){ halt(); try { AU.currentTime = 0; } catch (e) {} st = 'idle'; idx = 0; mark(-1); btn(); }
 function pickVoice(){
   const en = synth.getVoices().filter(v => v.lang.startsWith('en'));
   return en.find(v => v.localService && v.lang === 'en-US') || en.find(v => v.localService) || null;
@@ -232,9 +260,14 @@ function speak(from){
   synth.speak(u);
 }
 $('pp').onclick = () => {
-  if (!synth) { alert('Your browser does not support audio.'); return; }
   if (st === 'playing') { halt(); st = 'paused'; }
-  else { speak(st === 'paused' ? idx : 0); st = 'playing'; }
+  else if (useAudio) {
+    const p = AU.play(); if (p && p.catch) p.catch(() => { useAudio = false; st = 'idle'; btn(); });
+    st = 'playing';
+  } else {
+    if (!synth) { alert('Your browser does not support audio.'); return; }
+    speak(st === 'paused' ? idx : 0); st = 'playing';
+  }
   btn();
 };
 $('stopb').onclick = stopAll;
@@ -292,7 +325,7 @@ async function fetchArticles(){
   if (arts === null) return;
   const A = {};
   arts.forEach(x => { A[x.id] = {title: x.title, group: x.group, date: x.date, grp: dayLabel(x.date), kind: x.kind, paras: x.paras || [],
-    vocab: x.vocab || [], quiz: x.quiz || [], gloss: x.gloss || {}, sources: x.sources || [], note: ''}; });
+    vocab: x.vocab || [], quiz: x.quiz || [], gloss: x.gloss || {}, audio: x.audio || '', sources: x.sources || [], note: ''}; });
   D = {...A, ...LESSONS}; fetchedAt = Date.now(); buildList();
 }
 async function init(){

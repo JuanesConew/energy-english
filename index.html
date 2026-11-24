@@ -31,7 +31,8 @@ summary::-webkit-details-marker{display:none}
 summary::after{content:" ▾"}
 .dd{position:absolute;left:0;right:0;top:calc(100% + 6px);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px;max-height:60vh;overflow:auto;z-index:6;box-shadow:0 8px 24px rgba(0,0,0,.25)}
 .grp{margin:6px 6px 4px;font:700 .8rem "Bricolage Grotesque",sans-serif;color:var(--muted)}
-.topic{display:block;width:100%;text-align:left;margin:0 0 4px;padding:10px 12px;border:0;border-radius:8px;background:transparent;font-size:.95rem;font-weight:600}
+.topic{display:flex;justify-content:space-between;align-items:center;gap:10px;width:100%;text-align:left;margin:0 0 4px;padding:10px 12px;border:0;border-radius:8px;background:transparent;font-size:.95rem;font-weight:600}
+.tt{min-width:0}.bd{white-space:nowrap;font-size:.85rem;color:var(--ok);font-weight:700}
 .topic small{display:block;font-weight:500;color:var(--muted);font-size:.78rem;margin-top:2px}
 .topic:hover,.topic[aria-current=true]{background:var(--bg)}
 #theme{border:1px solid var(--line);background:var(--card);border-radius:8px;width:42px;height:40px;font-size:1.1rem}
@@ -60,7 +61,7 @@ input[type=radio]{margin-right:8px;accent-color:var(--wind)}
 .fb{font-size:.92rem;margin:4px 0 0}.good{color:var(--ok)}.wrong{color:var(--bad)}
 #score{font:700 1.2rem "Bricolage Grotesque",sans-serif;margin-top:14px}
 .player{position:fixed;left:0;right:0;bottom:0;z-index:7;display:flex;gap:10px;justify-content:center;background:var(--card);border-top:1px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-bottom))}
-.player .b{flex:1;max-width:220px}
+.player .b{flex:1;max-width:220px;padding:10px 8px;font-size:.95rem}
 .sheet{position:fixed;z-index:8;left:8px;right:8px;bottom:calc(72px + env(safe-area-inset-bottom));max-height:46vh;overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;box-shadow:0 8px 28px rgba(0,0,0,.35);font-size:1rem;line-height:1.5}
 .sheet[hidden]{display:none}
 .sh{display:flex;align-items:baseline;gap:10px}
@@ -72,6 +73,8 @@ input[type=radio]{margin-right:8px;accent-color:var(--wind)}
 .tr[hidden]{display:none}
 .pos{font:700 .8rem "Bricolage Grotesque",sans-serif;color:var(--muted);margin:10px 0 0}
 .def{margin:2px 0}.ex{margin:2px 0;font-size:.9rem;color:var(--muted);font-style:italic}
+.sayq{margin:0 0 8px;padding:6px 10px}
+.tag{font:700 .72rem "Bricolage Grotesque",sans-serif;color:var(--sun);margin-left:8px;white-space:nowrap}
 .mini{margin-top:10px;padding:8px 12px;border:2px solid var(--ink);border-radius:8px;background:transparent;font-weight:700;font-size:.9rem}
 @media (min-width:900px){.sheet{left:auto;right:20px;width:370px}}
 </style>
@@ -118,15 +121,23 @@ input[type=radio]{margin-right:8px;accent-color:var(--wind)}
 <div class="player">
   <button class="b" id="pp" type="button">▶ Listen</button>
   <button class="b alt" id="stopb" type="button">■ Stop</button>
+  <button class="b alt" id="nextb" type="button" hidden>Next ⏭</button>
 </div>
 
 <script>
-const LESSONS = {"solar": {"title": "Why solar power is now big business", "group": "Energy markets and renewables", "paras": ["Twenty years ago, solar panels were expensive and mostly used for small projects, such as powering a calculator or a house in a remote area. Today, they are one of the cheapest ways to produce electricity in many countries. The cost of solar panels has fallen sharply, and this change has attracted investors, governments and large companies.", "Most solar projects follow a similar model. A developer finds land, gets the necessary permits, and builds a solar farm. Then it signs a power purchase agreement, or PPA, with a buyer. In a PPA, the buyer agrees to purchase the electricity at a fixed price for many years, often between 10 and 25 years. This gives the developer a stable income and makes it easier to get a bank loan.", "However, solar energy has a challenge: the sun does not shine at night. Because of this, the electricity grid must balance supply and demand at every moment. Batteries can store extra energy during the day and release it in the evening, when demand is high. For this reason, many new projects combine solar panels with storage.", "For businesses, renewable energy is not only about the environment. Many companies install solar panels to reduce their electricity bills and protect themselves from price increases. Others buy renewable energy to meet their sustainability goals. As a result, professionals who understand both energy and finance are increasingly in demand."], "vocab": [{"w": "solar farm", "d": "a large area of solar panels that sends electricity to the grid", "es": "granja solar"}, {"w": "investor", "d": "a person or company that puts money into a project to make a profit", "es": "inversionista"}, {"w": "permit", "d": "an official document that gives you permission to do something", "es": "permiso, licencia"}, {"w": "PPA (power purchase agreement)", "d": "a long contract to buy electricity at an agreed price", "es": "contrato de compra de energía"}, {"w": "grid", "d": "the network of cables that carries electricity to homes and businesses", "es": "red eléctrica"}, {"w": "storage", "d": "keeping energy, for example in batteries, to use it later", "es": "almacenamiento"}, {"w": "bill", "d": "a document that shows how much money you must pay for a service", "es": "factura"}, {"w": "in demand", "d": "wanted by many people or companies", "es": "muy solicitado"}], "quiz": [{"q": "What has happened to the cost of solar panels?", "o": ["It has risen.", "It has fallen sharply.", "It has stayed the same."], "a": 1, "why": "The text says the cost has fallen sharply."}, {"q": "What is a PPA?", "o": ["A permit to build a solar farm", "A long contract to buy electricity at a fixed price", "A type of battery"], "a": 1, "why": "In a PPA, the buyer agrees to purchase electricity at a fixed price for many years."}, {"q": "Why is a PPA useful for the developer?", "o": ["It gives a stable income and helps to get a loan.", "It removes the need for permits.", "It makes the panels cheaper."], "a": 0, "why": "A stable income makes it easier to get a bank loan."}, {"q": "Why do many new projects include batteries?", "o": ["Because panels do not work in summer", "To store energy for the evening, when demand is high", "To make the grid smaller"], "a": 1, "why": "Batteries store extra energy during the day and release it in the evening."}, {"q": "Complete the sentence: Many companies install solar panels ___ reduce their electricity bills.", "o": ["to", "for", "by"], "a": 0, "why": "We use “to + verb” to express purpose."}], "sources": [], "note": "Practice text written for this blog. It has no external sources."}, "wind": {"title": "How wind farms make money", "group": "Energy markets and renewables", "paras": ["Wind energy is another fast-growing source of renewable power. Wind turbines turn the movement of the air into electricity. The best locations are usually windy places, such as coastlines, mountains and open plains, and increasingly the sea. Offshore wind farms, built in the ocean, can produce more electricity because the wind there is stronger and more constant.", "Building a wind farm is a long and expensive process. A company must measure the wind for months, or even years, to be sure that the site is suitable. Then it needs permits, financing and a connection to the grid. The turbines are enormous: some blades are almost as long as a football field. Because of the high initial cost, wind projects often depend on long-term contracts and government support, such as auctions in which companies compete to sell electricity at the lowest price.", "Once a wind farm is operating, its costs are low because the wind is free. The main expenses are maintenance and insurance. The company earns money by selling electricity to the grid, and the amount depends on the wind speed. On a calm day, the turbines produce very little. On a stormy day, they stop to protect themselves.", "For this reason, wind farm owners study weather forecasts carefully to plan their sales. Many experts also believe that wind and solar energy work well together. In many regions, the wind blows more at night and in winter, when solar output is lower. By combining both sources, an electricity utility can supply more reliable power to its customers."], "vocab": [{"w": "wind turbine", "d": "a tall machine with large blades that turns wind into electricity", "es": "aerogenerador, turbina eólica"}, {"w": "offshore", "d": "in the sea, not on land", "es": "mar adentro, en el mar"}, {"w": "blade", "d": "one of the long, flat parts of a turbine that turn in the wind", "es": "aspa, pala"}, {"w": "auction", "d": "a competition in which companies make offers and the best offer wins", "es": "subasta"}, {"w": "maintenance", "d": "regular work to keep a machine in good condition", "es": "mantenimiento"}, {"w": "insurance", "d": "an agreement in which you pay money to be protected against loss or damage", "es": "seguro"}, {"w": "forecast", "d": "a prediction about what will happen, for example with the weather", "es": "pronóstico"}, {"w": "utility", "d": "a company that supplies electricity, gas or water to customers", "es": "empresa de servicios públicos"}], "quiz": [{"q": "Why can offshore wind farms produce more electricity?", "o": ["The turbines are smaller.", "The wind is stronger and more constant.", "They do not need maintenance."], "a": 1, "why": "The text says the wind at sea is stronger and more constant."}, {"q": "Why do many wind projects depend on long-term contracts or government support?", "o": ["Because the initial cost is high", "Because the wind is not free", "Because turbines are very small"], "a": 0, "why": "The high initial cost makes long-term contracts and support important."}, {"q": "What are the main costs of an operating wind farm?", "o": ["Fuel and transport", "Maintenance and insurance", "Land and permits"], "a": 1, "why": "Once it is operating, the main expenses are maintenance and insurance."}, {"q": "What happens to the turbines on a stormy day?", "o": ["They produce more power.", "They stop to protect themselves.", "They change direction."], "a": 1, "why": "In a storm, the turbines stop to protect themselves."}, {"q": "Complete the sentence: The amount of electricity ___ on the wind speed.", "o": ["depends", "depend", "depending"], "a": 0, "why": "“The amount” is singular, so we use “depends”."}], "sources": [], "note": "Practice text written for this blog. It has no external sources."}};
+const LESSONS = {"solar": {"title": "Why solar power is now big business", "group": "Energy markets and renewables", "paras": ["Twenty years ago, solar panels were expensive and mostly used for small projects, such as powering a calculator or a house in a remote area. Today, they are one of the cheapest ways to produce electricity in many countries. The cost of solar panels has fallen sharply, and this change has attracted investors, governments and large companies.", "Most solar projects follow a similar model. A developer finds land, gets the necessary permits, and builds a solar farm. Then it signs a power purchase agreement, or PPA, with a buyer. In a PPA, the buyer agrees to purchase the electricity at a fixed price for many years, often between 10 and 25 years. This gives the developer a stable income and makes it easier to get a bank loan.", "However, solar energy has a challenge: the sun does not shine at night. Because of this, the electricity grid must balance supply and demand at every moment. Batteries can store extra energy during the day and release it in the evening, when demand is high. For this reason, many new projects combine solar panels with storage.", "For businesses, renewable energy is not only about the environment. Many companies install solar panels to reduce their electricity bills and protect themselves from price increases. Others buy renewable energy to meet their sustainability goals. As a result, professionals who understand both energy and finance are increasingly in demand."], "vocab": [{"w": "solar farm", "d": "a large area of solar panels that sends electricity to the grid", "es": "granja solar"}, {"w": "investor", "d": "a person or company that puts money into a project to make a profit", "es": "inversionista"}, {"w": "permit", "d": "an official document that gives you permission to do something", "es": "permiso, licencia"}, {"w": "PPA (power purchase agreement)", "d": "a long contract to buy electricity at an agreed price", "es": "contrato de compra de energía"}, {"w": "grid", "d": "the network of cables that carries electricity to homes and businesses", "es": "red eléctrica"}, {"w": "storage", "d": "keeping energy, for example in batteries, to use it later", "es": "almacenamiento"}, {"w": "bill", "d": "a document that shows how much money you must pay for a service", "es": "factura"}, {"w": "in demand", "d": "wanted by many people or companies", "es": "muy solicitado"}], "quiz": [{"q": "What has happened to the cost of solar panels?", "o": ["It has risen.", "It has fallen sharply.", "It has stayed the same."], "a": 1, "why": "The text says the cost has fallen sharply."}, {"q": "What is a PPA?", "o": ["A permit to build a solar farm", "A long contract to buy electricity at a fixed price", "A type of battery"], "a": 1, "why": "In a PPA, the buyer agrees to purchase electricity at a fixed price for many years."}, {"q": "Why is a PPA useful for the developer?", "o": ["It gives a stable income and helps to get a loan.", "It removes the need for permits.", "It makes the panels cheaper."], "a": 0, "why": "A stable income makes it easier to get a bank loan."}, {"q": "Why do many new projects include batteries?", "o": ["Because panels do not work in summer", "To store energy for the evening, when demand is high", "To make the grid smaller"], "a": 1, "why": "Batteries store extra energy during the day and release it in the evening."}, {"q": "Complete the sentence: Many companies install solar panels ___ reduce their electricity bills.", "o": ["to", "for", "by"], "a": 0, "why": "We use “to + verb” to express purpose."}, {"q": "Which sentence is grammatically correct and keeps the meaning of the text?", "t": "grammar", "o": ["This gives the developer a stable income and makes easier to get a bank loan.", "This gives the developer a stable income and makes it easier to get a bank loan.", "This gives the developer a stable income and makes it more easy get a bank loan.", "This gives the developer a stable income and makes that easier to getting a bank loan."], "a": 1, "why": "After “make”, when the object is an infinitive phrase, we need the formal object “it” + a comparative adjective + “to” + verb."}, {"q": "In “As a result, professionals who understand both energy and finance are increasingly in demand,” what is the function of “who understand both energy and finance”?", "t": "grammar", "o": ["It is the main verb phrase of the sentence.", "It is an adverb clause of time.", "It is a relative clause that tells us which professionals are in demand.", "It is a noun clause that works as the subject."], "a": 2, "why": "It is a relative clause that modifies “professionals”. The main verb of the sentence is “are”."}], "sources": [], "note": "Practice text written for this blog. It has no external sources."}, "wind": {"title": "How wind farms make money", "group": "Energy markets and renewables", "paras": ["Wind energy is another fast-growing source of renewable power. Wind turbines turn the movement of the air into electricity. The best locations are usually windy places, such as coastlines, mountains and open plains, and increasingly the sea. Offshore wind farms, built in the ocean, can produce more electricity because the wind there is stronger and more constant.", "Building a wind farm is a long and expensive process. A company must measure the wind for months, or even years, to be sure that the site is suitable. Then it needs permits, financing and a connection to the grid. The turbines are enormous: some blades are almost as long as a football field. Because of the high initial cost, wind projects often depend on long-term contracts and government support, such as auctions in which companies compete to sell electricity at the lowest price.", "Once a wind farm is operating, its costs are low because the wind is free. The main expenses are maintenance and insurance. The company earns money by selling electricity to the grid, and the amount depends on the wind speed. On a calm day, the turbines produce very little. On a stormy day, they stop to protect themselves.", "For this reason, wind farm owners study weather forecasts carefully to plan their sales. Many experts also believe that wind and solar energy work well together. In many regions, the wind blows more at night and in winter, when solar output is lower. By combining both sources, an electricity utility can supply more reliable power to its customers."], "vocab": [{"w": "wind turbine", "d": "a tall machine with large blades that turns wind into electricity", "es": "aerogenerador, turbina eólica"}, {"w": "offshore", "d": "in the sea, not on land", "es": "mar adentro, en el mar"}, {"w": "blade", "d": "one of the long, flat parts of a turbine that turn in the wind", "es": "aspa, pala"}, {"w": "auction", "d": "a competition in which companies make offers and the best offer wins", "es": "subasta"}, {"w": "maintenance", "d": "regular work to keep a machine in good condition", "es": "mantenimiento"}, {"w": "insurance", "d": "an agreement in which you pay money to be protected against loss or damage", "es": "seguro"}, {"w": "forecast", "d": "a prediction about what will happen, for example with the weather", "es": "pronóstico"}, {"w": "utility", "d": "a company that supplies electricity, gas or water to customers", "es": "empresa de servicios públicos"}], "quiz": [{"q": "Why can offshore wind farms produce more electricity?", "o": ["The turbines are smaller.", "The wind is stronger and more constant.", "They do not need maintenance."], "a": 1, "why": "The text says the wind at sea is stronger and more constant."}, {"q": "Why do many wind projects depend on long-term contracts or government support?", "o": ["Because the initial cost is high", "Because the wind is not free", "Because turbines are very small"], "a": 0, "why": "The high initial cost makes long-term contracts and support important."}, {"q": "What are the main costs of an operating wind farm?", "o": ["Fuel and transport", "Maintenance and insurance", "Land and permits"], "a": 1, "why": "Once it is operating, the main expenses are maintenance and insurance."}, {"q": "What happens to the turbines on a stormy day?", "o": ["They produce more power.", "They stop to protect themselves.", "They change direction."], "a": 1, "why": "In a storm, the turbines stop to protect themselves."}, {"q": "Complete the sentence: The amount of electricity ___ on the wind speed.", "o": ["depends", "depend", "depending"], "a": 0, "why": "“The amount” is singular, so we use “depends”."}, {"q": "In “Offshore wind farms, built in the ocean, can produce more electricity,” what is “built in the ocean”?", "t": "grammar", "o": ["A reduced relative clause meaning “which are built in the ocean”", "The main verb in the past tense", "A passive infinitive with future meaning", "A gerund used as the subject"], "a": 0, "why": "The past participle phrase shortens a passive relative clause: “which are built in the ocean” becomes “built in the ocean”."}, {"q": "Choose the correct option: “Projects depend on government support, such as auctions ___ companies compete to sell electricity.”", "t": "grammar", "o": ["which", "that", "what", "in which"], "a": 3, "why": "The verb “compete” takes the preposition “in” (compete in auctions), so the relative pronoun must follow it: “in which”."}], "sources": [], "note": "Practice text written for this blog. It has no external sources."}};
 let D = LESSONS;
 const $ = id => document.getElementById(id);
 const synth = window.speechSynthesis;
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let cur, spans = [], starts = [], FULL = '', last = -1, selEl = null, st = 'idle', idx = 0, timer = null, cu = null;
+let cur, spans = [], starts = [], FULL = '', last = -1, selEl = null, st = 'idle', idx = 0, timer = null, cu = null, curKey = null, ended = false, prog = {};
+try { prog = JSON.parse(localStorage.getItem('jt-progress') || '{}'); } catch (e) {}
+const saveProg = () => { try { localStorage.setItem('jt-progress', JSON.stringify(prog)); } catch (e) {} };
+function markListened(k){ if (!k || (prog[k] && prog[k].l)) return; prog[k] = {...(prog[k] || {}), l: 1}; saveProg(); buildList(); }
+function nextKey(){
+  const ks = Object.keys(D), i = ks.indexOf(curKey);
+  return [...ks.slice(i + 1), ...ks.slice(0, Math.max(i, 0))].find(k => !(prog[k] && prog[k].l)) || null;
+}
 
 /* ---------- theme ---------- */
 const root = document.documentElement;
@@ -146,7 +157,8 @@ function buildList(){
   const ks = Object.keys(D), latest = ks.map(k => D[k].date || '').sort().pop();
   let day = ks.filter(k => D[k].date && D[k].date === latest), rest = ks.filter(k => !day.includes(k));
   if (!day.length) { day = ks; rest = []; }
-  const item = k => `<button class="topic" data-k="${esc(k)}" type="button">${esc(D[k].title)}<small>${esc(D[k].group)}${D[k].kind ? ' · ' + (D[k].kind === 'news' ? 'news' : 'paper') : ''}</small></button>`;
+  const item = k => { const p = prog[k] || {}, bd = (p.q != null ? '✓ ' + p.q + '/' + p.n : '') + (p.l ? ' 🎧' : '');
+    return `<button class="topic" data-k="${esc(k)}" type="button"><span class="tt">${esc(D[k].title)}<small>${esc(D[k].group)}${D[k].kind ? ' · ' + (D[k].kind === 'news' ? 'news' : 'paper') : ''}</small></span><span class="bd">${esc(bd.trim())}</span></button>`; };
   const grouped = arr => { const g = {}; arr.forEach(k => (g[D[k].grp] = g[D[k].grp] || []).push(k));
     return Object.entries(g).map(([n, a]) => `<p class="grp">${esc(n)}</p>` + a.map(item).join('')).join(''); };
   $('list').innerHTML = grouped(day); $('list2').innerHTML = grouped(rest); $('others').hidden = !rest.length;
@@ -158,7 +170,7 @@ function buildList(){
 
 /* ---------- load a lesson ---------- */
 function load(k){
-  stopAll(); cur = D[k]; spans = []; starts = []; selEl = null; last = -1;
+  stopAll(); cur = D[k]; curKey = k; spans = []; starts = []; selEl = null; last = -1;
   $('title').textContent = cur.title; $('vocabBox').open = false; $('quizBox').open = false; $('panel').hidden = true;
   const art = $('text'); art.innerHTML = ''; let pos = 0;
   cur.paras.forEach(p => {
@@ -180,30 +192,37 @@ function load(k){
   $('vocabBox').hidden = !cur.vocab.length; $('vocab').classList.remove('es-on'); $('toggleEs').textContent = 'Mostrar español';
   $('vocab').innerHTML = cur.vocab.map(v => `<div class="term"><b>${esc(v.w)}</b><span>${esc(v.d)}</span><span class="es">${esc(v.es)}</span></div>`).join('');
   $('quizBox').hidden = !cur.quiz.length; $('score').textContent = '';
-  $('quiz').innerHTML = cur.quiz.map((it, i) => `<fieldset><legend>${i + 1}. ${esc(it.q)}</legend>` +
+  $('quiz').innerHTML = cur.quiz.map((it, i) => `<fieldset><legend>${i + 1}. ${esc(it.q)}${it.t === 'grammar' ? '<span class="tag">Grammar · TOEFL-style</span>' : ''}</legend>` +
+    `<button class="mini sayq" data-i="${i}" type="button">🔊 Hear the question</button>` +
     it.o.map((t, j) => `<label><input type="radio" name="q${i}" value="${j}">${esc(t)}</label>`).join('') + `<p class="fb" id="fb${i}"></p></fieldset>`).join('');
   document.querySelectorAll('.dd .topic').forEach(b => b.setAttribute('aria-current', D[b.dataset.k] === cur));
-  window.scrollTo(0, 0); prepAudio();
+  window.scrollTo(0, 0); return prepAudio();
 }
 $('toggleEs').onclick = () => { const on = $('vocab').classList.toggle('es-on'); $('toggleEs').textContent = on ? 'Ocultar español' : 'Mostrar español'; };
 
 /* ---------- quiz ---------- */
 $('check').onclick = () => {
-  let n = 0;
+  let n = 0, answered = 0;
   cur.quiz.forEach((it, i) => {
     const c = document.querySelector(`input[name=q${i}]:checked`), fb = $('fb' + i);
     if (!c) { fb.textContent = 'Choose an answer.'; fb.className = 'fb wrong'; return; }
-    const ok = +c.value === it.a; if (ok) n++;
+    const ok = +c.value === it.a; answered++; if (ok) n++;
     fb.textContent = (ok ? 'Correct. ' : 'Not quite. ') + it.why; fb.className = 'fb ' + (ok ? 'good' : 'wrong');
   });
-  $('score').textContent = `Score: ${n} / ${cur.quiz.length}`;
+  $('score').textContent = `Score: ${n} / ${cur.quiz.length}` + (answered === cur.quiz.length ? '  ✓' : '');
+  if (answered === cur.quiz.length) { const p = prog[curKey] || {}; prog[curKey] = {...p, q: Math.max(p.q || 0, n), n: cur.quiz.length}; saveProg(); buildList(); }
 };
+$('quiz').addEventListener('click', e => {
+  const b = e.target.closest('.sayq'); if (!b) return;
+  const it = cur.quiz[+b.dataset.i]; sayText(it.q + ' The options are: ' + it.o.join('. ') + '.');
+});
 $('reset').onclick = () => { $('quiz').reset(); document.querySelectorAll('.fb').forEach(e => { e.textContent = ''; e.className = 'fb'; }); $('score').textContent = ''; };
 
 /* ---------- pre-recorded audio with exact word timings ---------- */
 const AU = new Audio(); AU.preload = 'auto';
 let useAudio = false, timing = [], raf = 0, tok = 0;
 function tick(){
+  if (AU.duration && AU.currentTime / AU.duration >= 0.85) markListened(curKey);
   const ms = AU.currentTime * 1000;
   if (timing.length && timing[0][0] <= ms) {
     let lo = 0, hi = timing.length - 1;
@@ -214,7 +233,7 @@ function tick(){
 }
 AU.onplay = () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(tick); };
 AU.onpause = () => cancelAnimationFrame(raf);
-AU.onended = () => { cancelAnimationFrame(raf); st = 'idle'; idx = 0; mark(-1); btn(); };
+AU.onended = () => { cancelAnimationFrame(raf); st = 'idle'; idx = 0; mark(-1); ended = true; btn(); markListened(curKey); };
 AU.onerror = () => { useAudio = false; };
 async function prepAudio(){
   const my = ++tok; useAudio = false; timing = [];
@@ -237,9 +256,9 @@ function mark(i){
   const r = s.getBoundingClientRect();
   if (r.bottom > innerHeight - 170 || r.top < 90) s.scrollIntoView({block: 'center', behavior: 'smooth'});
 }
-function btn(){ $('pp').textContent = st === 'playing' ? '⏸ Pause' : st === 'paused' ? '▶ Resume' : '▶ Listen'; }
+function btn(){ $('pp').textContent = st === 'playing' ? '⏸ Pause' : st === 'paused' ? '▶ Resume' : '▶ Listen'; $('nextb').hidden = st === 'idle' && !ended; }
 function halt(){ cu = null; clearInterval(timer); if (synth) synth.cancel(); AU.pause(); }
-function stopAll(){ halt(); try { AU.currentTime = 0; } catch (e) {} st = 'idle'; idx = 0; mark(-1); btn(); }
+function stopAll(){ halt(); try { AU.currentTime = 0; } catch (e) {} ended = false; st = 'idle'; idx = 0; mark(-1); btn(); }
 function pickVoice(){
   const en = synth.getVoices().filter(v => v.lang.startsWith('en'));
   return en.find(v => v.localService && v.lang === 'en-US') || en.find(v => v.localService) || null;
@@ -256,13 +275,13 @@ function speak(from){
     setTimeout(() => { if (exact || cu !== u) return; timer = setInterval(() => { idx = at(base + (Date.now() - t0) / mpc); mark(idx); }, 120); }, 1200);
   };
   const done = () => { if (cu === u) { halt(); st = 'idle'; idx = 0; mark(-1); btn(); } };
-  u.onend = done; u.onerror = done;
+  u.onend = () => { if (cu === u) { ended = true; markListened(curKey); } done(); }; u.onerror = done;
   synth.speak(u);
 }
 $('pp').onclick = () => {
   if (st === 'playing') { halt(); st = 'paused'; }
   else if (useAudio) {
-    const p = AU.play(); if (p && p.catch) p.catch(() => { useAudio = false; st = 'idle'; btn(); });
+    const p = AU.play(); if (p && p.catch) p.catch(err => { if (!err || err.name !== 'NotAllowedError') useAudio = false; st = 'idle'; btn(); });
     st = 'playing';
   } else {
     if (!synth) { alert('Your browser does not support audio.'); return; }
@@ -271,6 +290,19 @@ $('pp').onclick = () => {
   btn();
 };
 $('stopb').onclick = stopAll;
+$('nextb').onclick = () => {
+  const k = nextKey(), b = $('nextb');
+  if (!k) { b.textContent = 'All done ✓'; setTimeout(() => { b.textContent = 'Next ⏭'; }, 2500); return; }
+  load(k).then(() => $('pp').click());
+};
+function sayText(text){
+  if (!synth) return;
+  if (st === 'playing') { halt(); st = 'paused'; btn(); }
+  synth.cancel();
+  const u = new SpeechSynthesisUtterance(text); u.lang = 'en-US'; u.rate = 0.9;
+  const v = pickVoice(); if (v) u.voice = v;
+  synth.speak(u);
+}
 
 /* ---------- dictionary panel ---------- */
 const P = $('panel');
@@ -308,7 +340,7 @@ async function lookup(raw){
         h += `<p class="pos">${esc(m.partOfSpeech)}</p><p class="def">${esc(df.definition)}</p>` + (df.example ? `<p class="ex">${esc(df.example)}</p>` : '');
       });
       $('pbody').innerHTML = h + '<button class="mini" id="say" type="button">🔊 Hear the word</button>';
-      $('say').onclick = () => { if (!synth) return; const was = st; if (was === 'playing') { halt(); st = 'paused'; btn(); } const u = new SpeechSynthesisUtterance(d.word); u.lang = 'en-US'; synth.speak(u); };
+      $('say').onclick = () => sayText(d.word);
       return;
     } catch (err) {}
   }
@@ -326,7 +358,9 @@ async function fetchArticles(){
   const A = {};
   arts.forEach(x => { A[x.id] = {title: x.title, group: x.group, date: x.date, grp: dayLabel(x.date), kind: x.kind, paras: x.paras || [],
     vocab: x.vocab || [], quiz: x.quiz || [], gloss: x.gloss || {}, audio: x.audio || '', sources: x.sources || [], note: ''}; });
-  D = {...A, ...LESSONS}; fetchedAt = Date.now(); buildList();
+  D = {...A, ...LESSONS}; fetchedAt = Date.now();
+  let cleaned = false; Object.keys(prog).forEach(k => { if (!D[k]) { delete prog[k]; cleaned = true; } }); if (cleaned) saveProg();
+  buildList();
 }
 async function init(){
   Object.values(LESSONS).forEach(l => l.grp = 'Practice lessons');
@@ -339,6 +373,8 @@ document.addEventListener('visibilitychange', () => { if (!document.hidden && Da
   if (e.target.open) ['vocabBox', 'quizBox'].filter(x => x !== id).forEach(x => { $(x).open = false; });
 }));
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+document.addEventListener('click', e => { ['topics', 'others'].forEach(id => { if ($(id).open && !$(id).contains(e.target)) $(id).open = false; }); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') ['topics', 'others'].forEach(id => { $(id).open = false; }); });
 init();
 </script>
 </body>

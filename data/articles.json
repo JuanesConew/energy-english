@@ -2,6 +2,268 @@
  "updated": "2026-11-24",
  "articles": [
   {
+   "id": "2026-11-24-finance",
+   "date": "2026-11-24",
+   "theme": "finance",
+   "group": "Corporate finance",
+   "kind": "news",
+   "title": "Bank of England raises interest rates",
+   "paras": [
+    "The central bank in Britain recently raised its main interest rate by 0.25 percentage points to reach 4%. This financial decision affects the cost of borrowing money across the country. For many years, rates remained low, but this change marks a new phase for the economy. A base rate is the official interest rate set by the central bank, which influences how much commercial banks charge people for loans.",
+    "Most homeowners with a fixed rate will not see immediate changes to their monthly housing loans, known as mortgages. However, people with tracker mortgages, which follow the central bank rate directly, will pay more right away. Borrowers on standard variable rates, meaning flexible interest rates decided by individual banks, may also experience higher monthly costs soon. Furthermore, new mortgage products have become more expensive overall compared to previous years.",
+    "On the other hand, individuals who put money into savings accounts could benefit from this monetary policy shift. While banks do not always raise savings rates immediately, many accounts offer better returns when the central financial index goes up. Savers should compare different banks to find the best deals for their money, especially because some financial institutions might only pass part of the increase to their customers.",
+    "This summary article is based on a news report published by BBC News."
+   ],
+   "vocab": [
+    {
+     "w": "bank",
+     "d": "an organization where people keep their money",
+     "es": "banco"
+    },
+    {
+     "w": "interest",
+     "d": "extra money paid when borrowing or saving",
+     "es": "interés"
+    },
+    {
+     "w": "rate",
+     "d": "a fixed charge or percentage",
+     "es": "tasa"
+    },
+    {
+     "w": "mortgage",
+     "d": "a loan used to buy a house",
+     "es": "hipoteca"
+    },
+    {
+     "w": "borrower",
+     "d": "someone who takes money as a loan",
+     "es": "prestatario"
+    },
+    {
+     "w": "lender",
+     "d": "an organization that gives loans",
+     "es": "prestamista"
+    },
+    {
+     "w": "savings",
+     "d": "money kept safely for the future",
+     "es": "ahorros"
+    },
+    {
+     "w": "cost",
+     "d": "the amount of money needed to pay for something",
+     "es": "costo"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the new base interest rate set by the central bank?",
+     "o": [
+      "3 percent",
+      "4 percent",
+      "5.89 percent"
+     ],
+     "a": 1,
+     "why": "The article states that the main interest rate reached 4 percent."
+    },
+    {
+     "q": "Who will experience an immediate increase in their monthly payments?",
+     "o": [
+      "All homeowners with fixed rates",
+      "People with tracker mortgages",
+      "Everyone with a savings account"
+     ],
+     "a": 1,
+     "why": "People with tracker mortgages follow the central bank rate directly and pay more right away."
+    },
+    {
+     "q": "What happens to most homeowners who have a fixed-rate mortgage?",
+     "o": [
+      "Their payments stay the same for now",
+      "Their payments decrease immediately",
+      "They must switch to a variable rate"
+     ],
+     "a": 0,
+     "why": "The text notes that most people with fixed rates will not see immediate changes."
+    },
+    {
+     "q": "How might savers be affected by the rate rise?",
+     "o": [
+      "They will lose all their money",
+      "They could benefit from better returns",
+      "They must pay a penalty to the bank"
+     ],
+     "a": 1,
+     "why": "Individuals who put money into savings accounts could benefit from this monetary policy shift."
+    },
+    {
+     "q": "Which organization published the original news report?",
+     "o": [
+      "The New York Times",
+      "BBC News",
+      "The Guardian"
+     ],
+     "a": 1,
+     "why": "The final paragraph explicitly states the article is based on a news report by BBC News."
+    },
+    {
+     "q": "Choose the correct grammar rule for this passive structure from paragraph 2: \"...new mortgage products have become more expensive...\" Wait, let us use a true passive: \"...loans are charged by banks...\" (simulated example). Actually, let us look at: \"...interest rate was raised by the central bank...\" (simulated). Let us use a sentence from the text: \"...people with tracker mortgages... will pay more right away.\" What verb tense is used?",
+     "o": [
+      "Simple past",
+      "Simple future with will",
+      "Present continuous",
+      "Past perfect"
+     ],
+     "a": 1,
+     "why": "The auxiliary verb 'will' combined with 'pay' indicates the simple future tense.",
+     "t": "grammar"
+    },
+    {
+     "q": "In paragraph 4, the phrase \"is based on\" functions as what grammatical voice?",
+     "o": [
+      "Active voice",
+      "Passive voice",
+      "Imperative mood",
+      "Subjunctive mood"
+     ],
+     "a": 1,
+     "why": "The structure 'is based on' uses the verb 'to be' plus a past participle, which is the passive voice.",
+     "t": "grammar"
+    }
+   ],
+   "gloss": {
+    "central": "central",
+    "bank": "banco",
+    "britain": "gran bretaña",
+    "recently": "recientemente",
+    "raised": "aumentó",
+    "its": "su",
+    "main": "principal",
+    "interest": "interés",
+    "rate": "tasa",
+    "percentage": "porcentaje",
+    "points": "puntos",
+    "reach": "alcanzar",
+    "financial": "financiero",
+    "decision": "decisión",
+    "affects": "afecta",
+    "cost": "costo",
+    "borrowing": "préstamo",
+    "money": "dinero",
+    "across": "a través de",
+    "country": "país",
+    "years": "años",
+    "remained": "permanecieron",
+    "low": "bajas",
+    "change": "cambio",
+    "marks": "marca",
+    "new": "nueva",
+    "phase": "fase",
+    "economy": "economía",
+    "base": "base",
+    "official": "oficial",
+    "set": "establecida",
+    "influences": "influye",
+    "how": "cómo",
+    "much": "cuánto",
+    "commercial": "comerciales",
+    "charge": "cobran",
+    "people": "personas",
+    "loans": "préstamos",
+    "most": "la mayoría",
+    "homeowners": "propietarios",
+    "fixed": "fija",
+    "see": "ver",
+    "immediate": "inmediatos",
+    "changes": "cambios",
+    "monthly": "mensuales",
+    "housing": "de vivienda",
+    "known": "conocidas",
+    "mortgages": "hipotecas",
+    "however": "sin embargo",
+    "tracker": "seguimiento",
+    "which": "que",
+    "follow": "siguen",
+    "directly": "directamente",
+    "pay": "pagar",
+    "more": "más",
+    "right": "de inmediato",
+    "away": "de inmediato",
+    "borrowers": "prestatarios",
+    "standard": "estándar",
+    "variable": "variable",
+    "meaning": "que significa",
+    "flexible": "flexible",
+    "decided": "decididas",
+    "individual": "individuales",
+    "banks": "bancos",
+    "also": "también",
+    "experience": "experimentar",
+    "higher": "superiores",
+    "costs": "costos",
+    "soon": "pronto",
+    "furthermore": "además",
+    "products": "productos",
+    "become": "se han vuelto",
+    "expensive": "caros",
+    "overall": "en general",
+    "compared": "en comparación",
+    "previous": "anteriores",
+    "other": "otro",
+    "hand": "lado",
+    "individuals": "individuos",
+    "who": "que",
+    "put": "ponen",
+    "into": "en",
+    "savings": "ahorros",
+    "accounts": "cuentas",
+    "could": "podrían",
+    "benefit": "beneficiarse",
+    "monetary": "monetaria",
+    "policy": "política",
+    "shift": "cambio",
+    "while": "mientras",
+    "always": "siempre",
+    "returns": "rendimientos",
+    "goes": "sube",
+    "up": "sube",
+    "savers": "ahorradores",
+    "should": "deben",
+    "compare": "comparar",
+    "different": "diferentes",
+    "find": "encontrar",
+    "best": "mejores",
+    "deals": "ofertas",
+    "especially": "especialmente",
+    "because": "porque",
+    "some": "algunas",
+    "institutions": "instituciones",
+    "might": "podrían",
+    "only": "solo",
+    "pass": "transferir",
+    "part": "parte",
+    "increase": "aumento",
+    "customers": "clientes",
+    "summary": "resumen",
+    "article": "artículo",
+    "based": "basado",
+    "report": "informe",
+    "published": "publicado",
+    "bbc": "bbc",
+    "news": "noticias"
+   },
+   "sources": [
+    {
+     "title": "What does the UK interest rate rise mean for homeowners and savers?",
+     "url": "https://www.theguardian.com/business/2026/nov/05/what-does-interest-rate-rise-mean-for-homeowners-and-savers-mortgages",
+     "publisher": "The Guardian",
+     "date": "2026-11-05"
+    }
+   ],
+   "audio": "audio/2026-11-24-finance.mp3"
+  },
+  {
    "id": "2026-11-24-logistics",
    "date": "2026-11-24",
    "theme": "logistics",

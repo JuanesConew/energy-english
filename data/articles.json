@@ -1,6 +1,520 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "articles": [
+  {
+   "id": "2026-11-25-energy",
+   "date": "2026-11-25",
+   "theme": "energy",
+   "group": "Energy markets and renewables",
+   "kind": "paper",
+   "title": "Exploring Renewable Energy Markets in African Electricity Companies",
+   "paras": [
+    "Small renewable energy markets are growing across Africa. This growth helps diversify power sources, reduce blackouts, and promote sustainable energy. Yet, despite massive potential, these markets still face numerous difficulties. Researchers decided to investigate this topic by focusing on a specific power distribution company in the region to understand current market conditions.",
+    "The investigation looked closely at the chances and obstacles related to entering this energy market. Scientists used a qualitative research method. They interviewed twenty managers online using semi-structured questions. Afterward, they analyzed the collected data carefully. The theoretical framework guiding this work was the Socio-Technical Transition Theory, which helps explain how systems change over time.",
+    "The findings show that getting involved in small renewable energy helps improve public service and benefits many stakeholders. However, several barriers limit this progress. These problems include weak grid infrastructure, expensive connection fees, complex regulations, low customer knowledge, and a lack of skilled workers. To fix these issues, experts suggest upgrading distribution networks, launching strong marketing campaigns, and training employees continuously.",
+    "This summary article is based on a research paper abstract published by the publisher or journal associated with the study on the small-scale renewable energy market."
+   ],
+   "vocab": [
+    {
+     "w": "market",
+     "d": "a place or system where things are bought and sold",
+     "es": "mercado"
+    },
+    {
+     "w": "diversify",
+     "d": "to make or become more varied",
+     "es": "diversificar"
+    },
+    {
+     "w": "investigate",
+     "d": "to carry out research or study into a subject",
+     "es": "investigar"
+    },
+    {
+     "w": "qualitative",
+     "d": "relating to the quality or character of something",
+     "es": "cualitativo"
+    },
+    {
+     "w": "stakeholder",
+     "d": "a person with an interest or concern in something",
+     "es": "interesado"
+    },
+    {
+     "w": "barrier",
+     "d": "a circumstance that prevents progress",
+     "es": "barrera"
+    },
+    {
+     "w": "upgrade",
+     "d": "to raise something to a higher standard",
+     "es": "actualizar"
+    },
+    {
+     "w": "summary",
+     "d": "a brief statement of the main points",
+     "es": "resumen"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the main goal of growing small renewable energy markets in Africa?",
+     "o": [
+      "To increase electricity prices",
+      "To diversify power sources and reduce blackouts",
+      "To stop all energy production"
+     ],
+     "a": 1,
+     "why": "The text states that the growth helps diversify power sources and reduce power cuts."
+    },
+    {
+     "q": "How many managers were interviewed for the study?",
+     "o": [
+      "Ten managers",
+      "Twenty managers",
+      "Fifty managers"
+     ],
+     "a": 1,
+     "why": "The text explicitly mentions a sample size of twenty managers."
+    },
+    {
+     "q": "Which theory formed a key part of the study?",
+     "o": [
+      "The Socio-Technical Transition Theory",
+      "The Economic Growth Theory",
+      "The Modern Energy Theory"
+     ],
+     "a": 0,
+     "why": "Paragraph two states that the Socio-Technical Transition Theory guided the work."
+    },
+    {
+     "q": "What is one benefit of company participation in the renewable energy market?",
+     "o": [
+      "It lowers customer awareness",
+      "It improves public service",
+      "It increases regulatory complexity"
+     ],
+     "a": 1,
+     "why": "Paragraph three notes that getting involved helps improve public service."
+    },
+    {
+     "q": "What recommendation does the study make regarding employees?",
+     "o": [
+      "Reduce the workforce",
+      "Train employees continuously",
+      "Change employee managers"
+     ],
+     "a": 1,
+     "why": "The text recommends continued investment in employee training."
+    },
+    {
+     "q": "\"Researchers decided to investigate this topic by focusing on a specific power distribution company in the region to understand current market conditions.\"\nWhat grammar structure is used in the phrase 'to understand current market conditions'?",
+     "o": [
+      "Infinitive of purpose",
+      "Gerund as subject",
+      "Relative clause",
+      "Passive voice"
+     ],
+     "a": 0,
+     "why": "To understand' is an infinitive used to express the purpose of an action.",
+     "t": "grammar"
+    },
+    {
+     "q": "\"These problems include weak grid infrastructure, expensive connection fees, complex regulations, low customer knowledge, and a lack of skilled workers.\"\nWhich grammatical role does the phrase 'weak grid infrastructure' play in this sentence?",
+     "o": [
+      "Subject of the sentence",
+      "Direct object of the verb 'include'",
+      "Prepositional complement",
+      "Adverbial modifier"
+     ],
+     "a": 1,
+     "why": "'Weak grid infrastructure' functions as one of the direct objects receiving the action of the verb 'include'.",
+     "t": "grammar"
+    }
+   ],
+   "gloss": {
+    "small": "pequeño",
+    "renewable": "renovable",
+    "energy": "energía",
+    "markets": "mercados",
+    "growing": "creciendo",
+    "across": "a través de",
+    "africa": "áfrica",
+    "growth": "crecimiento",
+    "helps": "ayuda",
+    "diversify": "diversificar",
+    "power": "energía",
+    "sources": "fuentes",
+    "reduce": "reducir",
+    "blackouts": "apagones",
+    "promote": "promover",
+    "sustainable": "sostenible",
+    "yet": "sin embargo",
+    "despite": "a pesar de",
+    "massive": "masivo",
+    "potential": "potencial",
+    "still": "todavía",
+    "face": "enfrentar",
+    "numerous": "numerosos",
+    "difficulties": "dificultades",
+    "researchers": "investigadores",
+    "decided": "decidieron",
+    "investigate": "investigar",
+    "topic": "tema",
+    "focusing": "enfocándose",
+    "specific": "específico",
+    "distribution": "distribución",
+    "company": "empresa",
+    "region": "región",
+    "understand": "entender",
+    "current": "actual",
+    "conditions": "condiciones",
+    "investigation": "investigación",
+    "looked": "observó",
+    "closely": "de cerca",
+    "chances": "oportunidades",
+    "obstacles": "obstáculos",
+    "related": "relacionados",
+    "entering": "entrando",
+    "scientists": "científicos",
+    "used": "usaron",
+    "qualitative": "cualitativo",
+    "research": "investigación",
+    "method": "método",
+    "interviewed": "entrevistaron",
+    "twenty": "veinte",
+    "managers": "gerentes",
+    "online": "en línea",
+    "using": "usando",
+    "semistructured": "semiestructuradas",
+    "questions": "preguntas",
+    "afterward": "después",
+    "analyzed": "analizaron",
+    "collected": "recolectados",
+    "data": "datos",
+    "carefully": "cuidadosamente",
+    "theoretical": "teórico",
+    "framework": "marco",
+    "guiding": "guiando",
+    "work": "trabajo",
+    "sociotechnical": "sociotécnica",
+    "transition": "transición",
+    "theory": "teoría",
+    "explains": "explica",
+    "how": "cómo",
+    "systems": "sistemas",
+    "change": "cambian",
+    "over": "con el",
+    "time": "tiempo",
+    "findings": "hallazgos",
+    "show": "muestran",
+    "getting": "obtener",
+    "involved": "involucrado",
+    "improve": "mejorar",
+    "public": "público",
+    "service": "servicio",
+    "benefits": "beneficia",
+    "many": "muchos",
+    "stakeholders": "partes interesadas",
+    "however": "sin embargo",
+    "several": "varios",
+    "barriers": "barreras",
+    "limit": "limitan",
+    "progress": "progreso",
+    "these": "estos",
+    "problems": "problemas",
+    "include": "incluyen",
+    "weak": "débil",
+    "grid": "red",
+    "infrastructure": "infraestructura",
+    "expensive": "caro",
+    "connection": "conexión",
+    "fees": "tarifas",
+    "complex": "complejo",
+    "regulations": "regulaciones",
+    "low": "bajo",
+    "customer": "cliente",
+    "knowledge": "conocimiento",
+    "lack": "falta",
+    "skilled": "calificados",
+    "workers": "trabajadores",
+    "fix": "arreglar",
+    "issues": "problemas",
+    "experts": "expertos",
+    "suggest": "sugieren",
+    "upgrading": "actualizar",
+    "networks": "redes",
+    "launching": "lanzar",
+    "strong": "fuertes",
+    "marketing": "mercadeo",
+    "campaigns": "campañas",
+    "continuously": "continuamente",
+    "summary": "resumen",
+    "article": "artículo",
+    "based": "basado",
+    "paper": "documento",
+    "abstract": "resumen",
+    "published": "publicado",
+    "publisher": "editor",
+    "journal": "revista",
+    "associated": "asociado",
+    "study": "estudio"
+   },
+   "sources": [
+    {
+     "title": "Small-Scale Renewable Energy Market: Exploring Opportunities and Challenges Within a Selected African Electricity Distribution Company",
+     "url": "https://doi.org/10.52131/irasd-jee.2026.v7i2.3223",
+     "publisher": "iRASD Journal of Energy & Environment",
+     "date": "2026-10-23"
+    }
+   ],
+   "audio": "audio/2026-11-25-energy.mp3"
+  },
+  {
+   "id": "2026-11-25-soft",
+   "date": "2026-11-25",
+   "theme": "soft",
+   "group": "Interpersonal skills",
+   "kind": "paper",
+   "title": "Social Media as the Main Workplace Communication Tool",
+   "paras": [
+    "Social media plays a major role in modern businesses. Companies use these digital platforms to help workers share knowledge, upload content, and collaborate with team members. This massive growth in digital tools changed how people talk to each other, especially after the global pandemic.",
+    "A new research study looks at how different platforms affect productivity, teamwork, and overall communication. The authors also examine if factors like gender, age, industry type, and work experience create any differences in how employees use these tools.",
+    "The results show that Indian workers now rely on social media as their main way to talk about work. This trend appears across private, public, and government sectors. Furthermore, WhatsApp is the most popular and efficient application for daily official tasks.",
+    "Interestingly, the study found that age does not change how well social media helps people collaborate. Also, workers with more than twenty years of experience use these platforms the most for their jobs. This article is based on a research paper abstract published by the publisher or journal."
+   ],
+   "vocab": [
+    {
+     "w": "business",
+     "d": "an organization that makes or sells goods or services",
+     "es": "negocio"
+    },
+    {
+     "w": "content",
+     "d": "information or material put into a digital format",
+     "es": "contenido"
+    },
+    {
+     "w": "productivity",
+     "d": "the rate at which a worker produces goods or services",
+     "es": "productividad"
+    },
+    {
+     "w": "sector",
+     "d": "an area of the economy",
+     "es": "sector"
+    },
+    {
+     "w": "official",
+     "d": "approved by authority",
+     "es": "oficial"
+    },
+    {
+     "w": "frequency",
+     "d": "how often something happens",
+     "es": "frecuencia"
+    },
+    {
+     "w": "unexpected",
+     "d": "surprising because it was not planned",
+     "es": "inesperado"
+    },
+    {
+     "w": "experience",
+     "d": "knowledge gained from doing something",
+     "es": "experiencia"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is one main purpose of social media in modern companies?",
+     "o": [
+      "To replace all physical meetings",
+      "To encourage skill sharing and teamwork",
+      "To find new customers"
+     ],
+     "a": 1,
+     "why": "The text states that companies use digital platforms to help workers share knowledge and collaborate."
+    },
+    {
+     "q": "Which country's workplace was studied in the research?",
+     "o": [
+      "India",
+      "Spain",
+      "The United States"
+     ],
+     "a": 0,
+     "why": "The findings mention that in the Indian workplace, social media became the primary mode of communication."
+    },
+    {
+     "q": "Which platform is used the most for official daily tasks?",
+     "o": [
+      "Facebook",
+      "WhatsApp",
+      "Instagram"
+     ],
+     "a": 1,
+     "why": "The text specifies that WhatsApp is the most efficient platform with the highest daily usage frequency."
+    },
+    {
+     "q": "How does age affect social media collaboration according to the text?",
+     "o": [
+      "Older workers use it much less",
+      "Younger workers prefer email",
+      "Age does not significantly change its impact"
+     ],
+     "a": 2,
+     "why": "The study found that the impact on collaboration did not significantly differ by age group."
+    },
+    {
+     "q": "Which workers use social media the most for work purposes?",
+     "o": [
+      "Workers with over twenty years of experience",
+      "New employees just starting their careers",
+      "Workers under twenty years of age"
+     ],
+     "a": 0,
+     "why": "The text states that employees above twenty years of work experience use social media more for work."
+    },
+    {
+     "q": "In the sentence 'Companies use these digital platforms to help workers share knowledge', what is the grammatical structure of 'to help workers share knowledge'?",
+     "o": [
+      "A relative clause",
+      "An infinitive of purpose",
+      "A gerund phrase",
+      "A passive verb form"
+     ],
+     "a": 1,
+     "why": "The to-infinitive phrase 'to help' explains the purpose of why companies use these digital platforms.",
+     "t": "grammar"
+    },
+    {
+     "q": "Consider the phrase 'workers with more than twenty years of experience'. What grammatical function does the prepositional phrase 'with more than twenty years of experience' serve?",
+     "o": [
+      "It modifies the noun 'workers' like an adjective",
+      "It acts as the main verb of the sentence",
+      "It functions as an adverb of time",
+      "It introduces a conditional clause"
+     ],
+     "a": 0,
+     "why": "Prepositional phrases following a noun often act as post-modifiers, describing which workers are being discussed.",
+     "t": "grammar"
+    }
+   ],
+   "gloss": {
+    "social": "social",
+    "media": "medios",
+    "plays": "desempeña",
+    "major": "principal",
+    "role": "papel",
+    "modern": "modernos",
+    "businesses": "negocios",
+    "companies": "empresas",
+    "use": "usan",
+    "these": "estas",
+    "digital": "digitales",
+    "platforms": "plataformas",
+    "help": "ayudar",
+    "workers": "trabajadores",
+    "share": "compartir",
+    "knowledge": "conocimiento",
+    "content": "contenido",
+    "collaborate": "colaborar",
+    "team": "equipo",
+    "members": "miembros",
+    "massive": "masivo",
+    "growth": "crecimiento",
+    "changed": "cambió",
+    "how": "cómo",
+    "people": "personas",
+    "talk": "hablan",
+    "each": "cada",
+    "other": "otro",
+    "especially": "especialmente",
+    "after": "después",
+    "global": "global",
+    "pandemic": "pandemia",
+    "new": "nueva",
+    "research": "investigación",
+    "study": "estudio",
+    "looks": "examina",
+    "different": "diferentes",
+    "affect": "afectan",
+    "productivity": "productividad",
+    "teamwork": "trabajo en equipo",
+    "overall": "general",
+    "communication": "comunicación",
+    "authors": "autores",
+    "also": "también",
+    "examine": "examinan",
+    "if": "si",
+    "factors": "factores",
+    "gender": "género",
+    "age": "edad",
+    "industry": "industria",
+    "type": "tipo",
+    "work": "trabajo",
+    "experience": "experiencia",
+    "create": "crean",
+    "any": "cualquier",
+    "tools": "herramientas",
+    "results": "resultados",
+    "show": "muestran",
+    "indian": "indios",
+    "now": "ahora",
+    "rely": "dependen",
+    "main": "principal",
+    "way": "forma",
+    "about": "sobre",
+    "trend": "tendencia",
+    "appears": "aparece",
+    "across": "a través",
+    "private": "privado",
+    "public": "público",
+    "government": "gubernamental",
+    "sectors": "sectores",
+    "furthermore": "además",
+    "whatsapp": "whatsapp",
+    "popular": "popular",
+    "efficient": "eficiente",
+    "application": "aplicación",
+    "daily": "diarias",
+    "official": "oficiales",
+    "tasks": "tareas",
+    "interestingly": "curiosamente",
+    "found": "encontró",
+    "does": "hace",
+    "not": "no",
+    "change": "cambia",
+    "well": "bien",
+    "helps": "ayuda",
+    "older": "mayores",
+    "much": "mucho",
+    "less": "menos",
+    "employees": "empleados",
+    "above": "más de",
+    "twenty": "veinte",
+    "years": "años",
+    "most": "más",
+    "jobs": "empleos",
+    "article": "artículo",
+    "based": "basado",
+    "paper": "documento",
+    "abstract": "resumen",
+    "published": "publicado",
+    "publisher": "editorial",
+    "journal": "revista científica"
+   },
+   "sources": [
+    {
+     "title": "Post Covid-19, has Social Media become the primary mode of communication in the workplace?",
+     "url": "https://lumarpub.com/iilr/article/view/33.S5.56",
+     "publisher": "International Insurance Law Review",
+     "date": "2025-12-19"
+    }
+   ],
+   "audio": "audio/2026-11-25-soft.mp3"
+  },
   {
    "id": "2026-11-24-logistics",
    "date": "2026-11-24",

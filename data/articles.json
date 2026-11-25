@@ -2,6 +2,791 @@
  "updated": "2026-11-25",
  "articles": [
   {
+   "id": "2026-11-25-logistics",
+   "date": "2026-11-25",
+   "theme": "logistics",
+   "group": "Logistics trends",
+   "kind": "news",
+   "title": "Water Regulators Warn Company Over Serious Leaks",
+   "paras": [
+    "Government regulators have strongly criticized a regional water company in England for failing to reduce water losses from its pipes. Officials stated that the organization has missed its targets for fixing damaged pipes and stopping leaks for seven years. This poor performance is creating a serious threat for local residents and businesses because many areas are currently experiencing a severe shortage of water due to very low rainfall.",
+    "The water provider loses millions of litres of water every single day from its network, which makes the regional shortage much worse. While the company asks local households and businesses to use less water, it does not accept responsibility for the large amount of water lost through its own broken infrastructure. Experts warn that these ongoing supply problems could soon lead to emergency measures, school closures, and negative impacts on the local economy.",
+    "Local leaders and officials are very frustrated by the situation. They point out that the company has continued to pay money to its shareholders while ignoring its basic duties to maintain proper infrastructure and protect the natural environment. The government has now demanded that the provider submit a detailed action plan within six weeks to fix these ongoing issues and improve its network performance.",
+    "This educational summary article is based on a news report published by The Guardian."
+   ],
+   "vocab": [
+    {
+     "w": "regulator",
+     "d": "an official organization that checks businesses follow rules",
+     "es": "regulador"
+    },
+    {
+     "w": "drought",
+     "d": "a long period with little or no rain",
+     "es": "sequía"
+    },
+    {
+     "w": "target",
+     "d": "a goal or result you try to achieve",
+     "es": "objetivo"
+    },
+    {
+     "w": "shortcoming",
+     "d": "a fault or failure to reach a standard",
+     "es": "defecto"
+    },
+    {
+     "w": "infrastructure",
+     "d": "the basic systems and structures of a company or country",
+     "es": "infraestructura"
+    },
+    {
+     "w": "outage",
+     "d": "a period when a service is not working",
+     "es": "interrupción"
+    },
+    {
+     "w": "reservoir",
+     "d": "a natural or artificial lake used to store water",
+     "es": "reservorio"
+    },
+    {
+     "w": "shareholder",
+     "d": "an owner of shares in a company",
+     "es": "accionista"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What problem are regulators criticizing the water company for?",
+     "o": [
+      "raising prices too quickly",
+      "failing to fix water leaks",
+      "polluting the local beaches"
+     ],
+     "a": 1,
+     "why": "The text states the company failed to meet targets to reduce leaks and repair pipes."
+    },
+    {
+     "q": "How long has the company been failing its leakage targets?",
+     "o": [
+      "three years",
+      "five years",
+      "seven years"
+     ],
+     "a": 2,
+     "why": "Regulators said the company had been failing to meet these targets for seven years."
+    },
+    {
+     "q": "What has the company asked households to do?",
+     "o": [
+      "reduce their water usage",
+      "pay higher bills immediately",
+      "report broken pipes outside"
+     ],
+     "a": 0,
+     "why": "The company has written to households urging them to reduce their water usage."
+    },
+    {
+     "q": "Where does the company have to send its new action plan?",
+     "o": [
+      "only to local councils",
+      "to the government and regulators",
+      "directly to the shareholders"
+     ],
+     "a": 1,
+     "why": "The text explains the company must report to the government and regulators with a plan."
+    },
+    {
+     "q": "According to the last paragraph, which publisher provided the original news article?",
+     "o": [
+      "The Guardian",
+      "The Times",
+      "BBC News"
+     ],
+     "a": 0,
+     "why": "The summary states it is based on a report published by The Guardian."
+    },
+    {
+     "t": "grammar",
+     "q": "In the sentence \"Officials stated that the organization has missed its targets...\", what tense is \"has missed\" and why is it used?",
+     "o": [
+      "Present perfect, to show an action started in the past and continues or has relevance now",
+      "Past simple, to describe a finished action at a specific time",
+      "Past perfect, to show an action happened before another past action",
+      "Present continuous, to describe an action happening right now"
+     ],
+     "a": 0,
+     "why": "Present perfect connects a past failure to the present situation."
+    },
+    {
+     "t": "grammar",
+     "q": "Look at the phrase \"...because many areas are currently experiencing a severe shortage...\": what grammatical structure is \"are currently experiencing\"?",
+     "o": [
+      "Present simple for habits",
+      "Present continuous for a current trend or ongoing situation",
+      "Future continuous for plans",
+      "Past continuous for interrupted actions"
+     ],
+     "a": 1,
+     "why": "Present continuous describes an ongoing situation happening around the present time."
+    }
+   ],
+   "gloss": {
+    "government": "gobierno",
+    "regulators": "reguladores",
+    "strongly": "fuertemente",
+    "criticized": "criticaron",
+    "regional": "regional",
+    "water": "agua",
+    "company": "empresa",
+    "england": "inglaterra",
+    "failing": "fallando",
+    "reduce": "reducir",
+    "losses": "pérdidas",
+    "pipes": "tuberías",
+    "officials": "funcionarios",
+    "stated": "afirmaron",
+    "organization": "organización",
+    "missed": "incumplió",
+    "targets": "objetivos",
+    "fixing": "reparar",
+    "damaged": "dañadas",
+    "stopping": "detener",
+    "leaks": "fugas",
+    "seven": "siete",
+    "years": "años",
+    "poor": "pobre",
+    "performance": "rendimiento",
+    "creating": "creando",
+    "serious": "grave",
+    "threat": "amenaza",
+    "local": "local",
+    "residents": "residentes",
+    "businesses": "empresas",
+    "many": "muchas",
+    "areas": "áreas",
+    "currently": "actualmente",
+    "experiencing": "experimentando",
+    "severe": "severa",
+    "shortage": "escasez",
+    "due": "debido",
+    "low": "baja",
+    "rainfall": "precipitación",
+    "provider": "proveedor",
+    "loses": "pierde",
+    "millions": "millones",
+    "litres": "litros",
+    "every": "cada",
+    "single": "solo",
+    "day": "día",
+    "network": "red",
+    "makes": "hace",
+    "much": "mucho",
+    "worse": "peor",
+    "while": "mientras",
+    "asks": "pide",
+    "households": "hogares",
+    "use": "usar",
+    "less": "menos",
+    "accept": "aceptar",
+    "responsibility": "responsabilidad",
+    "large": "gran",
+    "amount": "cantidad",
+    "lost": "perdida",
+    "through": "a través de",
+    "own": "propia",
+    "broken": "rota",
+    "infrastructure": "infraestructura",
+    "experts": "expertos",
+    "warn": "advierten",
+    "ongoing": "continuos",
+    "supply": "suministro",
+    "problems": "problemas",
+    "soon": "pronto",
+    "lead": "llevar",
+    "emergency": "emergencia",
+    "measures": "medidas",
+    "school": "escolar",
+    "closures": "cierres",
+    "negative": "negativos",
+    "impacts": "impactos",
+    "economy": "economía",
+    "leaders": "líderes",
+    "frustrated": "frustrados",
+    "situation": "situación",
+    "point": "señalan",
+    "out": "fuera",
+    "continued": "continuó",
+    "pay": "pagar",
+    "money": "dinero",
+    "shareholders": "accionistas",
+    "ignoring": "ignorando",
+    "basic": "básicas",
+    "duties": "responsabilidades",
+    "maintain": "mantener",
+    "proper": "adecuada",
+    "protect": "proteger",
+    "natural": "natural",
+    "environment": "medio ambiente",
+    "demanded": "exigido",
+    "submit": "presentar",
+    "detailed": "detallado",
+    "action": "acción",
+    "plan": "plan",
+    "within": "dentro",
+    "six": "seis",
+    "weeks": "semanas",
+    "improve": "mejorar",
+    "educational": "educativo",
+    "summary": "resumen",
+    "article": "artículo",
+    "based": "basado",
+    "report": "informe",
+    "published": "publicado",
+    "guardian": "guardian"
+   },
+   "sources": [
+    {
+     "title": "South West Water’s failure to fix leaks ‘putting customer supplies at risk’",
+     "url": "https://www.theguardian.com/business/2026/nov/05/south-west-water-failure-fix-leaks-putting-customer-supplies-at-risk",
+     "publisher": "The Guardian",
+     "date": "2026-11-05"
+    }
+   ],
+   "audio": "audio/2026-11-25-logistics.mp3"
+  },
+  {
+   "id": "2026-11-25-finance",
+   "date": "2026-11-25",
+   "theme": "finance",
+   "group": "Corporate finance",
+   "kind": "news",
+   "title": "Why Higher Interest Rates Do Not Stop Global Inflation",
+   "paras": [
+    "Recent updates show that inflation in Australia will remain high for a longer period than previously expected. The Reserve Bank blames this on high internal demand, meaning people are spending too much money. However, international events play a much larger role in driving up prices. Specifically, conflicts in the Middle East have caused global oil prices to increase significantly, which affects the cost of everyday goods.",
+    "The central bank continues to raise interest rates and claims this will control inflation. Yet, increasing rates does very little to stop price increases that come from global conflicts and expensive fuel. Many families are already reducing their spending because they have less money. When people buy cheaper products and look for bargains, it shows that consumer demand is actually weak rather than excessive.",
+    "Other countries have tried aggressive spending cuts and high interest rates to fix similar problems with poor results. For example, neighboring New Zealand used strict financial policies that led to economic recession and higher joblessness without successfully stopping inflation. Repeating these same mistakes will only harm ordinary workers while energy companies and large supermarkets continue to make strong profits.",
+    "This summary article is based on a news report published by The Guardian, written by columnist Greg Jericho."
+   ],
+   "vocab": [
+    {
+     "w": "inflation",
+     "d": "a general increase in prices over time",
+     "es": "inflación"
+    },
+    {
+     "w": "demand",
+     "d": "the desire of consumers to buy goods and services",
+     "es": "demanda"
+    },
+    {
+     "w": "conflict",
+     "d": "a serious disagreement or war",
+     "es": "conflicto"
+    },
+    {
+     "w": "forecast",
+     "d": "a prediction about future events",
+     "es": "pronóstico"
+    },
+    {
+     "w": "recession",
+     "d": "a period of temporary economic decline",
+     "es": "recesión"
+    },
+    {
+     "w": "policy",
+     "d": "a course or principle of action adopted by an organization",
+     "es": "política"
+    },
+    {
+     "w": "profit",
+     "d": "financial gain from business activity",
+     "es": "ganancia"
+    },
+    {
+     "w": "bargain",
+     "d": "a thing bought for less than its normal price",
+     "es": "ganga"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the main reason the Reserve Bank gives for higher inflation?",
+     "o": [
+      "Too much public spending",
+      "High internal demand from consumers",
+      "Decreased international trade"
+     ],
+     "a": 1,
+     "why": "The text states the central bank blames inflation on high internal demand."
+    },
+    {
+     "q": "What is the actual primary cause of rising prices mentioned in the text?",
+     "o": [
+      "Global oil price increases from conflicts",
+      "Higher wages for factory workers",
+      "Government investments in public transport"
+     ],
+     "a": 0,
+     "why": "The text explains that international events and oil prices drive up inflation."
+    },
+    {
+     "q": "How are ordinary households responding to financial pressure?",
+     "o": [
+      "Buying more luxury items",
+      "Looking for bargains and cheaper products",
+      "Requesting larger loans from banks"
+     ],
+     "a": 1,
+     "why": "The text mentions people are looking for bargains and cutting back."
+    },
+    {
+     "q": "What happened in New Zealand after they applied strict financial policies?",
+     "o": [
+      "Inflation disappeared completely",
+      "The economy entered a recession",
+      "Unemployment dropped significantly"
+     ],
+     "a": 1,
+     "why": "The text states their policies led to an economic recession and higher joblessness."
+    },
+    {
+     "q": "Which companies continue to make strong profits according to the text?",
+     "o": [
+      "Energy companies and large supermarkets",
+      "Small local clothing shops",
+      "Public transport providers"
+     ],
+     "a": 0,
+     "why": "The text notes that energy companies and supermarkets continue to make profits."
+    },
+    {
+     "q": "Identify the grammar structure of this sentence: 'The central bank continues to raise interest rates and claims this will control inflation.'",
+     "o": [
+      "Passive voice with an auxiliary verb",
+      "Compound sentence with present simple active verbs",
+      "Third conditional with a modal verb",
+      "Reduced relative clause"
+     ],
+     "a": 1,
+     "why": "t: grammar. The sentence combines two independent clauses using the conjunction 'and' with verbs in the present simple tense in active voice.",
+     "t": "grammar"
+    },
+    {
+     "q": "Analyze the grammar in this phrase: 'Repeating these same mistakes will only harm ordinary workers...'",
+     "o": [
+      "A gerund phrase acting as the subject",
+      "A past participle describing a noun",
+      "An infinitive clause expressing purpose",
+      "A relative clause modifying workers"
+     ],
+     "a": 0,
+     "why": "t: grammar. 'Repeating' is a gerund forming the subject of the sentence, followed by the modal verb 'will'.",
+     "t": "grammar"
+    }
+   ],
+   "gloss": {
+    "recent": "recientes",
+    "updates": "actualizaciones",
+    "show": "muestran",
+    "that": "que",
+    "inflation": "inflación",
+    "in": "en",
+    "australia": "Australia",
+    "will": "hará",
+    "remain": "permanecer",
+    "high": "alta",
+    "for": "por",
+    "longer": "más tiempo",
+    "period": "periodo",
+    "than": "que",
+    "previously": "previamente",
+    "expected": "esperado",
+    "the": "el",
+    "reserve": "de la reserva",
+    "bank": "banco",
+    "blames": "culpa",
+    "this": "esto",
+    "on": "sobre",
+    "internal": "interna",
+    "demand": "demanda",
+    "meaning": "significando",
+    "people": "personas",
+    "are": "están",
+    "spending": "gastando",
+    "too": "demasiado",
+    "much": "mucho",
+    "money": "dinero",
+    "however": "sin embargo",
+    "international": "internacionales",
+    "events": "eventos",
+    "play": "juegan",
+    "larger": "mayor",
+    "role": "papel",
+    "driving": "impulsando",
+    "up": "hacia arriba",
+    "prices": "precios",
+    "specifically": "específicamente",
+    "conflicts": "conflictos",
+    "middle": "Medio",
+    "east": "Oriente",
+    "have": "han",
+    "caused": "causado",
+    "global": "globales",
+    "oil": "petróleo",
+    "increase": "aumentar",
+    "significantly": "significativamente",
+    "which": "lo cual",
+    "affects": "afecta",
+    "cost": "costo",
+    "everyday": "cotidianos",
+    "goods": "bienes",
+    "central": "central",
+    "continues": "continúa",
+    "raise": "elevar",
+    "interest": "interés",
+    "rates": "tasas",
+    "claims": "afirma",
+    "control": "controlar",
+    "yet": "aún",
+    "increasing": "incrementar",
+    "does": "hace",
+    "very": "muy",
+    "little": "poco",
+    "stop": "detener",
+    "price": "precio",
+    "increases": "incrementos",
+    "come": "vienen",
+    "from": "de",
+    "expensive": "caro",
+    "fuel": "combustible",
+    "many": "muchas",
+    "families": "familias",
+    "already": "ya",
+    "reducing": "reduciendo",
+    "their": "su",
+    "less": "menos",
+    "buy": "comprar",
+    "cheaper": "más baratos",
+    "products": "productos",
+    "look": "buscan",
+    "bargains": "gangas",
+    "it": "ello",
+    "shows": "muestra",
+    "consumer": "consumidor",
+    "actually": "realmente",
+    "weak": "débil",
+    "rather": "en lugar",
+    "excessive": "excesiva",
+    "other": "otros",
+    "countries": "países",
+    "tried": "intentado",
+    "aggressive": "agresivos",
+    "cuts": "recortes",
+    "fix": "arreglar",
+    "similar": "similares",
+    "problems": "problemas",
+    "poor": "pobres",
+    "results": "resultados",
+    "example": "ejemplo",
+    "neighboring": "vecina",
+    "new": "Nueva",
+    "zealand": "Zelanda",
+    "used": "utilizó",
+    "strict": "estrictas",
+    "financial": "financieras",
+    "policies": "políticas",
+    "led": "condujeron",
+    "economic": "económica",
+    "recession": "recesión",
+    "joblessness": "desempleo",
+    "without": "sin",
+    "successfully": "exitosamente",
+    "repeating": "repetir",
+    "same": "mismos",
+    "mistakes": "errores",
+    "only": "solo",
+    "harm": "dañar",
+    "ordinary": "ordinarios",
+    "workers": "trabajadores",
+    "while": "mientras",
+    "energy": "energéticas",
+    "companies": "empresas",
+    "large": "grandes",
+    "supermarkets": "supermercados",
+    "continue": "continúan",
+    "make": "hacer",
+    "strong": "fuertes",
+    "profits": "ganancias",
+    "summary": "resumen",
+    "article": "artículo",
+    "based": "basado",
+    "news": "noticias",
+    "report": "reporte",
+    "published": "publicado",
+    "by": "por",
+    "guardian": "Guardian",
+    "written": "escrito",
+    "columnist": "columnista",
+    "greg": "Greg",
+    "jericho": "Jericho"
+   },
+   "sources": [
+    {
+     "title": "The RBA says there is ‘excess demand’ in the economy. Households doing it tough might disagree | Greg Jericho",
+     "url": "https://www.theguardian.com/business/grogonomics/2026/nov/04/the-rba-says-there-is-excess-demand-in-the-economy-households-doing-it-tough-might-disagree",
+     "publisher": "The Guardian",
+     "date": "2026-11-04"
+    }
+   ],
+   "audio": "audio/2026-11-25-finance.mp3"
+  },
+  {
+   "id": "2026-11-25-soft",
+   "date": "2026-11-25",
+   "theme": "soft",
+   "group": "Interpersonal skills",
+   "kind": "paper",
+   "title": "Developing Essential Soft Skills for Modern Global Employment",
+   "paras": [
+    "Modern job markets require more than just technical knowledge. Employers now look closely at soft skills, which include working well in teams, solving problems, adapting to changes, and managing emotions. These abilities are essential for finding a good job today.",
+    "A recent analytical review examines how people develop these crucial communication and interpersonal skills. The study looks at different teaching methods, evaluation practices, and the importance of English as a shared global language in modern workplaces.",
+    "Researchers found three main approaches to building these competencies. First, schools can combine skill training directly into regular academic subjects. Second, students can learn through real-world experiences like internships and workplace simulations. Third, digital tools and online platforms help learners improve their abilities using technology and feedback.",
+    "This informative article is based on a research paper abstract published by the National Association of Colleges and Employers."
+   ],
+   "vocab": [
+    {
+     "w": "employability",
+     "d": "the ability to find and keep a job",
+     "es": "empleabilidad"
+    },
+    {
+     "w": "competence",
+     "d": "having the necessary skill or knowledge",
+     "es": "competencia"
+    },
+    {
+     "w": "adaptability",
+     "d": "the ability to adjust to new conditions",
+     "es": "adaptabilidad"
+    },
+    {
+     "w": "synthesis",
+     "d": "combining different ideas into a whole",
+     "es": "síntesis"
+    },
+    {
+     "w": "pedagogical",
+     "d": "related to teaching methods",
+     "es": "pedagógico"
+    },
+    {
+     "w": "internships",
+     "d": "temporary jobs for gaining work experience",
+     "es": "pasantías"
+    },
+    {
+     "w": "competencies",
+     "d": "skills and abilities",
+     "es": "competencias"
+    },
+    {
+     "w": "institutions",
+     "d": "large established organizations",
+     "es": "instituciones"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What do employers value besides technical knowledge?",
+     "o": [
+      "Only high grades",
+      "Soft skills like teamwork and problem-solving",
+      "Expensive degrees"
+     ],
+     "a": 1,
+     "why": "The text states that employers rank communication and soft skills as critical for employment."
+    },
+    {
+     "q": "What is one of the three main approaches found by researchers?",
+     "o": [
+      "Eliminating traditional exams",
+      "Combining skill training into regular subjects",
+      "Requiring years of foreign travel"
+     ],
+     "a": 1,
+     "why": "The third paragraph mentions integrated curricula that embed soft-skill development within disciplinary content."
+    },
+    {
+     "q": "How can students gain real-world experience according to the text?",
+     "o": [
+      "Through internships and simulations",
+      "By studying alone in a library",
+      "By watching educational videos only"
+     ],
+     "a": 0,
+     "why": "Experiential learning formats include internships and simulated workplace tasks."
+    },
+    {
+     "q": "What role does English play in global workplaces?",
+     "o": [
+      "It is completely ignored",
+      "It acts as a shared global language",
+      "It is only used in schools"
+     ],
+     "a": 1,
+     "why": "The text mentions the role of English as a lingua franca in global workplaces."
+    },
+    {
+     "q": "Who published the research paper abstract discussed here?",
+     "o": [
+      "The United Nations",
+      "The National Association of Colleges and Employers",
+      "A local high school"
+     ],
+     "a": 1,
+     "why": "The final paragraph names the National Association of Colleges and Employers as the publisher."
+    },
+    {
+     "t": "grammar",
+     "q": "In the sentence 'Employers now look closely at soft skills...', what is the grammatical function of 'closely'?",
+     "o": [
+      "Adjective modifying skills",
+      "Adverb modifying the verb look",
+      "Noun acting as an object",
+      "Preposition showing place"
+     ],
+     "a": 1,
+     "why": "The word 'closely' is an adverb that describes how employers look at soft skills."
+    },
+    {
+     "t": "grammar",
+     "q": "Look at the phrase '...how people develop these crucial communication and interpersonal skills.' What type of clause is 'how people develop these crucial communication and interpersonal skills'?",
+     "o": [
+      "Adjective clause",
+      "Noun clause acting as the object of examines",
+      "Adverbial clause of time",
+      "Conditional clause"
+     ],
+     "a": 1,
+     "why": "It is a noun clause functioning as the direct object of the verb 'examines'."
+    }
+   ],
+   "gloss": {
+    "modern": "moderno",
+    "job": "trabajo",
+    "markets": "mercados",
+    "require": "requieren",
+    "more": "más",
+    "than": "que",
+    "just": "solo",
+    "technical": "técnico",
+    "knowledge": "conocimiento",
+    "employers": "empleadores",
+    "now": "ahora",
+    "look": "buscan",
+    "closously": "atentamente",
+    "soft": "blandas",
+    "skills": "habilidades",
+    "include": "incluyen",
+    "working": "trabajar",
+    "well": "bien",
+    "teams": "equipos",
+    "solving": "resolver",
+    "problems": "problemas",
+    "adapting": "adaptarse",
+    "changes": "cambios",
+    "managing": "gestionar",
+    "emotions": "emociones",
+    "abilities": "capacidades",
+    "essential": "esenciales",
+    "finding": "encontrar",
+    "good": "buen",
+    "today": "hoy",
+    "recent": "reciente",
+    "analytical": "analítico",
+    "review": "revisión",
+    "examines": "examina",
+    "how": "cómo",
+    "people": "personas",
+    "develop": "desarrollan",
+    "crucial": "cruciales",
+    "communication": "comunicación",
+    "interpersonal": "interpersonales",
+    "study": "estudio",
+    "different": "diferentes",
+    "teaching": "enseñanza",
+    "methods": "métodos",
+    "evaluation": "evaluación",
+    "practices": "prácticas",
+    "importance": "importancia",
+    "english": "inglés",
+    "shared": "compartido",
+    "global": "global",
+    "language": "idioma",
+    "workplaces": "lugares de trabajo",
+    "researchers": "investigadores",
+    "found": "encontraron",
+    "main": "principales",
+    "approaches": "enfoques",
+    "building": "construir",
+    "competencies": "competencias",
+    "first": "primero",
+    "schools": "escuelas",
+    "can": "pueden",
+    "combine": "combinar",
+    "skill": "habilidad",
+    "training": "entrenamiento",
+    "directly": "directamente",
+    "regular": "regulares",
+    "academic": "académicas",
+    "subjects": "materias",
+    "second": "segundo",
+    "students": "estudiantes",
+    "learn": "aprenden",
+    "through": "a través",
+    "real-world": "del mundo real",
+    "experiences": "experiencias",
+    "like": "como",
+    "internships": "pasantías",
+    "workplace": "laborales",
+    "simulations": "simulaciones",
+    "third": "tercero",
+    "digital": "digitales",
+    "tools": "herramientas",
+    "online": "en línea",
+    "platforms": "plataformas",
+    "help": "ayudan",
+    "learners": "estudiantes",
+    "improve": "mejorar",
+    "using": "usando",
+    "technology": "tecnología",
+    "feedback": "retroalimentación",
+    "informative": "informativo",
+    "article": "artículo",
+    "based": "basado",
+    "research": "investigación",
+    "paper": "documento",
+    "abstract": "resumen",
+    "published": "publicado",
+    "national": "nacional",
+    "association": "asociación",
+    "colleges": "universidades",
+    "and": "y"
+   },
+   "sources": [
+    {
+     "title": "Development of Communication and Soft Skills for Employability: An Analytical Review",
+     "url": "https://doi.org/10.5281/zenodo.18978324",
+     "publisher": "Zenodo (CERN European Organization for Nuclear Research)",
+     "date": "2026-03-12"
+    }
+   ],
+   "audio": "audio/2026-11-25-soft.mp3"
+  },
+  {
    "id": "2026-11-25-energy",
    "date": "2026-11-25",
    "theme": "energy",

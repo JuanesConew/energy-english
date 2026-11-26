@@ -1,6 +1,756 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "articles": [
+  {
+   "id": "2026-11-26-tech",
+   "date": "2026-11-26",
+   "theme": "tech",
+   "group": "Technology trends",
+   "kind": "news",
+   "title": "Jensen Huang to Testify Before US Congress",
+   "paras": [
+    "The former head of Nvidia, Jensen Huang, will speak before several congressional committees on December first. This important meeting follows his resignation after a personal relationship with a suspected Chinese spy. Nvidia's top legal officer, Tim Teter, will also speak to lawmakers in a private interview the next day. Lawmakers want to understand if these events caused a serious risk to national security.",
+    "Politicians are concerned because advanced computer processors, which are vital for artificial intelligence technology, were involved. The United States government bans selling these powerful chips to China. Reports showed that a Singapore-based cloud computing firm, Megaspeed, bought billions of dollars in hardware and broke export rules. Malaysia is also looking into whether this company sent advanced technology to other nations.",
+    "Since leaving his position, Huang mentioned that he might return to lead the company again. Important tech leaders, including Elon Musk, and many online supporters want him back in his job. President Trump has also shown support for the former executive coming back to his role.",
+    "This summary article is based on a news report published by The Guardian."
+   ],
+   "vocab": [
+    {
+     "w": "resignation",
+     "d": "the act of giving up a job",
+     "es": "renuncia"
+    },
+    {
+     "w": "spy",
+     "d": "a person who secretly collects information",
+     "es": "espía"
+    },
+    {
+     "w": "security",
+     "d": "protection from danger or harm",
+     "es": "seguridad"
+    },
+    {
+     "w": "chips",
+     "d": "small pieces of computer hardware",
+     "es": "chips"
+    },
+    {
+     "w": "bansa",
+     "d": "to say something is illegal",
+     "es": "prohibir"
+    },
+    {
+     "w": "investigating",
+     "d": "trying to find out the facts",
+     "es": "investigando"
+    },
+    {
+     "w": "reinstatement",
+     "d": "returning someone to a former position",
+     "es": "reintegración"
+    },
+    {
+     "w": "executive",
+     "d": "a person with senior managerial responsibility",
+     "es": "directivo"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "When will Jensen Huang speak before congressional committees?",
+     "o": [
+      "December 1",
+      "December 2",
+      "November 12"
+     ],
+     "a": 0,
+     "why": "The text states he will testify on 1 December."
+    },
+    {
+     "q": "What technology is central to this investigation?",
+     "o": [
+      "Electric cars",
+      "Advanced AI chips",
+      "Mobile phones"
+     ],
+     "a": 1,
+     "why": "The article mentions Nvidia chips that power the artificial intelligence boom."
+    },
+    {
+     "q": "Which country's cloud computing firm is involved in the rule violations?",
+     "o": [
+      "Singapore",
+      "Malaysia",
+      "China"
+     ],
+     "a": 0,
+     "why": "Megaspeed is described as a Singapore-based cloud computing company."
+    },
+    {
+     "q": "Who expressed support for Huang returning to his job?",
+     "o": [
+      "Only government officials",
+      "Elon Musk and other tech leaders",
+      "No one"
+     ],
+     "a": 1,
+     "why": "Elon Musk and other Silicon Valley tech giants called for his reinstatement."
+    },
+    {
+     "q": "According to the last paragraph, where does this summary come from?",
+     "o": [
+      "The New York Times",
+      "The Guardian",
+      "BBC News"
+     ],
+     "a": 1,
+     "why": "The text states the article is based on a news report published by The Guardian."
+    },
+    {
+     "q": "Which phrase from the text uses the passive voice to describe an ongoing official action?",
+     "o": [
+      "\"Malaysia stated that they were investigating\"",
+      "\"Huang stepped down as Nvidia's CEO\"",
+      "\"The United States government bans selling\""
+     ],
+     "a": 0,
+     "why": "The structure uses past continuous passive/active framing to report an action being taken by Malaysia.",
+     "t": "grammar"
+    },
+    {
+     "q": "Look at the sentence: \"The Trump administration has prohibited the selling of advanced artificial intelligence chips to China.\" What grammatical structure is \"selling\"?",
+     "o": [
+      "A present participle",
+      "A gerund acting as a noun",
+      "An adjective"
+     ],
+     "a": 1,
+     "why": "\"Selling\" follows the preposition 'of' and acts as a gerund functioning as a noun.",
+     "t": "grammar"
+    }
+   ],
+   "gloss": {
+    "former": "antiguo",
+    "head": "jefe",
+    "nvidia": "nvidia",
+    "jensen": "jensen",
+    "huang": "huang",
+    "speak": "hablar",
+    "several": "varios",
+    "congressional": "del congreso",
+    "committees": "comités",
+    "december": "diciembre",
+    "first": "primero",
+    "important": "importante",
+    "meeting": "reunión",
+    "follows": "sigue",
+    "resignation": "renuncia",
+    "personal": "personal",
+    "relationship": "relación",
+    "suspected": "sospechoso",
+    "chinese": "chino",
+    "spy": "espía",
+    "top": "principal",
+    "legal": "legal",
+    "officer": "oficial",
+    "tim": "tim",
+    "teter": "teter",
+    "lawmakers": "legisladores",
+    "private": "privado",
+    "interview": "entrevista",
+    "next": "siguiente",
+    "day": "día",
+    "want": "quieren",
+    "understand": "entender",
+    "events": "eventos",
+    "caused": "causaron",
+    "serious": "grave",
+    "risk": "riesgo",
+    "national": "nacional",
+    "security": "seguridad",
+    "politicians": "políticos",
+    "concerned": "preocupados",
+    "because": "porque",
+    "advanced": "avanzados",
+    "computer": "computadora",
+    "processors": "procesadores",
+    "vital": "vitales",
+    "artificial": "artificial",
+    "intelligence": "inteligencia",
+    "technology": "tecnología",
+    "involved": "involucrados",
+    "united": "unidos",
+    "states": "estados",
+    "government": "gobierno",
+    "bans": "prohíbe",
+    "selling": "vender",
+    "powerful": "poderosos",
+    "chips": "chips",
+    "china": "china",
+    "reports": "informes",
+    "showed": "mostraron",
+    "singapore": "singapur",
+    "based": "basado",
+    "cloud": "nube",
+    "computing": "computación",
+    "firm": "firma",
+    "megaspeed": "megaspeed",
+    "bought": "compró",
+    "billions": "miles de millones",
+    "dollars": "dólares",
+    "hardware": "hardware",
+    "broke": "violó",
+    "export": "exportación",
+    "rules": "reglas",
+    "malaysia": "malasia",
+    "also": "también",
+    "looking": "investigando",
+    "into": "sobre",
+    "whether": "si",
+    "company": "empresa",
+    "sent": "envió",
+    "nations": "naciones",
+    "since": "desde",
+    "leaving": "dejar",
+    "position": "puesto",
+    "mentioned": "mencionó",
+    "might": "podría",
+    "return": "regresar",
+    "lead": "liderar",
+    "again": "otra vez",
+    "leaders": "líderes",
+    "including": "incluyendo",
+    "elon": "elon",
+    "musk": "musk",
+    "many": "muchos",
+    "online": "en línea",
+    "supporters": "simpatizantes",
+    "job": "trabajo",
+    "president": "presidente",
+    "trump": "trump",
+    "shown": "mostrado",
+    "support": "apoyo",
+    "executive": "ejecutivo",
+    "coming": "venir",
+    "summary": "resumen",
+    "article": "artículo",
+    "news": "noticias",
+    "report": "informe",
+    "published": "publicado",
+    "guardian": "the guardian"
+   },
+   "sources": [
+    {
+     "title": "Jensen Huang to testify before Congress on ‘potential breach of national security’",
+     "url": "https://www.theguardian.com/technology/2026/nov/17/jensen-huang-testify-congress-nvidia-affair-spy",
+     "publisher": "The Guardian",
+     "date": "2026-11-17"
+    }
+   ],
+   "audio": "audio/2026-11-26-tech.mp3"
+  },
+  {
+   "id": "2026-11-26-soft",
+   "date": "2026-11-26",
+   "theme": "soft",
+   "group": "Interpersonal skills",
+   "kind": "paper",
+   "title": "How Inclusion and Teamwork Build Strong Employee Commitment",
+   "paras": [
+    "Modern workplaces often try to create environments where all workers feel valued and included. This research looks at how employee inclusion, meaning practices that encourage fairness and a sense of belonging, affects how dedicated workers feel to their companies. Researchers wanted to understand the connection between these welcoming practices and total organizational commitment, which is the long-term loyalty workers feel toward their employer.",
+    "To explore this topic, the authors gathered data from three hundred eighty-two workers in both government and private companies located in Kerala. These participants answered detailed questions about their daily work experiences. Scientists then used a statistical method called structural equation modelling to study the data and understand how different factors connect with one another in the workplace.",
+    "The results show that when companies include everyone fairly, teamwork improves greatly. Good collaboration among colleagues helps build stronger loyalty to the company. Furthermore, the analysis proves that working together as a team acts as a bridge, partially connecting inclusive workplace policies with higher levels of worker dedication and cooperation.",
+    "In summary, this text is based on a research paper abstract published by the publisher or journal that originally released the study on inclusive workplace practices and organizational commitment."
+   ],
+   "vocab": [
+    {
+     "w": "inclusion",
+     "d": "the act of including everyone",
+     "es": "inclusion"
+    },
+    {
+     "w": "commitment",
+     "d": "dedication to a company",
+     "es": "compromiso"
+    },
+    {
+     "w": "belonging",
+     "d": "feeling of fitting in",
+     "es": "pertenencia"
+    },
+    {
+     "w": "fairness",
+     "d": "treating everyone equally",
+     "es": "equidad"
+    },
+    {
+     "w": "loyalty",
+     "d": "being faithful to an organization",
+     "es": "lealtad"
+    },
+    {
+     "w": "participants",
+     "d": "people who take part in a study",
+     "es": "participantes"
+    },
+    {
+     "w": "method",
+     "d": "a way of doing something",
+     "es": "metodo"
+    },
+    {
+     "w": "bridge",
+     "d": "something that connects two things",
+     "es": "puente"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the main topic of the research?",
+     "o": [
+      "How inclusion and teamwork affect worker commitment",
+      "How to run a government company",
+      "How to write statistical questionnaires"
+     ],
+     "a": 0,
+     "why": "The text discusses how inclusion and teamwork build employee commitment."
+    },
+    {
+     "q": "How many valid responses did the researchers analyze?",
+     "o": [
+      "Two hundred eighty-two",
+      "Three hundred eighty-two",
+      "Four hundred eighty-two"
+     ],
+     "a": 1,
+     "why": "The text states that there were 382 valid responses."
+    },
+    {
+     "q": "Where were the participants located?",
+     "o": [
+      "Kerala",
+      "Madrid",
+      "London"
+     ],
+     "a": 0,
+     "why": "The text mentions workers located in Kerala."
+    },
+    {
+     "q": "What statistical tool did scientists use?",
+     "o": [
+      "Structural equation modelling",
+      "Random guessing",
+      "Simple phone surveys"
+     ],
+     "a": 0,
+     "why": "The text explicitly names structural equation modelling."
+    },
+    {
+     "q": "What does teamwork act as between inclusion and commitment?",
+     "o": [
+      "A barrier",
+      "A bridge",
+      "A problem"
+     ],
+     "a": 1,
+     "why": "The text says teamwork acts as a bridge connecting the two."
+    },
+    {
+     "q": "In the sentence 'Modern workplaces often try to create environments where all workers feel valued and included', what grammatical structure is 'where all workers feel valued and included'?",
+     "o": [
+      "A relative clause modifying environments",
+      "A conditional clause showing a condition",
+      "A gerund phrase acting as a subject",
+      "A passive infinitive verb phrase"
+     ],
+     "a": 0,
+     "why": "The phrase 'where all workers feel valued and included' is a relative clause starting with 'where' that describes the noun 'environments'.",
+     "t": "grammar"
+    },
+    {
+     "q": "In the phrase 'To explore this topic, the authors gathered data...', what is the grammatical function of 'To explore this topic'?",
+     "o": [
+      "An infinitive phrase showing purpose",
+      "A prepositional phrase showing time",
+      "A relative clause showing location",
+      "A participial phrase showing a result"
+     ],
+     "a": 0,
+     "why": "The infinitive 'To explore' is used here at the beginning of the sentence to explain the purpose of the action.",
+     "t": "grammar"
+    }
+   ],
+   "gloss": {
+    "modern": "modernos",
+    "workplaces": "lugares de trabajo",
+    "often": "a menudo",
+    "try": "intentan",
+    "create": "crear",
+    "environments": "ambientes",
+    "where": "donde",
+    "all": "todos",
+    "workers": "trabajadores",
+    "feel": "sienten",
+    "valued": "valorados",
+    "included": "incluidos",
+    "this": "esta",
+    "research": "investigacion",
+    "looks": "analiza",
+    "how": "como",
+    "employee": "empleado",
+    "meaning": "que significa",
+    "practices": "practicas",
+    "encourage": "fomentan",
+    "fairness": "equidad",
+    "sense": "sentido",
+    "belonging": "pertenencia",
+    "affect": "afecta",
+    "dedicated": "dedicados",
+    "companies": "empresas",
+    "researchers": "investigadores",
+    "wanted": "querian",
+    "understand": "entender",
+    "connection": "conexion",
+    "between": "entre",
+    "welcoming": "acogedoras",
+    "total": "total",
+    "organizational": "organizacional",
+    "long-term": "largo plazo",
+    "loyalty": "lealtad",
+    "toward": "hacia",
+    "employer": "empleador",
+    "explore": "explorar",
+    "topic": "tema",
+    "authors": "autores",
+    "gathered": "recolectaron",
+    "data": "datos",
+    "three": "tres",
+    "hundred": "cientos",
+    "eighty-two": "ochenta y dos",
+    "both": "ambos",
+    "government": "gobierno",
+    "private": "privadas",
+    "located": "ubicados",
+    "participants": "participantes",
+    "answered": "respondieron",
+    "detailed": "detalladas",
+    "questions": "preguntas",
+    "about": "sobre",
+    "daily": "diarias",
+    "experiences": "experiencias",
+    "scientists": "cientificos",
+    "then": "luego",
+    "used": "usaron",
+    "statistical": "estadistico",
+    "method": "metodo",
+    "called": "llamado",
+    "structural": "estructural",
+    "equation": "ecuacion",
+    "modelling": "modelado",
+    "study": "estudiar",
+    "different": "diferentes",
+    "factors": "factores",
+    "connect": "conectan",
+    "one": "otro",
+    "results": "resultados",
+    "show": "muestran",
+    "includes": "incluye",
+    "everyone": "todos",
+    "teamwork": "trabajo en equipo",
+    "improves": "mejora",
+    "greatly": "gran medida",
+    "good": "buen",
+    "collaboration": "colaboracion",
+    "among": "entre",
+    "colleagues": "colegas",
+    "helps": "ayuda",
+    "build": "construir",
+    "stronger": "mas fuerte",
+    "furthermore": "ademas",
+    "analysis": "analisis",
+    "proves": "prueba",
+    "working": "trabajar",
+    "together": "juntos",
+    "acts": "actua",
+    "bridge": "puente",
+    "partially": "parcialmente",
+    "connecting": "conectando",
+    "inclusive": "inclusivas",
+    "policies": "politicas",
+    "higher": "mas altos",
+    "levels": "niveles",
+    "dedication": "dedicacion",
+    "cooperation": "cooperacion",
+    "summary": "resumen",
+    "text": "texto",
+    "based": "basado",
+    "paper": "documento",
+    "abstract": "resumen",
+    "published": "publicado",
+    "publisher": "editorial",
+    "journal": "revista",
+    "originally": "originalmente",
+    "released": "lanzo"
+   },
+   "sources": [
+    {
+     "title": "Inclusive Workplace Practices and Organisational Commitment: The Mediating Influence of Teamwork",
+     "url": "https://doi.org/10.51583/ijltemas.2026.150500215",
+     "publisher": "International Journal of Latest Technology in Engineering Management & Applied Science",
+     "date": "2026-06-16"
+    }
+   ],
+   "audio": "audio/2026-11-26-soft.mp3"
+  },
+  {
+   "id": "2026-11-26-energy",
+   "date": "2026-11-26",
+   "theme": "energy",
+   "group": "Energy markets and renewables",
+   "kind": "news",
+   "title": "UK Invests Millions to Help Ukraine Clean Energy",
+   "paras": [
+    "The British government announced a new financial plan to support Ukraine by funding a clean energy project. Officials stated that Britain will provide nine point five million pounds to construct a large windfarm, which uses wind power to create electricity. This new power station aims to generate enough energy for three hundred thousand local homes.",
+    "Ukraine has suffered severe damage to its electricity infrastructure during the ongoing military conflict with Russia. Local authorities report that hostile attacks have ruined most of the country's original power production facilities. By developing renewable energy sources like wind power, the nation can decrease its heavy dependence on foreign gas.",
+    "The British funding is part of a much larger support package worth over seven hundred seventy million pounds. A registered company named Elementum Energy will manage the construction of the windfarm in a secret location. British leaders emphasized that this project will strengthen national recovery and secure a reliable electricity supply against future attacks.",
+    "This summary is based on a news article published by The Guardian, which details recent international efforts to repair Ukraine's damaged power grid during harsh winter conditions."
+   ],
+   "vocab": [
+    {
+     "w": "windfarm",
+     "d": "a group of wind turbines used to produce electricity",
+     "es": "parque eólico"
+    },
+    {
+     "w": "households",
+     "d": "families or groups of people living together in a house",
+     "es": "hogares"
+    },
+    {
+     "w": "reserves",
+     "d": "extra supplies of something that can be used when needed",
+     "es": "reservas"
+    },
+    {
+     "w": "capacity",
+     "d": "the maximum amount that something can produce or hold",
+     "es": "capacidad"
+    },
+    {
+     "w": "reliance",
+     "d": "dependence on someone or something for help or support",
+     "es": "dependencia"
+    },
+    {
+     "w": "infrastructure",
+     "d": "the basic systems and services needed for a country to work",
+     "es": "infraestructura"
+    },
+    {
+     "w": "outages",
+     "d": "periods when the supply of electricity is cut off",
+     "es": "apagones"
+    },
+    {
+     "w": "frontline",
+     "d": "the place where two opposing armies are fighting",
+     "es": "línea del frente"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How much money is the UK investing in the new windfarm?",
+     "o": [
+      "£9.5m",
+      "£770m",
+      "£200m"
+     ],
+     "a": 0,
+     "why": "The text states the UK will invest £9.5m to build the windfarm."
+    },
+    {
+     "q": "How many households will the new windfarm be able to power?",
+     "o": [
+      "200,000 households",
+      "300,000 households",
+      "80% of households"
+     ],
+     "a": 1,
+     "why": "The article mentions the project is capable of powering 300,000 Ukrainian households."
+    },
+    {
+     "q": "What is the main fuel source that Ukraine previously relied on?",
+     "o": [
+      "Wind energy",
+      "Nuclear generation",
+      "Imported gas"
+     ],
+     "a": 2,
+     "why": "The text notes that prewar power generation was mostly fuelled by gas imported from Russia."
+    },
+    {
+     "q": "Which company is expected to build and operate the new windfarm?",
+     "o": [
+      "DTEK",
+      "Elementum Energy",
+      "The Guardian"
+     ],
+     "a": 1,
+     "why": "The text specifies that Elementum Energy is expected to build and operate it."
+    },
+    {
+     "q": "What publication is this article based on?",
+     "o": [
+      "The Guardian",
+      "The BBC",
+      "Reuters"
+     ],
+     "a": 0,
+     "why": "The final paragraph states the article is based on a news article from The Guardian."
+    },
+    {
+     "q": "In the sentence \"Britain will add to its multimillion pound investments...\", what grammatical structure is used for the verb phrase \"will add\"?",
+     "o": [
+      "Past simple",
+      "Future simple with 'will' for a prediction or decision",
+      "Present continuous",
+      "Present perfect"
+     ],
+     "a": 1,
+     "why": "'Will add' is the future simple tense, used here to announce a future action or decision.",
+     "t": "grammar"
+    },
+    {
+     "q": "In the phrase \"a windfarm project capable of powering 300,000 Ukrainian households\", what is the grammatical role of \"powering\"?",
+     "o": [
+      "A main verb in the past tense",
+      "A gerund acting as the object of a preposition",
+      "An adjective modifying households",
+      "An adverb showing time"
+     ],
+     "a": 1,
+     "why": "The word 'powering' is a gerund following the preposition 'of'.",
+     "t": "grammar"
+    }
+   ],
+   "gloss": {
+    "british": "británicos",
+    "government": "gobierno",
+    "announced": "anunció",
+    "new": "nuevo",
+    "financial": "financiero",
+    "plan": "plan",
+    "support": "apoyar",
+    "ukraine": "ucrania",
+    "funding": "financiar",
+    "clean": "limpia",
+    "energy": "energía",
+    "project": "proyecto",
+    "officials": "funcionarios",
+    "stated": "afirmaron",
+    "britain": "gran bretaña",
+    "provide": "proporcionar",
+    "nine": "nueve",
+    "point": "punto",
+    "five": "cinco",
+    "million": "millones",
+    "pounds": "libras",
+    "construct": "construir",
+    "large": "grande",
+    "windfarm": "parque eólico",
+    "uses": "utiliza",
+    "wind": "viento",
+    "create": "crear",
+    "electricity": "electricidad",
+    "station": "central",
+    "aims": "tiene como objetivo",
+    "generate": "generar",
+    "enough": "suficiente",
+    "three": "tres",
+    "hundred": "ciento",
+    "thousand": "mil",
+    "local": "locales",
+    "homes": "hogares",
+    "suffered": "sufrido",
+    "severe": "severos",
+    "damage": "daños",
+    "infrastructure": "infraestructura",
+    "ongoing": "en curso",
+    "military": "militar",
+    "conflict": "conflicto",
+    "russia": "rusia",
+    "authorities": "autoridades",
+    "report": "informan",
+    "hostile": "hostiles",
+    "attacks": "ataques",
+    "ruined": "arruinado",
+    "most": "la mayor parte",
+    "countrys": "del país",
+    "original": "originales",
+    "production": "producción",
+    "facilities": "instalaciones",
+    "developing": "desarrollar",
+    "renewable": "renovable",
+    "sources": "fuentes",
+    "like": "como",
+    "nation": "la nación",
+    "decrease": "disminuir",
+    "heavy": "pesada",
+    "dependence": "dependencia",
+    "foreign": "extranjero",
+    "gas": "gas",
+    "part": "parte",
+    "much": "mucho",
+    "larger": "más amplio",
+    "package": "paquete",
+    "worth": "por valor de",
+    "over": "más de",
+    "seventy": "setenta",
+    "registered": "registrada",
+    "company": "empresa",
+    "named": "llamada",
+    "elementum": "elementum",
+    "manage": "gestionar",
+    "secret": "secreto",
+    "location": "ubicación",
+    "leaders": "líderes",
+    "emphasized": "enfatizaron",
+    "strengthen": "fortalecer",
+    "recovery": "recuperación",
+    "secure": "asegurar",
+    "reliable": "confiable",
+    "supply": "suministro",
+    "against": "contra",
+    "future": "futuros",
+    "summary": "resumen",
+    "based": "basado",
+    "news": "noticias",
+    "article": "artículo",
+    "published": "publicado",
+    "guardian": "the guardian",
+    "details": "detalla",
+    "recent": "recientes",
+    "international": "internacionales",
+    "efforts": "esfuerzos",
+    "repair": "reparar",
+    "damaged": "dañada",
+    "grid": "red",
+    "during": "durante",
+    "harsh": "duras",
+    "winter": "invierno",
+    "conditions": "condiciones"
+   },
+   "sources": [
+    {
+     "title": "UK to invest £9.5m in Ukraine windfarm to bolster war-hit energy system",
+     "url": "https://www.theguardian.com/business/2026/nov/26/uk-to-invest-95m-in-ukraine-windfarm-war-hit-energy-system",
+     "publisher": "The Guardian",
+     "date": "2026-11-26"
+    }
+   ],
+   "audio": "audio/2026-11-26-energy.mp3"
+  },
   {
    "id": "2026-11-25-logistics",
    "date": "2026-11-25",

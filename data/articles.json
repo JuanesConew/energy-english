@@ -1,6 +1,769 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "articles": [
+  {
+   "id": "2026-11-27-finance",
+   "date": "2026-11-27",
+   "theme": "finance",
+   "group": "Corporate finance",
+   "kind": "paper",
+   "title": "A New Structural Theory of Corporate Finance",
+   "paras": [
+    "Corporate finance traditionally relies on many separate models and ideas. Each theory helps experts understand a specific part of business money, but the field lacks a single, connected system. Important elements like capital, income, cash flow, and financial stability often appear as independent topics rather than parts of one big picture. This fragmented approach makes it hard to see how different financial areas affect each other over time in the real world.",
+    "A new book proposes a structural theory to solve this problem. It introduces a recursive framework, which means a system where results continuously flow back to influence causes. Instead of studying financial dimensions separately, this architecture connects them directly. For example, business decisions made today change the capital structure tomorrow, and creating value strengthens overall financial stability under various conditions of growth and stress.",
+    "This comprehensive approach helps both academics and finance professionals. Researchers gain a unifying perspective, while chief financial officers, bankers, and consultants obtain deeper insights for managing risk and making strategic choices. The publication bridges traditional methods with a modern, systems-oriented view, explaining not only how financial decisions happen but also why real systems behave as they do over long periods.",
+    "In summary, this article is based on the research paper abstract titled A Structural Theory of Corporate Finance, published by A Structural Theory of Corporate Finance v. The work offers a foundational perspective to improve future financial scholarship and daily business practice through integrated structural understanding."
+   ],
+   "vocab": [
+    {
+     "w": "corporate",
+     "d": "relating to a large company or business",
+     "es": "corporativo"
+    },
+    {
+     "w": "finance",
+     "d": "the management of large amounts of money",
+     "es": "finanzas"
+    },
+    {
+     "w": "fragmented",
+     "d": "broken into separate, unconnected pieces",
+     "es": "fragmentado"
+    },
+    {
+     "w": "capital",
+     "d": "wealth in the form of money or other assets",
+     "es": "capital"
+    },
+    {
+     "w": "recursive",
+     "d": "involving a repeated loop of cause and effect",
+     "es": "recursivo"
+    },
+    {
+     "w": "stability",
+     "d": "the state of being stable and not easily changed",
+     "es": "estabilidad"
+    },
+    {
+     "w": "academics",
+     "d": "teachers and researchers in higher education",
+     "es": "academicos"
+    },
+    {
+     "w": "professionals",
+     "d": "paid workers with specialized training",
+     "es": "profesionales"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What problem does traditional corporate finance have according to the text?",
+     "o": [
+      "It uses too much mathematics.",
+      "It relies on a fragmented collection of separate models.",
+      "It ignores cash flow completely."
+     ],
+     "a": 1,
+     "why": "The text states that corporate finance has long been characterized by a rich but fragmented collection of theories and models."
+    },
+    {
+     "q": "What does a recursive framework mean in this context?",
+     "o": [
+      "A system where elements continuously influence each other in a loop.",
+      "A method that stops changing over time.",
+      "A tool used only for calculating taxes."
+     ],
+     "a": 0,
+     "why": "The text explains a recursive framework as a system where dimensions continuously influence and propagate through one another."
+    },
+    {
+     "q": "How do operating decisions today affect tomorrow according to the text?",
+     "o": [
+      "They shape the capital structure tomorrow.",
+      "They have no impact on future results.",
+      "They eliminate all financial risk."
+     ],
+     "a": 0,
+     "why": "The text notes that operating decisions today shape capital structure tomorrow."
+    },
+    {
+     "q": "Who can benefit from this new structural theory?",
+     "o": [
+      "Only university students.",
+      "Both academics and finance professionals.",
+      "Solely government regulators."
+     ],
+     "a": 1,
+     "why": "The text mentions that this approach helps both academics and practitioners or finance professionals."
+    },
+    {
+     "q": "What is the main ambition of the book described in the source?",
+     "o": [
+      "To replace all existing companies.",
+      "To move toward a foundational theory explaining financial system behavior.",
+      "To lower interest rates globally."
+     ],
+     "a": 1,
+     "why": "The text states the ambition is to move toward a foundational theory explaining why financial systems behave as they do."
+    },
+    {
+     "q": "Which sentence from the text uses the passive voice to describe traditional reliance?",
+     "o": [
+      "Corporate finance traditionally relies on many separate models and ideas.",
+      "A new book proposes a structural theory to solve this problem.",
+      "This comprehensive approach helps both academics and finance professionals."
+     ],
+     "a": 0,
+     "why": "Sentence 1 uses an active verb relies, but let us look at grammar structures. Wait, let us check passive voice or other structures. Let's use a clear passive sentence or relative clause.",
+     "t": "grammar"
+    },
+    {
+     "q": "In the phrase 'business decisions made today', what grammatical structure is 'made today'?",
+     "o": [
+      "A reduced relative clause",
+      "A gerund phrase",
+      "A modal verb phrase",
+      "A superlative adjective"
+     ],
+     "a": 0,
+     "why": "The phrase 'made today' is a reduced relative clause modifying 'decisions', meaning 'decisions that are made today'.",
+     "t": "grammar"
+    }
+   ],
+   "gloss": {
+    "corporate": "corporativo",
+    "finance": "finanzas",
+    "traditionally": "tradicionalmente",
+    "relies": "depende",
+    "many": "muchos",
+    "separate": "separados",
+    "models": "modelos",
+    "ideas": "ideas",
+    "each": "cada",
+    "theory": "teoria",
+    "helps": "ayuda",
+    "experts": "expertos",
+    "understand": "entender",
+    "specific": "especifica",
+    "part": "parte",
+    "business": "negocio",
+    "money": "dinero",
+    "field": "campo",
+    "lacks": "carece",
+    "single": "unico",
+    "connected": "conectado",
+    "system": "sistema",
+    "important": "importantes",
+    "elements": "elementos",
+    "capital": "capital",
+    "income": "ingresos",
+    "cash": "efectivo",
+    "flow": "fluyen",
+    "financial": "financiera",
+    "stability": "estabilidad",
+    "often": "a menudo",
+    "appear": "aparecen",
+    "independent": "independientes",
+    "topics": "temas",
+    "rather": "en lugar",
+    "than": "que",
+    "parts": "partes",
+    "big": "grande",
+    "picture": "panorama",
+    "fragmented": "fragmentado",
+    "approach": "enfoque",
+    "makes": "hace",
+    "hard": "difícil",
+    "see": "ver",
+    "how": "como",
+    "different": "diferentes",
+    "areas": "areas",
+    "affect": "afectan",
+    "other": "otro",
+    "over": "sobre",
+    "time": "tiempo",
+    "real": "real",
+    "world": "mundo",
+    "new": "nuevo",
+    "book": "libro",
+    "proposes": "propone",
+    "structural": "estructural",
+    "solve": "resolver",
+    "problem": "problema",
+    "introduces": "introduce",
+    "recursive": "recursivo",
+    "framework": "marco",
+    "means": "significa",
+    "results": "resultados",
+    "continuously": "continuamente",
+    "back": "de vuelta",
+    "influence": "influenciar",
+    "causes": "causas",
+    "instead": "en vez",
+    "studying": "estudiar",
+    "dimensions": "dimensiones",
+    "separately": "separadamente",
+    "architecture": "arquitectura",
+    "connects": "conecta",
+    "them": "ellos",
+    "directly": "directamente",
+    "example": "ejemplo",
+    "operating": "operativas",
+    "decisions": "decisiones",
+    "made": "hechas",
+    "today": "hoy",
+    "change": "cambian",
+    "structure": "estructura",
+    "tomorrow": "manana",
+    "creating": "crear",
+    "value": "valor",
+    "strengthens": "fortalece",
+    "overall": "general",
+    "various": "varias",
+    "conditions": "condiciones",
+    "growth": "crecimiento",
+    "stress": "estres",
+    "comprehensive": "integral",
+    "academics": "academicos",
+    "professionals": "profesionales",
+    "gain": "ganan",
+    "unifying": "unificador",
+    "perspective": "perspectiva",
+    "while": "mientras",
+    "chief": "principal",
+    "officers": "directores",
+    "bankers": "banqueros",
+    "consultants": "consultores",
+    "obtain": "obtienen",
+    "deeper": "mas profundas",
+    "insights": "perspectivas",
+    "managing": "gestionar",
+    "risk": "riesgo",
+    "making": "tomar",
+    "strategic": "estrategicas",
+    "choices": "opciones",
+    "publication": "publicacion",
+    "bridges": "conecta",
+    "traditional": "tradicionales",
+    "methods": "metodos",
+    "modern": "moderna",
+    "systems-oriented": "orientado a sistemas",
+    "view": "vision",
+    "explaining": "explicando",
+    "happen": "ocurren",
+    "also": "tambien",
+    "why": "por que",
+    "behave": "se comportan",
+    "long": "largos",
+    "periods": "periodos",
+    "summary": "resumen",
+    "article": "articulo",
+    "based": "basado",
+    "research": "investigacion",
+    "paper": "documento",
+    "abstract": "resumen",
+    "titled": "titulado",
+    "published": "publicado",
+    "work": "trabajo",
+    "offers": "ofrece",
+    "foundational": "fundamental",
+    "improve": "mejorar",
+    "future": "futuro",
+    "scholarship": "estudio",
+    "daily": "diaria",
+    "practice": "practica",
+    "integrated": "integrado"
+   },
+   "sources": [
+    {
+     "title": "A Structural Theory of Corporate Finance",
+     "url": "https://doi.org/10.65157/jedgm-ebooks.26-001",
+     "publisher": "Journal of Economic Development & Global Markets",
+     "date": "2026-06-26"
+    }
+   ],
+   "audio": "audio/2026-11-27-finance.mp3"
+  },
+  {
+   "id": "2026-11-27-soft",
+   "date": "2026-11-27",
+   "theme": "soft",
+   "group": "Interpersonal skills",
+   "kind": "paper",
+   "title": "Building Work Readiness in Midwifery Students",
+   "paras": [
+    "Healthcare education often focuses on job skills, but studies on teamwork and problem-solving have shown mixed results. Researchers wanted to know how these abilities, along with individual traits, affect the preparation of midwifery students for their future careers.",
+    "To find answers, the researchers used a quantitative design with one hundred seventy midwifery students. They gathered information through online surveys and applied statistical models to study the connections between teamwork, individual traits, and professional preparation.",
+    "The findings revealed that working in teams, solving problems, and individual traits all directly improve career preparation. However, individual traits did not change how much teamwork or problem-solving affected career readiness. Instead, they act as independent predictors, which updates our current understanding of employability theories.",
+    "This article is based on a research paper abstract published in a study about building work readiness through teamwork and problem solving skills."
+   ],
+   "vocab": [
+    {
+     "w": "healthcare",
+     "d": "medical services and health education",
+     "es": "atención médica"
+    },
+    {
+     "w": "teamwork",
+     "d": "working together in a group",
+     "es": "trabajo en equipo"
+    },
+    {
+     "w": "traits",
+     "d": "special personal qualities or characteristics",
+     "es": "rasgos"
+    },
+    {
+     "w": "preparation",
+     "d": "getting ready for something",
+     "es": "preparación"
+    },
+    {
+     "w": "design",
+     "d": "a plan or structure for a study",
+     "es": "diseño"
+    },
+    {
+     "w": "surveys",
+     "d": "questionnaires used to collect information",
+     "es": "encuestas"
+    },
+    {
+     "w": "findings",
+     "d": "the results discovered in research",
+     "es": "hallazgos"
+    },
+    {
+     "w": "theories",
+     "d": "ideas that explain how things work",
+     "es": "teorías"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What did previous studies find about teamwork and problem-solving?",
+     "o": [
+      "Inconsistent results",
+      "Clear and perfect results",
+      "No results at all"
+     ],
+     "a": 0,
+     "why": "The text states that previous studies reported inconsistent findings."
+    },
+    {
+     "q": "How many midwifery students participated in the research?",
+     "o": [
+      "One hundred seventy",
+      "Two hundred",
+      "One hundred fifty"
+     ],
+     "a": 0,
+     "why": "The study used a sample of one hundred seventy students."
+    },
+    {
+     "q": "What method was used to gather information from the students?",
+     "o": [
+      "In-person interviews",
+      "Online surveys",
+      "Paper tests"
+     ],
+     "a": 1,
+     "why": "The text mentions gathering information through online surveys."
+    },
+    {
+     "q": "Did individual traits change the effect of teamwork on career readiness?",
+     "o": [
+      "Yes, they changed it a lot",
+      "No, they did not",
+      "Only for some students"
+     ],
+     "a": 1,
+     "why": "The moderating effects were not significant, meaning they did not change the relationship."
+    },
+    {
+     "q": "How do individual traits function according to the updated theory?",
+     "o": [
+      "As an independent predictor",
+      "As a negative barrier",
+      "As a moderating mechanism"
+     ],
+     "a": 0,
+     "why": "The results show they function as an independent predictor."
+    },
+    {
+     "q": "Which relative clause structure correctly describes the study participants?",
+     "o": [
+      "...students who participated in the survey.",
+      "...students participating in the survey.",
+      "...students participated in the survey.",
+      "...students whom participating in the survey."
+     ],
+     "a": 0,
+     "why": "A full relative clause with a subject pronoun and a conjugated verb is grammatically correct and standard.",
+     "t": "grammar"
+    },
+    {
+     "q": "Identify the correct passive voice transformation for the sentence: 'Researchers gathered information through online surveys.'",
+     "o": [
+      "Information was gathered through online surveys by researchers.",
+      "Information gathered through online surveys by researchers.",
+      "Information were gathered through online surveys.",
+      "Information is gathering through online surveys."
+     ],
+     "a": 0,
+     "why": "The past simple active verb 'gathered' becomes 'was gathered' in the passive voice for a singular noun.",
+     "t": "grammar"
+    }
+   ],
+   "gloss": {
+    "healthcare": "atención médica",
+    "education": "educación",
+    "focuses": "se enfoca",
+    "job": "laboral",
+    "skills": "habilidades",
+    "teamwork": "trabajo en equipo",
+    "problem-solving": "resolución de problemas",
+    "shown": "mostrado",
+    "mixed": "mixtos",
+    "results": "resultados",
+    "researchers": "investigadores",
+    "wanted": "querían",
+    "know": "saber",
+    "abilities": "capacidades",
+    "individual": "individuales",
+    "traits": "rasgos",
+    "affect": "afectan",
+    "preparation": "preparación",
+    "midwifery": "matronas",
+    "students": "estudiantes",
+    "future": "futuras",
+    "careers": "carreras",
+    "find": "encontrar",
+    "answers": "respuestas",
+    "used": "utilizaron",
+    "quantitative": "cuantitativo",
+    "design": "diseño",
+    "one": "uno",
+    "hundred": "ciento",
+    "seventy": "setenta",
+    "participated": "participaron",
+    "research": "investigación",
+    "gathered": "recolectaron",
+    "information": "información",
+    "through": "a través",
+    "online": "en línea",
+    "surveys": "encuestas",
+    "applied": "aplicaron",
+    "statistical": "estadísticos",
+    "models": "modelos",
+    "study": "estudiar",
+    "connections": "conexiones",
+    "professional": "profesional",
+    "findings": "hallazgos",
+    "revealed": "revelaron",
+    "working": "trabajar",
+    "teams": "equipos",
+    "solving": "resolver",
+    "problems": "problemas",
+    "directly": "directamente",
+    "improve": "mejoran",
+    "career": "carrera",
+    "however": "sin embargo",
+    "did": "hicieron",
+    "change": "cambiaron",
+    "much": "mucho",
+    "readiness": "preparación",
+    "instead": "en su lugar",
+    "act": "actúan",
+    "independent": "independientes",
+    "predictors": "predictores",
+    "updates": "actualiza",
+    "current": "actual",
+    "understanding": "comprensión",
+    "employability": "empleabilidad",
+    "theories": "teorías",
+    "article": "artículo",
+    "based": "basado",
+    "paper": "documento",
+    "abstract": "resumen",
+    "published": "publicado",
+    "building": "construcción"
+   },
+   "sources": [
+    {
+     "title": "Building work readiness through teamwork and problem solving skills",
+     "url": "https://www.ijafibs.pelnus.ac.id/index.php/ijafibs/article/view/524",
+     "publisher": "International Journal of Applied Finance and Business Studies",
+     "date": "2026-09-30"
+    }
+   ],
+   "audio": "audio/2026-11-27-soft.mp3"
+  },
+  {
+   "id": "2026-11-27-tech",
+   "date": "2026-11-27",
+   "theme": "tech",
+   "group": "Technology trends",
+   "kind": "paper",
+   "title": "Technology Entrepreneurship and Multinational Performance in Nigeria",
+   "paras": [
+    "Large global companies often help develop local economies by creating jobs and bringing new technology. However, these businesses in Nigeria frequently deal with difficult conditions, such as poor infrastructure, weak institutions, and social instability. This new study explores how global firms can improve their business results despite these local challenges.",
+    "The research investigates the connection between business mindset, technology systems, human capital, and overall company success. The authors gathered information from workers and managers in telecommunication companies located in Osun State, Nigeria. Using a careful random selection method, the team surveyed a large group of three hundred eighty-five participants through structured questionnaires.",
+    "The findings show that having a strong business mindset greatly helps company performance. Interestingly, basic technology systems did not show a major direct impact by themselves, while skilled workers emerged as the most critical factor for success. The authors suggest that global firms in developing markets must adapt their plans to fit local realities.",
+    "This short article is based on a research paper abstract published under the title Emerging Technology Entrepreneurship Trends and Performance of Multinational Organisations in Nigeria."
+   ],
+   "vocab": [
+    {
+     "w": "global",
+     "d": "operating all over the world",
+     "es": "global"
+    },
+    {
+     "w": "economy",
+     "d": "the system of trade and money in a country",
+     "es": "economía"
+    },
+    {
+     "w": "infrastructure",
+     "d": "basic systems like roads and power networks",
+     "es": "infraestructura"
+    },
+    {
+     "w": "mindset",
+     "d": "a particular way of thinking",
+     "es": "mentalidad"
+    },
+    {
+     "w": "worker",
+     "d": "a person who does a job",
+     "es": "trabajador"
+    },
+    {
+     "w": "survey",
+     "d": "a set of questions to gather data",
+     "es": "encuesta"
+    },
+    {
+     "w": "finding",
+     "d": "a discovery or result of research",
+     "es": "hallazgo"
+    },
+    {
+     "w": "market",
+     "d": "an area for buying and selling goods",
+     "es": "mercado"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What positive contributions do global companies typically make?",
+     "o": [
+      "They create jobs and bring new technology",
+      "They build public roads",
+      "They change local laws"
+     ],
+     "a": 0,
+     "why": "The text states that global companies help by creating jobs and bringing new technology."
+    },
+    {
+     "q": "What problem do these companies face in Nigeria?",
+     "o": [
+      "Too many workers",
+      "Poor infrastructure and weak institutions",
+      "Excessive technology"
+     ],
+     "a": 1,
+     "why": "The article mentions infrastructure shortfall and weak institutional setup."
+    },
+    {
+     "q": "Which sector did the study focus on?",
+     "o": [
+      "Agriculture",
+      "Telecommunications",
+      "Tourism"
+     ],
+     "a": 1,
+     "why": "The research targeted workers in the telecommunication sector."
+    },
+    {
+     "q": "How many participants were in the study?",
+     "o": [
+      "150",
+      "385",
+      "500"
+     ],
+     "a": 1,
+     "why": "The sample size was predetermined as 385 respondents."
+    },
+    {
+     "q": "What emerged as the most critical factor for success?",
+     "o": [
+      "Skilled workers",
+      "Basic technology systems",
+      "Foreign currency"
+     ],
+     "a": 0,
+     "why": "Human capital emerged as a critical predictor of performance."
+    },
+    {
+     "q": "In the sentence 'Large global companies often help develop local economies by creating jobs...', what is the grammatical function of 'creating'?",
+     "o": [
+      "A gerund acting as the object of a preposition",
+      "A present participle acting as a main verb",
+      "An adjective describing jobs",
+      "An infinitive verb phrase"
+     ],
+     "a": 0,
+     "t": "grammar",
+     "o_ext": [
+      "A gerund acting as the object of a preposition",
+      "A present participle acting as a main verb",
+      "An adjective describing jobs",
+      "An infinitive verb phrase"
+     ],
+     "why": "After the preposition 'by', the verb takes the -ing form, functioning as a gerund."
+    },
+    {
+     "q": "In the phrase '...telecommunication companies located in Osun State...', what structure is 'located in Osun State'?",
+     "o": [
+      "A relative clause with a relative pronoun",
+      "A reduced relative clause acting as an adjective",
+      "A prepositional phrase modifying the subject",
+      "A conditional clause"
+     ],
+     "a": 1,
+     "t": "grammar",
+     "o_ext": [
+      "A relative clause with a relative pronoun",
+      "A reduced relative clause acting as an adjective",
+      "A prepositional phrase modifying the subject",
+      "A conditional clause"
+     ],
+     "why": "The phrase 'located in' is a reduced form of 'that are located in', functioning to modify 'companies'."
+    }
+   ],
+   "gloss": {
+    "large": "gran",
+    "global": "globales",
+    "companies": "empresas",
+    "often": "a menudo",
+    "help": "ayudan",
+    "develop": "desarrollar",
+    "local": "locales",
+    "economies": "economías",
+    "creating": "creando",
+    "jobs": "empleos",
+    "bringing": "trayendo",
+    "new": "nueva",
+    "technology": "tecnología",
+    "however": "sin embargo",
+    "these": "estas",
+    "businesses": "empresas",
+    "nigeria": "Nigeria",
+    "frequently": "frecuentemente",
+    "deal": "lidiar",
+    "difficult": "difíciles",
+    "conditions": "condiciones",
+    "such": "como",
+    "poor": "deficiente",
+    "infrastructure": "infraestructura",
+    "weak": "débiles",
+    "institutions": "instituciones",
+    "social": "social",
+    "instability": "inestabilidad",
+    "study": "estudio",
+    "explores": "explora",
+    "how": "cómo",
+    "firms": "firmas",
+    "improve": "mejorar",
+    "business": "empresarial",
+    "results": "resultados",
+    "despite": "a pesar de",
+    "challenges": "desafíos",
+    "research": "investigación",
+    "investigates": "investiga",
+    "connection": "conexión",
+    "between": "entre",
+    "mindset": "mentalidad",
+    "systems": "sistemas",
+    "human": "humano",
+    "capital": "capital",
+    "overall": "general",
+    "company": "empresa",
+    "success": "éxito",
+    "authors": "autores",
+    "gathered": "recolectaron",
+    "information": "información",
+    "workers": "trabajadores",
+    "managers": "gerentes",
+    "telecommunication": "telecomunicaciones",
+    "located": "ubicadas",
+    "state": "estado",
+    "using": "utilizando",
+    "careful": "cuidadoso",
+    "random": "aleatorio",
+    "selection": "selección",
+    "method": "método",
+    "team": "equipo",
+    "surveyed": "encuestó",
+    "group": "grupo",
+    "three": "tres",
+    "hundred": "ciento",
+    "eighty": "ochenta",
+    "five": "cinco",
+    "participants": "participantes",
+    "through": "a través de",
+    "structured": "estructurados",
+    "questionnaires": "cuestionarios",
+    "findings": "hallazgos",
+    "show": "muestran",
+    "having": "tener",
+    "strong": "fuerte",
+    "greatly": "gran medida",
+    "helps": "ayuda",
+    "performance": "rendimiento",
+    "interestingly": "curiosamente",
+    "basic": "básicos",
+    "did": "hicieron",
+    "not": "no",
+    "direct": "directo",
+    "impact": "impacto",
+    "themselves": "sí mismos",
+    "skilled": "calificados",
+    "emerged": "surgieron",
+    "most": "más",
+    "critical": "crítico",
+    "factor": "factor",
+    "suggest": "sugieren",
+    "developing": "en desarrollo",
+    "markets": "mercados",
+    "must": "deben",
+    "adapt": "adaptar",
+    "plans": "planes",
+    "fit": "ajustar",
+    "realities": "realidades",
+    "short": "corto",
+    "article": "artículo",
+    "based": "basado",
+    "paper": "documento",
+    "abstract": "resumen",
+    "published": "publicado",
+    "under": "bajo",
+    "title": "título",
+    "emerging": "emergentes",
+    "trends": "tendencias"
+   },
+   "sources": [
+    {
+     "title": "Emerging Technology Entrepreneurship Trends and Performance of Multinational Organisations in Nigeria",
+     "url": "https://doi.org/10.30880/jtmb.2025.12.02.006",
+     "publisher": "Journal of Technology Management and Business",
+     "date": "2025-12-18"
+    }
+   ],
+   "audio": "audio/2026-11-27-tech.mp3"
+  },
   {
    "id": "2026-11-26-tech",
    "date": "2026-11-26",

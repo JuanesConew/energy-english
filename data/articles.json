@@ -1,6 +1,791 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "articles": [
+  {
+   "id": "2026-11-28-logistics",
+   "date": "2026-11-28",
+   "theme": "logistics",
+   "group": "Logistics trends",
+   "kind": "news",
+   "title": "Australian Fashion Retailer General Pants Co Enters Administration",
+   "paras": [
+    "General Pants Co, a well-known youth fashion chain in Australia, has entered voluntary administration. This means external experts have taken control of the company because it cannot pay its debts. This event puts nearly five hundred jobs at risk. The retail sector in Australia is currently struggling due to economic pressures, customers with less money to spend, and strong competition from online-only stores.",
+    "The appointed administrators from the consultancy firm Alvarez and Marsal stated that all thirty-five physical shops and the online store will remain open for now. They are working with management to evaluate the company's financial situation. The parent company explained that they previously tried to sell the business and find new money to save it, but those efforts failed.",
+    "The administrators assured employees that they will keep receiving payment for their work during this process, and their past work rights remain protected by law. They plan to examine if the business can be restructured into a smaller, healthier company. A meeting with people owed money is scheduled for late November.",
+    "This summary article is based on a news report published by The Guardian."
+   ],
+   "vocab": [
+    {
+     "w": "administration",
+     "d": "a legal process when a company is in financial trouble and external managers take control",
+     "es": "administracion voluntaria"
+    },
+    {
+     "w": "retailer",
+     "d": "a company that sells goods directly to the public in shops",
+     "es": "comerciante minorista"
+    },
+    {
+     "w": "debt",
+     "d": "money that is owed to someone else",
+     "es": "deuda"
+    },
+    {
+     "w": "consultancy",
+     "d": "a company that gives expert professional advice",
+     "es": "consultoria"
+    },
+    {
+     "w": "evaluate",
+     "d": "to form an idea of the amount or value of something",
+     "es": "evaluar"
+    },
+    {
+     "w": "restructure",
+     "d": "to organize a business in a new way to make it more successful",
+     "es": "reestructurar"
+    },
+    {
+     "w": "employee",
+     "d": "a person who is paid for working for someone else",
+     "es": "empleado"
+    },
+    {
+     "w": "protected",
+     "d": "kept safe from harm or damage",
+     "es": "protegido"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What happened to General Pants Co?",
+     "o": [
+      "It expanded internationally.",
+      "It entered voluntary administration.",
+      "It merged with David Jones."
+     ],
+     "a": 1,
+     "why": "The text states that General Pants Co entered voluntary administration."
+    },
+    {
+     "q": "How many jobs are put at risk by this situation?",
+     "o": [
+      "Nearly 500 jobs.",
+      "Around 1,000 jobs.",
+      "Only 50 jobs."
+     ],
+     "a": 0,
+     "why": "The article mentions that nearly 500 jobs are at risk."
+    },
+    {
+     "q": "What will happen to the physical stores while administrators are in charge?",
+     "o": [
+      "They will close immediately.",
+      "They will remain open for now.",
+      "They will be given to online competitors."
+     ],
+     "a": 1,
+     "why": "The text notes that all 35 physical shops and the online store will remain open for now."
+    },
+    {
+     "q": "Who took control of the company?",
+     "o": [
+      "The Australian government.",
+      "A consultancy firm named Alvarez and Marsal.",
+      "The parent company Alquemie Group."
+     ],
+     "a": 1,
+     "why": "The article states that administrators from the consultancy firm Alvarez and Marsal took control."
+    },
+    {
+     "q": "When is the first meeting with people owed money scheduled?",
+     "o": [
+      "Late November",
+      "Early December",
+      "Next week"
+     ],
+     "a": 0,
+     "why": "The text states a meeting with creditors is scheduled for late November."
+    },
+    {
+     "q": "Which structure is used in the phrase 'This means external experts have taken control...'?",
+     "o": [
+      "Present perfect tense",
+      "Passive voice",
+      "Second conditional",
+      "Gerund phrase"
+     ],
+     "a": 0,
+     "why": "Have taken is the present perfect tense, showing an action connected to the present.",
+     "t": "grammar"
+    },
+    {
+     "q": "In the phrase '...evaluated if the business can be restructured...', what is the grammatical function of 'be restructured'?",
+     "o": [
+      "Active infinitive",
+      "Passive infinitive",
+      "Past participle adjective",
+      "Gerund"
+     ],
+     "a": 1,
+     "why": "Be restructured is a passive infinitive following the modal verb can.",
+     "t": "grammar"
+    }
+   ],
+   "gloss": {
+    "general": "general",
+    "pants": "pantalones",
+    "co": "empresa",
+    "well-known": "reconocida",
+    "youth": "juvenil",
+    "fashion": "moda",
+    "chain": "cadena",
+    "australia": "australia",
+    "entered": "entro",
+    "voluntary": "voluntaria",
+    "administration": "administracion",
+    "means": "significa",
+    "external": "externos",
+    "experts": "expertos",
+    "taken": "tomado",
+    "control": "control",
+    "company": "empresa",
+    "because": "porque",
+    "cannot": "no puede",
+    "pay": "pagar",
+    "debts": "deudas",
+    "event": "evento",
+    "puts": "pone",
+    "nearly": "casi",
+    "five": "cinco",
+    "hundred": "cientos",
+    "jobs": "empleos",
+    "risk": "riesgo",
+    "retail": "minorista",
+    "sector": "sector",
+    "currently": "actualmente",
+    "struggling": "luchando",
+    "due": "debido",
+    "economic": "economicas",
+    "pressures": "presiones",
+    "customers": "clientes",
+    "less": "menos",
+    "money": "dinero",
+    "spend": "gastar",
+    "strong": "fuerte",
+    "competition": "competencia",
+    "online-only": "solo en linea",
+    "stores": "tiendas",
+    "appointed": "designados",
+    "administrators": "administradores",
+    "consultancy": "consultoria",
+    "firm": "firma",
+    "alvarez": "alvarez",
+    "marsal": "marsal",
+    "stated": "afirmaron",
+    "thirty-five": "treinta y cinco",
+    "physical": "fisicas",
+    "shop": "tienda",
+    "remain": "permanecen",
+    "open": "abiertas",
+    "now": "por ahora",
+    "working": "trabajando",
+    "management": "gerencia",
+    "evaluate": "evaluar",
+    "financial": "financiera",
+    "situation": "situacion",
+    "parent": "matriz",
+    "explained": "explico",
+    "previously": "previamente",
+    "tried": "intento",
+    "sell": "vender",
+    "business": "negocio",
+    "find": "encontrar",
+    "new": "nuevo",
+    "save": "salvar",
+    "efforts": "esfuerzos",
+    "failed": "fallaron",
+    "assured": "aseguraron",
+    "employees": "empleados",
+    "keep": "continuar",
+    "receiving": "recibiendo",
+    "payment": "pago",
+    "work": "trabajo",
+    "process": "proceso",
+    "past": "pasados",
+    "rights": "derechos",
+    "protected": "protegidos",
+    "law": "ley",
+    "plan": "planean",
+    "examine": "examinar",
+    "restructured": "reestructurada",
+    "smaller": "mas pequena",
+    "healthier": "mas saludable",
+    "meeting": "reunion",
+    "people": "personas",
+    "owed": "adeudadas",
+    "scheduled": "programada",
+    "late": "finales",
+    "november": "noviembre",
+    "summary": "resumen",
+    "article": "articulo",
+    "based": "basado",
+    "report": "reporte",
+    "published": "publicado",
+    "guardian": "the guardian"
+   },
+   "sources": [
+    {
+     "title": "General Pants Co enters voluntary administration, putting hundreds of jobs at risk",
+     "url": "https://www.theguardian.com/business/2026/nov/19/general-pants-co-enters-voluntary-administration-jobs-at-risk",
+     "publisher": "The Guardian",
+     "date": "2026-11-19"
+    }
+   ],
+   "audio": "audio/2026-11-28-logistics.mp3"
+  },
+  {
+   "id": "2026-11-28-soft",
+   "date": "2026-11-28",
+   "theme": "soft",
+   "group": "Interpersonal skills",
+   "kind": "paper",
+   "title": "Preparing Young People For The Modern Workplace",
+   "paras": [
+    "A community project was recently created to help high school students get ready for modern jobs. The modern job market is very competitive, so young people need special abilities to succeed. This training program focuses on important personal traits like talking clearly, leading others, managing schedules, working in groups, and solving difficult issues.",
+    "The project followed a three-step plan to achieve its goals. First, organizers surveyed student needs and built learning materials. Second, students joined interactive talks, group discussions, and practical project simulations. Third, teachers measured success using satisfaction surveys and final reports to see how much participants learned during the sessions.",
+    "Forty-six students took part in this helpful training event. The final results were very positive, as eighty-five percent of the learners improved their abilities. They showed better skills in making resumes, practicing job interviews, and working together. This successful project helps build strong workers and could become a useful model for other areas.",
+    "This short article summarizes the main ideas from a research paper abstract published by the Soft Skills Academy. The original text discusses preparing the young generation for the workplace through targeted community service programs and structured training methods."
+   ],
+   "vocab": [
+    {
+     "w": "competitive",
+     "d": "trying to be more successful than others",
+     "es": "competitivo"
+    },
+    {
+     "w": "traits",
+     "d": "particular qualities of mind or habit",
+     "es": "rasgos"
+    },
+    {
+     "w": "organizers",
+     "d": "people who arrange an event or activity",
+     "es": "organizadores"
+    },
+    {
+     "w": "surveys",
+     "d": "gatherings of information from people",
+     "es": "encuestas"
+    },
+    {
+     "w": "participants",
+     "d": "people who take part in something",
+     "es": "participantes"
+    },
+    {
+     "w": "resumes",
+     "d": "documents listing work experience and education",
+     "es": "currículums"
+    },
+    {
+     "w": "model",
+     "d": "an example to follow or copy",
+     "es": "modelo"
+    },
+    {
+     "w": "summarizes",
+     "d": "gives a brief statement of main points",
+     "es": "resume"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the main goal of the community project?",
+     "o": [
+      "To help high school students get ready for modern jobs",
+      "To teach advanced computer science to adults",
+      "To build a new school building in the region"
+     ],
+     "a": 0,
+     "why": "The text states the project helps high school students get ready for modern jobs."
+    },
+    {
+     "q": "Which of the following is NOT mentioned as a personal trait taught in the program?",
+     "o": [
+      "Managing schedules",
+      "Advanced accounting",
+      "Working in groups"
+     ],
+     "a": 1,
+     "why": "Advanced accounting is not listed among the soft skills in the text."
+    },
+    {
+     "q": "How many steps did the project plan include?",
+     "o": [
+      "Two steps",
+      "Three steps",
+      "Four steps"
+     ],
+     "a": 1,
+     "why": "The text mentions a three-step plan involving preparation, implementation, and evaluation."
+    },
+    {
+     "q": "How many students participated in the training event?",
+     "o": [
+      "Forty-six students",
+      "Eighty-five students",
+      "One hundred students"
+     ],
+     "a": 0,
+     "why": "Paragraph three states that forty-six students took part."
+    },
+    {
+     "q": "What publisher or organization is named in the final paragraph?",
+     "o": [
+      "Global Education Network",
+      "Soft Skills Academy",
+      "Modern Workplace Institute"
+     ],
+     "a": 1,
+     "why": "The text mentions the research paper abstract was published by the Soft Skills Academy."
+    },
+    {
+     "q": "In the phrase \"A community project was recently created\", what grammatical structure is used?",
+     "o": [
+      "Active present tense",
+      "Passive voice",
+      "Gerund phrase",
+      "Conditional clause"
+     ],
+     "a": 1,
+     "why": "The structure uses 'was' plus a past participle ('created'), which forms the passive voice.",
+     "t": "grammar"
+    },
+    {
+     "q": "In the phrase \"young people need special abilities to succeed\", what grammatical role does \"to succeed\" play?",
+     "o": [
+      "An infinitive of purpose explaining why they need abilities",
+      "The main subject of the sentence",
+      "A gerund acting as a noun object",
+      "A relative clause modifying people"
+     ],
+     "a": 0,
+     "why": "The infinitive 'to succeed' answers the question 'why do they need special abilities?' showing purpose.",
+     "t": "grammar"
+    }
+   ],
+   "gloss": {
+    "community": "comunidad",
+    "project": "proyecto",
+    "was": "fue",
+    "recently": "recientemente",
+    "created": "creado",
+    "help": "ayudar",
+    "high": "secundaria",
+    "school": "escuela",
+    "students": "estudiantes",
+    "get": "preparar",
+    "ready": "listos",
+    "modern": "modernos",
+    "jobs": "trabajos",
+    "market": "mercado",
+    "very": "muy",
+    "competitive": "competitivo",
+    "so": "así que",
+    "young": "jóvenes",
+    "people": "personas",
+    "need": "necesitan",
+    "special": "especiales",
+    "abilities": "habilidades",
+    "succeed": "triunfar",
+    "training": "entrenamiento",
+    "program": "programa",
+    "focuses": "se enfoca",
+    "important": "importantes",
+    "personal": "personales",
+    "traits": "rasgos",
+    "like": "como",
+    "talking": "hablar",
+    "clearly": "claramente",
+    "leading": "liderar",
+    "others": "otros",
+    "managing": "administrar",
+    "schedules": "horarios",
+    "working": "trabajar",
+    "groups": "grupos",
+    "solving": "resolver",
+    "difficult": "difíciles",
+    "issues": "problemas",
+    "followed": "siguió",
+    "three-step": "de tres pasos",
+    "plan": "plan",
+    "achieve": "lograr",
+    "goals": "metas",
+    "first": "primero",
+    "organizers": "organizadores",
+    "surveyed": "encuestaron",
+    "student": "estudiantil",
+    "needs": "necesidades",
+    "built": "construyeron",
+    "learning": "aprendizaje",
+    "materials": "materiales",
+    "second": "segundo",
+    "joined": "se unieron",
+    "interactive": "interactivas",
+    "talks": "charlas",
+    "group": "grupal",
+    "discussions": "discusiones",
+    "practical": "prácticos",
+    "simulations": "simulaciones",
+    "third": "tercero",
+    "teachers": "profesores",
+    "measured": "midieron",
+    "success": "éxito",
+    "using": "usando",
+    "satisfaction": "satisfacción",
+    "surveys": "encuestas",
+    "final": "finales",
+    "reports": "informes",
+    "see": "ver",
+    "how": "cuánto",
+    "much": "mucho",
+    "learned": "aprendieron",
+    "during": "durante",
+    "sessions": "sesiones",
+    "forty-six": "cuarenta y seis",
+    "took": "tomaron",
+    "part": "parte",
+    "helpful": "útil",
+    "event": "evento",
+    "results": "resultados",
+    "positive": "positivos",
+    "as": "como",
+    "eighty-five": "ochenta y cinco",
+    "percent": "por ciento",
+    "learners": "estudiantes",
+    "improved": "mejoraron",
+    "showed": "mostraron",
+    "better": "mejores",
+    "skills": "Habilidades",
+    "making": "hacer",
+    "resumes": "currículums",
+    "practicing": "practicar",
+    "interviews": "entrevistas",
+    "together": "juntos",
+    "successful": "exitoso",
+    "build": "construir",
+    "strong": "fuertes",
+    "workers": "trabajadores",
+    "could": "podría",
+    "become": "convertirse",
+    "useful": "útil",
+    "areas": "áreas",
+    "short": "corto",
+    "article": "artículo",
+    "summarizes": "resume",
+    "main": "principales",
+    "ideas": "ideas",
+    "from": "de",
+    "research": "investigación",
+    "paper": "documento",
+    "abstract": "resumen",
+    "published": "publicado",
+    "by": "por",
+    "soft": "Suaves",
+    "academy": "Academia",
+    "original": "original",
+    "text": "texto",
+    "discusses": "discute",
+    "preparing": "preparando",
+    "generation": "generación",
+    "workplace": "lugar de trabajo",
+    "through": "a través de",
+    "targeted": "dirigidos",
+    "service": "servicio",
+    "programs": "programas",
+    "structured": "estructurados",
+    "methods": "métodos"
+   },
+   "sources": [
+    {
+     "title": "Soft Skills Academy - Preparing The Young Generation People For The Workplace",
+     "url": "https://lenterajurnalmanajemen.com/index.php/home/article/view/76",
+     "publisher": "Lentera Jurnal Manajemen",
+     "date": "2025-06-06"
+    }
+   ],
+   "audio": "audio/2026-11-28-soft.mp3"
+  },
+  {
+   "id": "2026-11-28-energy",
+   "date": "2026-11-28",
+   "theme": "energy",
+   "group": "Energy markets and renewables",
+   "kind": "paper",
+   "title": "Subsidies and Renewable Energy Investment in Indonesia",
+   "paras": [
+    "This text examines how changing government financial support affects investments in clean energy within Indonesia. Researchers wanted to see how altering monetary aid can help the country move away from traditional fossil fuels and toward sustainable power sources. The authors utilized a mixed-methods approach, which means they combined numerical data analysis with qualitative interviews involving important industry experts.",
+    "The results show that cutting fossil fuel support has only slightly increased investments in renewable power. Specifically, new sectors like solar and wind power experienced very little growth. Instead, geothermal and hydropower projects received most of the financial backing, even though solar and wind have much higher potential. Political resistance and unclear regulations also make it very difficult to apply these financial changes successfully.",
+    "Governments created social programs to help people deal with higher energy prices, but these measures are not fully effective. Experts suggest that authorities must introduce stronger financial incentives and stable long-term policies to truly accelerate sustainable energy growth. Future studies should examine carbon pricing and ways to ensure fairness for all citizens during this major energy transition.",
+    "Finally, this article is based on a research paper abstract about subsidy reforms and green investments, published by Springer Nature."
+   ],
+   "vocab": [
+    {
+     "w": "subsidy",
+     "d": "financial aid given by the government",
+     "es": "subsidio"
+    },
+    {
+     "w": "renewable",
+     "d": "energy that can be replaced naturally",
+     "es": "renovable"
+    },
+    {
+     "w": "approach",
+     "d": "a way of doing something",
+     "es": "enfoque"
+    },
+    {
+     "w": "sector",
+     "d": "a specific area of an economy",
+     "es": "sector"
+    },
+    {
+     "w": "potential",
+     "d": "natural ability or capacity for growth",
+     "es": "potencial"
+    },
+    {
+     "w": "policy",
+     "d": "an official rule or plan of action",
+     "es": "política"
+    },
+    {
+     "w": "incentive",
+     "d": "something that encourages action",
+     "es": "incentivo"
+    },
+    {
+     "w": "transition",
+     "d": "the process of changing from one state to another",
+     "es": "transición"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What is the main topic of the text?",
+     "o": [
+      "Agricultural development in Indonesia",
+      "Government support and clean energy investments",
+      "New technologies for solar power"
+     ],
+     "a": 1,
+     "why": "The text discusses how subsidy reforms impact clean energy investments in Indonesia."
+    },
+    {
+     "q": "What research method did the authors use?",
+     "o": [
+      "Only numerical data",
+      "Only interviews",
+      "A mixed-methods approach"
+     ],
+     "a": 2,
+     "why": "The text states they combined numerical data analysis with qualitative interviews."
+    },
+    {
+     "q": "Which sectors received the most financial support?",
+     "o": [
+      "Solar and wind",
+      "Geothermal and hydropower",
+      "Fossil fuels"
+     ],
+     "a": 1,
+     "why": "The text notes that geothermal and hydropower received the majority of the subsidies."
+    },
+    {
+     "q": "What hinders the successful application of these reforms?",
+     "o": [
+      "Political resistance and unclear regulations",
+      "A lack of sunshine",
+      "Too many engineers"
+     ],
+     "a": 0,
+     "why": "Political resistance and unclear regulations make it difficult to apply the changes."
+    },
+    {
+     "q": "What do experts suggest is needed for true growth?",
+     "o": [
+      "Stricter taxes on citizens",
+      "Stronger financial incentives and stable policies",
+      "Stopping all energy projects"
+     ],
+     "a": 1,
+     "why": "The text states that stronger incentives and stable long-term policies are needed."
+    },
+    {
+     "q": "Which grammar structure is used in the phrase: 'Researchers wanted to see how altering monetary aid can help...'",
+     "o": [
+      "Passive voice",
+      "Gerund as a subject of a clause",
+      "First conditional",
+      "Relative clause"
+     ],
+     "a": 1,
+     "t": "grammar",
+     "why": "'Altering' is a gerund functioning as the subject of the clause 'altering monetary aid can help'."
+    },
+    {
+     "q": "In the sentence 'Experts suggest that authorities must introduce stronger financial incentives...', what is the function of the modal verb 'must'?",
+     "o": [
+      "To express past ability",
+      "To express future possibility",
+      "To express necessity or obligation",
+      "To express polite permission"
+     ],
+     "a": 2,
+     "t": "grammar",
+     "why": "'Must' is a modal verb used to express strong necessity or obligation."
+    }
+   ],
+   "gloss": {
+    "text": "texto",
+    "examines": "examina",
+    "how": "cómo",
+    "changing": "cambiando",
+    "government": "gubernamental",
+    "financial": "financiero",
+    "support": "apoyo",
+    "affect": "afecta",
+    "investments": "inversiones",
+    "clean": "limpia",
+    "energy": "energía",
+    "within": "dentro de",
+    "indonesia": "Indonesia",
+    "researchers": "investigadores",
+    "wanted": "querían",
+    "see": "ver",
+    "altering": "modificar",
+    "monetary": "monetaria",
+    "aid": "ayuda",
+    "can": "puede",
+    "help": "ayudar",
+    "country": "país",
+    "move": "moverse",
+    "away": "lejos",
+    "traditional": "tradicional",
+    "fossil": "fósiles",
+    "fuels": "combustibles",
+    "toward": "hacia",
+    "sustainable": "sostenible",
+    "power": "energía",
+    "sources": "fuentes",
+    "authors": "autores",
+    "utilized": "utilizaron",
+    "mixed-methods": "métodos mixtos",
+    "approach": "enfoque",
+    "means": "significa",
+    "combined": "combinaron",
+    "numerical": "numérico",
+    "data": "datos",
+    "analysis": "análisis",
+    "qualitative": "cualitativo",
+    "interviews": "entrevistas",
+    "involving": "que involucran",
+    "important": "importantes",
+    "industry": "industria",
+    "experts": "expertos",
+    "results": "resultados",
+    "show": "muestran",
+    "cutting": "recORTar",
+    "slightly": "ligeramente",
+    "increased": "aumentado",
+    "specifically": "específicamente",
+    "new": "nuevos",
+    "sectors": "sectores",
+    "like": "como",
+    "solar": "solar",
+    "wind": "eólica",
+    "experienced": "experimentaron",
+    "very": "muy",
+    "little": "poco",
+    "growth": "crecimiento",
+    "instead": "en su lugar",
+    "geothermal": "geotérmica",
+    "hydropower": "hidroeléctrica",
+    "projects": "proyectos",
+    "received": "recibieron",
+    "most": "la mayor parte",
+    "backing": "respaldo",
+    "even": "incluso",
+    "though": "aunque",
+    "much": "mucho",
+    "higher": "mayor",
+    "potential": "potencial",
+    "political": "política",
+    "resistance": "resistencia",
+    "unclear": "poco claras",
+    "regulations": "regulaciones",
+    "also": "también",
+    "make": "hacen",
+    "difficult": "difícil",
+    "apply": "aplicar",
+    "changes": "cambios",
+    "successfully": "con éxito",
+    "governments": "gobiernos",
+    "created": "crearon",
+    "social": "sociales",
+    "programs": "programas",
+    "people": "personas",
+    "deal": "lidiar",
+    "prices": "precios",
+    "measures": "medidas",
+    "fully": "plenamente",
+    "effective": "efectivas",
+    "suggest": "sugieren",
+    "authorities": "autoridades",
+    "must": "deben",
+    "introduce": "introducir",
+    "stronger": "más fuertes",
+    "incentives": "incentivos",
+    "stable": "estables",
+    "long-term": "a largo plazo",
+    "policies": "políticas",
+    "truly": "verdaderamente",
+    "accelerate": "acelerar",
+    "future": "futuras",
+    "studies": "estudios",
+    "examine": "examinar",
+    "carbon": "carbono",
+    "pricing": "fijación de precios",
+    "ways": "formas",
+    "ensure": "garantizar",
+    "fairness": "equidad",
+    "all": "todos",
+    "citizens": "ciudadanos",
+    "during": "durante",
+    "major": "importante",
+    "finally": "finalmente",
+    "article": "artículo",
+    "based": "basado",
+    "research": "investigación",
+    "paper": "documento",
+    "abstract": "resumen",
+    "reforms": "reformas",
+    "published": "publicado",
+    "springer": "Springer",
+    "nature": "Nature"
+   },
+   "sources": [
+    {
+     "title": "Subsidy Reforms and Their Implications for Green Investment in Indonesia’s Renewable Energy Market",
+     "url": "https://doi.org/10.37899/mjde.v2i4.281",
+     "publisher": "Mustard Journal De Ecobusin",
+     "date": "2025-12-22"
+    }
+   ],
+   "audio": "audio/2026-11-28-energy.mp3"
+  },
   {
    "id": "2026-11-27-finance",
    "date": "2026-11-27",
